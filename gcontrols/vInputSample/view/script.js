@@ -1,7 +1,7 @@
 // this line should not be removed
-var inputSample = angular.module("inputSample",['dfxAppServices']);
+var vInputSample = angular.module("vInputSample",['dfxAppServices']);
 
-inputSample.controller( "inputSampleController", [ '$scope', 'dfxApiRoutes', 'dfxDialog', 'dfxSidenav', 'dfxBottomSheet', 'dfxChangeCard', function( $scope, dfxApiRoutes, dfxDialog, dfxSidenav, dfxBottomSheet, dfxChangeCard ) {
+vInputSample.controller( "vInputSampleController", [ '$scope', 'dfxApiRoutes', 'dfxDialog', 'dfxSidenav', 'dfxBottomSheet', 'dfxChangeCard', function( $scope, dfxApiRoutes, dfxDialog, dfxSidenav, dfxBottomSheet, dfxChangeCard ) {
 	$scope.firstName = "";
   	$scope.lastName = "";
     $scope.email = "";
