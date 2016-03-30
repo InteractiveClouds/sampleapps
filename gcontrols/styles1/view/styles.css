@@ -1,0 +1,17 @@
+.iconClass:hover {
+  color: #bbb ;
+}
+
+.growClass { 
+  transition: all .2s ease-in-out; 
+}
+.growClass:hover {
+  transform: scale(2); 
+}
+
+.growClass13 { 
+  transition: all .2s ease-in-out; 
+}
+.growClass13:hover {
+  transform: scale(1.3); 
+}
