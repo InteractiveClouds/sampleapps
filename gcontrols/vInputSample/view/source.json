@@ -1,0 +1,2575 @@
+{
+	"properties": {},
+	"definition": {
+		"default": [
+			{
+				"id": 997,
+				"type": "panel",
+				"attributes": {
+					"name": {
+						"value": "pnlPanel1",
+						"status": "overridden"
+					},
+					"style": {
+						"value": "",
+						"status": "overridden"
+					},
+					"bodyStyle": {
+						"value": "",
+						"status": "overridden"
+					},
+					"flex": {
+						"value": 60,
+						"status": "overridden"
+					},
+					"display": {
+						"value": "true",
+						"status": "overridden"
+					},
+					"whiteframe": {
+						"value": "md-whiteframe-1dp",
+						"status": "overridden"
+					},
+					"toolbar": {
+						"visible": {
+							"value": "true"
+						},
+						"classes": {
+							"value": ""
+						},
+						"dynamicClasses": {
+							"value": ""
+						},
+						"style": {
+							"value": ""
+						},
+						"title": {
+							"value": "'Registration form example'",
+							"visible": {
+								"value": "true"
+							},
+							"isHtml": {
+								"value": false
+							},
+							"bindingHtml": {
+								"value": ""
+							},
+							"content": {
+								"value": "<div><p>Lorem ipsum dolor sit <b>amet</b>, consectetuer adipiscing elit. <b>Aenean</b> commodo ligula eget dolor. Aenean massa.</p></div>"
+							},
+							"alignment": {
+								"value": "center"
+							},
+							"classes": {
+								"value": ""
+							},
+							"dynamicClasses": {
+								"value": ""
+							},
+							"style": {
+								"value": ""
+							},
+							"flexWidth": {
+								"value": 100
+							}
+						},
+						"leftMenu": {
+							"visible": {
+								"value": "false"
+							},
+							"equalButtonSize": {
+								"value": false
+							},
+							"fabDirection": {
+								"value": "right"
+							},
+							"animation": {
+								"display": "Fling",
+								"value": "md-fling"
+							},
+							"classes": {
+								"value": ""
+							},
+							"dynamicClasses": {
+								"value": ""
+							},
+							"style": {
+								"value": ""
+							},
+							"iconStyle": {
+								"value": ""
+							},
+							"iconBarClass": {
+								"value": "md-icon-button"
+							},
+							"fab": {
+								"triggerButton": {
+									"style": "",
+									"class": "md-fab",
+									"icon": {
+										"value": "",
+										"style": ""
+									}
+								},
+								"actionButton": {
+									"style": "",
+									"class": "md-fab md-raised md-mini",
+									"icon": {
+										"style": ""
+									}
+								}
+							},
+							"buttonStyle": {
+								"value": ""
+							},
+							"buttonClass": {
+								"value": "md-raised"
+							},
+							"flexWidth": {
+								"value": 0
+							},
+							"type": {
+								"value": "Fab"
+							},
+							"initialClick": {
+								"value": true
+							},
+							"dynamicPresent": {
+								"value": false
+							},
+							"dynamic": {
+								"value": ""
+							},
+							"menuItems": {
+								"value": [
+									{
+										"isTopLevel": true,
+										"label": "'Home'",
+										"icon": "'fa-home'",
+										"shortcut": "",
+										"divider": false,
+										"notification": "",
+										"display": true,
+										"disabled": false,
+										"onclick": "",
+										"menuItems": {
+											"value": []
+										}
+									}
+								]
+							}
+						},
+						"rightMenu": {
+							"visible": {
+								"value": "false"
+							},
+							"equalButtonSize": {
+								"value": false
+							},
+							"fabDirection": {
+								"value": "left"
+							},
+							"animation": {
+								"display": "Fling",
+								"value": "md-fling"
+							},
+							"classes": {
+								"value": ""
+							},
+							"dynamicClasses": {
+								"value": ""
+							},
+							"style": {
+								"value": ""
+							},
+							"iconStyle": {
+								"value": ""
+							},
+							"iconBarClass": {
+								"value": "md-icon-button"
+							},
+							"fab": {
+								"triggerButton": {
+									"style": "",
+									"class": "md-fab",
+									"icon": {
+										"value": "",
+										"style": ""
+									}
+								},
+								"actionButton": {
+									"style": "",
+									"class": "md-fab md-raised md-mini",
+									"icon": {
+										"style": ""
+									}
+								}
+							},
+							"buttonStyle": {
+								"value": ""
+							},
+							"buttonClass": {
+								"value": "md-raised"
+							},
+							"flexWidth": {
+								"value": 0
+							},
+							"type": {
+								"value": "Fab"
+							},
+							"initialClick": {
+								"value": false
+							},
+							"dynamicPresent": {
+								"value": false
+							},
+							"dynamic": {
+								"value": ""
+							},
+							"menuItems": {
+								"value": [
+									{
+										"isTopLevel": true,
+										"label": "'Home'",
+										"icon": "'fa-home'",
+										"shortcut": "",
+										"divider": false,
+										"notification": "",
+										"display": true,
+										"disabled": false,
+										"onclick": "",
+										"menuItems": {
+											"value": []
+										}
+									}
+								]
+							}
+						},
+						"status": "overridden"
+					},
+					"layout": {
+						"rows": [
+							{
+								"cols": [
+									{
+										"width": {
+											"value": 50
+										},
+										"classes": {
+											"value": ""
+										},
+										"dynamicClasses": {
+											"value": ""
+										},
+										"style": {
+											"value": ""
+										},
+										"orientation": {
+											"value": "row"
+										},
+										"halignment": {
+											"value": "start"
+										},
+										"valignment": {
+											"value": "start"
+										}
+									},
+									{
+										"width": {
+											"value": 50
+										},
+										"classes": {
+											"value": ""
+										},
+										"dynamicClasses": {
+											"value": ""
+										},
+										"style": {
+											"value": ""
+										},
+										"orientation": {
+											"value": "row"
+										},
+										"halignment": {
+											"value": "start"
+										},
+										"valignment": {
+											"value": "start"
+										},
+										"css": {
+											"color": "",
+											"background": "",
+											"padding": "",
+											"text-align": ""
+										}
+									}
+								],
+								"classes": {
+									"value": ""
+								},
+								"dynamicClasses": {
+									"value": ""
+								},
+								"style": {
+									"value": ""
+								}
+							},
+							{
+								"cols": [
+									{
+										"width": {
+											"value": 50
+										},
+										"classes": {
+											"value": ""
+										},
+										"dynamicClasses": {
+											"value": ""
+										},
+										"style": {
+											"value": ""
+										},
+										"orientation": {
+											"value": "row"
+										},
+										"halignment": {
+											"value": "start"
+										},
+										"valignment": {
+											"value": "start"
+										},
+										"css": {
+											"color": "",
+											"background": "",
+											"padding": "",
+											"text-align": ""
+										}
+									},
+									{
+										"width": {
+											"value": 50
+										},
+										"classes": {
+											"value": ""
+										},
+										"dynamicClasses": {
+											"value": ""
+										},
+										"style": {
+											"value": ""
+										},
+										"orientation": {
+											"value": "row"
+										},
+										"halignment": {
+											"value": "start"
+										},
+										"valignment": {
+											"value": "start"
+										},
+										"css": {
+											"color": "",
+											"background": "",
+											"padding": "",
+											"text-align": ""
+										}
+									}
+								],
+								"classes": {
+									"value": ""
+								},
+								"dynamicClasses": {
+									"value": ""
+								},
+								"style": {
+									"value": ""
+								}
+							},
+							{
+								"cols": [
+									{
+										"width": {
+											"value": 50
+										},
+										"classes": {
+											"value": ""
+										},
+										"dynamicClasses": {
+											"value": ""
+										},
+										"style": {
+											"value": ""
+										},
+										"orientation": {
+											"value": "row"
+										},
+										"halignment": {
+											"value": "start"
+										},
+										"valignment": {
+											"value": "start"
+										},
+										"css": {
+											"color": "",
+											"background": "",
+											"padding": "",
+											"text-align": ""
+										}
+									},
+									{
+										"width": {
+											"value": 50
+										},
+										"classes": {
+											"value": ""
+										},
+										"dynamicClasses": {
+											"value": ""
+										},
+										"style": {
+											"value": ""
+										},
+										"orientation": {
+											"value": "row"
+										},
+										"halignment": {
+											"value": "start"
+										},
+										"valignment": {
+											"value": "start"
+										},
+										"css": {
+											"color": "",
+											"background": "",
+											"padding": "",
+											"text-align": ""
+										}
+									}
+								],
+								"classes": {
+									"value": ""
+								},
+								"dynamicClasses": {
+									"value": ""
+								},
+								"style": {
+									"value": ""
+								}
+							},
+							{
+								"cols": [
+									{
+										"width": {
+											"value": 100
+										},
+										"classes": {
+											"value": ""
+										},
+										"dynamicClasses": {
+											"value": ""
+										},
+										"style": {
+											"value": ""
+										},
+										"orientation": {
+											"value": "row"
+										},
+										"halignment": {
+											"value": "end"
+										},
+										"valignment": {
+											"value": "start"
+										},
+										"css": {
+											"color": "",
+											"background": "",
+											"padding": "",
+											"text-align": ""
+										}
+									}
+								],
+								"classes": {
+									"value": ""
+								},
+								"dynamicClasses": {
+									"value": ""
+								},
+								"style": {
+									"value": ""
+								}
+							}
+						],
+						"classes": {
+							"value": ""
+						},
+						"dynamicClasses": {
+							"value": ""
+						},
+						"style": {
+							"value": ""
+						},
+						"status": "overridden"
+					}
+				},
+				"children": [
+					{
+						"id": 60262,
+						"type": "input",
+						"flex": "true",
+						"attributes": {
+							"name": {
+								"value": "inpInput1",
+								"status": "overridden"
+							},
+							"label": {
+								"value": "'First Name'",
+								"status": "overridden"
+							},
+							"icon": {
+								"value": "'fa-user'",
+								"status": "overridden"
+							},
+							"flex": {
+								"value": 100,
+								"status": "overridden"
+							},
+							"binding": {
+								"value": "firstName",
+								"repeatable": false,
+								"$itemValue": "",
+								"status": "overridden"
+							},
+							"selectedType": {
+								"value": "text",
+								"status": "overridden"
+							},
+							"display": {
+								"value": "true",
+								"status": "overridden"
+							},
+							"disabled": {
+								"value": "false",
+								"status": "overridden"
+							},
+							"required": {
+								"value": "true",
+								"status": "overridden"
+							},
+							"minlength": {
+								"value": null,
+								"status": "overridden"
+							},
+							"maxlength": {
+								"value": null,
+								"status": "overridden"
+							},
+							"style": {
+								"value": "",
+								"status": "overridden"
+							}
+						},
+						"children": [],
+						"container": "layout_0_row_0_column_0"
+					},
+					{
+						"id": 37933,
+						"type": "input",
+						"flex": "true",
+						"attributes": {
+							"name": {
+								"value": "inpInput2",
+								"status": "overridden"
+							},
+							"label": {
+								"value": "'Last Name'",
+								"status": "overridden"
+							},
+							"icon": {
+								"value": "'fa-user-secret'",
+								"status": "overridden"
+							},
+							"flex": {
+								"value": 100,
+								"status": "overridden"
+							},
+							"binding": {
+								"value": "lastName",
+								"repeatable": false,
+								"$itemValue": "",
+								"status": "overridden"
+							},
+							"display": {
+								"value": "true",
+								"status": "overridden"
+							},
+							"disabled": {
+								"value": "false",
+								"status": "overridden"
+							},
+							"required": {
+								"value": "true",
+								"status": "overridden"
+							},
+							"minlength": {
+								"value": null,
+								"status": "overridden"
+							},
+							"maxlength": {
+								"value": null,
+								"status": "overridden"
+							},
+							"style": {
+								"value": "",
+								"status": "overridden"
+							}
+						},
+						"children": [],
+						"container": "layout_0_row_0_column_1"
+					},
+					{
+						"id": 8006,
+						"type": "datepicker",
+						"flex": "true",
+						"attributes": {
+							"name": {
+								"value": "dtField1",
+								"status": "overridden"
+							},
+							"label": {
+								"value": "'Date of birth'",
+								"status": "overridden"
+							},
+							"flex": {
+								"value": 90,
+								"status": "overridden"
+							},
+							"bindingExpression": {
+								"value": "new Date()",
+								"status": "overridden"
+							},
+							"alignment": {
+								"value": "left",
+								"status": "overridden"
+							},
+							"bindingDate": {
+								"value": "",
+								"status": "overridden"
+							},
+							"selectedType": {
+								"value": "standard",
+								"status": "overridden"
+							},
+							"ranged": {
+								"monthsBefore": 3,
+								"monthsAfter": 3,
+								"status": "overridden"
+							},
+							"display": {
+								"value": "true",
+								"status": "overridden"
+							},
+							"disabled": {
+								"value": "false",
+								"status": "overridden"
+							},
+							"style": {
+								"value": "",
+								"status": "overridden"
+							}
+						},
+						"children": [],
+						"container": "layout_0_row_1_column_0"
+					},
+					{
+						"id": 6913,
+						"type": "input",
+						"flex": "true",
+						"attributes": {
+							"name": {
+								"value": "inpInput3",
+								"status": "overridden"
+							},
+							"label": {
+								"value": "'Email'",
+								"status": "overridden"
+							},
+							"icon": {
+								"value": "'fa-envelope'",
+								"status": "overridden"
+							},
+							"flex": {
+								"value": 100,
+								"status": "overridden"
+							},
+							"binding": {
+								"value": "email",
+								"repeatable": false,
+								"$itemValue": "",
+								"status": "overridden"
+							},
+							"selectedType": {
+								"value": "email",
+								"status": "overridden"
+							},
+							"display": {
+								"value": "true",
+								"status": "overridden"
+							},
+							"disabled": {
+								"value": "false",
+								"status": "overridden"
+							},
+							"required": {
+								"value": "true",
+								"status": "overridden"
+							},
+							"pattern": {
+								"value": "",
+								"errorMessage": "Invalid email",
+								"status": "overridden"
+							},
+							"style": {
+								"value": "",
+								"status": "overridden"
+							}
+						},
+						"children": [],
+						"container": "layout_0_row_1_column_1"
+					},
+					{
+						"id": 66917,
+						"type": "input",
+						"flex": "true",
+						"attributes": {
+							"name": {
+								"value": "inpInput4",
+								"status": "overridden"
+							},
+							"label": {
+								"value": "'Password'",
+								"status": "overridden"
+							},
+							"icon": {
+								"value": "'fa-cogs'",
+								"status": "overridden"
+							},
+							"flex": {
+								"value": 100,
+								"status": "overridden"
+							},
+							"binding": {
+								"value": "password",
+								"repeatable": false,
+								"$itemValue": "",
+								"status": "overridden"
+							},
+							"selectedType": {
+								"value": "password",
+								"status": "overridden"
+							},
+							"display": {
+								"value": "true",
+								"status": "overridden"
+							},
+							"disabled": {
+								"value": "false",
+								"status": "overridden"
+							},
+							"required": {
+								"value": "true",
+								"status": "overridden"
+							},
+							"minlength": {
+								"value": null,
+								"status": "overridden"
+							},
+							"pattern": {
+								"value": "[a-zA-Z0-9]\\w{6,14}",
+								"errorMessage": "Password is too weak",
+								"status": "overridden"
+							},
+							"style": {
+								"value": "",
+								"status": "overridden"
+							}
+						},
+						"children": [],
+						"container": "layout_0_row_2_column_0"
+					},
+					{
+						"id": 95153,
+						"type": "input",
+						"flex": "true",
+						"attributes": {
+							"name": {
+								"value": "inpInput5",
+								"status": "overridden"
+							},
+							"label": {
+								"value": "'Retype password'",
+								"status": "overridden"
+							},
+							"icon": {
+								"value": "'fa-circle-o-notch'",
+								"status": "overridden"
+							},
+							"flex": {
+								"value": 100,
+								"status": "overridden"
+							},
+							"binding": {
+								"value": "repassword",
+								"repeatable": false,
+								"$itemValue": "",
+								"status": "overridden"
+							},
+							"selectedType": {
+								"value": "password",
+								"status": "overridden"
+							},
+							"display": {
+								"value": "true",
+								"status": "overridden"
+							},
+							"disabled": {
+								"value": "false",
+								"status": "overridden"
+							},
+							"required": {
+								"value": "true",
+								"status": "overridden"
+							},
+							"style": {
+								"value": "",
+								"status": "overridden"
+							}
+						},
+						"children": [],
+						"container": "layout_0_row_2_column_1"
+					},
+					{
+						"id": 64449,
+						"type": "button",
+						"flex": "false",
+						"attributes": {
+							"name": {
+								"value": "btnButton1",
+								"status": "overridden"
+							},
+							"label": {
+								"value": "'Submit'",
+								"status": "overridden"
+							},
+							"icon": {
+								"value": "",
+								"status": "overridden"
+							},
+							"display": {
+								"value": "true",
+								"status": "overridden"
+							},
+							"disabled": {
+								"value": "!firstName || !lastName || !DOB || !email || !password || !repassword || (password !== repassword)",
+								"status": "overridden"
+							},
+							"menuItems": {
+								"value": [],
+								"status": "overridden"
+							},
+							"dynamic": {
+								"value": "",
+								"status": "overridden"
+							},
+							"dynamicPresent": {
+								"value": false,
+								"status": "overridden"
+							},
+							"style": {
+								"value": "",
+								"status": "overridden"
+							},
+							"onclick": {
+								"value": "submitClick()",
+								"status": "overridden"
+							}
+						},
+						"children": [],
+						"container": "layout_0_row_3_column_0"
+					},
+					{
+						"id": 8470,
+						"type": "button",
+						"flex": "false",
+						"attributes": {
+							"name": {
+								"value": "btnButton2",
+								"status": "overridden"
+							},
+							"label": {
+								"value": "'next'",
+								"status": "overridden"
+							},
+							"icon": {
+								"value": "",
+								"status": "overridden"
+							},
+							"dynamic": {
+								"value": "",
+								"status": "overridden"
+							},
+							"dynamicPresent": {
+								"value": false,
+								"status": "overridden"
+							},
+							"style": {
+								"value": "",
+								"status": "overridden"
+							},
+							"onclick": {
+								"value": "next()",
+								"status": "overridden"
+							}
+						},
+						"children": [],
+						"container": "layout_0_row_3_column_0"
+					}
+				]
+			}
+		],
+		"examples": [
+			{
+				"id": 679,
+				"type": "panel",
+				"attributes": {
+					"name": {
+						"value": "pnlPanel1",
+						"status": "overridden"
+					},
+					"style": {
+						"value": "",
+						"status": "overridden"
+					},
+					"flex": {
+						"value": 60,
+						"status": "overridden"
+					},
+					"toolbar": {
+						"visible": {
+							"value": "true"
+						},
+						"classes": {
+							"value": ""
+						},
+						"dynamicClasses": {
+							"value": ""
+						},
+						"style": {
+							"value": ""
+						},
+						"title": {
+							"value": "'More examples'",
+							"visible": {
+								"value": "true"
+							},
+							"isHtml": {
+								"value": false
+							},
+							"bindingHtml": {
+								"value": ""
+							},
+							"content": {
+								"value": "<div><p>Lorem ipsum dolor sit <b>amet</b>, consectetuer adipiscing elit. <b>Aenean</b> commodo ligula eget dolor. Aenean massa.</p></div>"
+							},
+							"alignment": {
+								"value": "center"
+							},
+							"classes": {
+								"value": ""
+							},
+							"dynamicClasses": {
+								"value": ""
+							},
+							"style": {
+								"value": ""
+							},
+							"flexWidth": {
+								"value": 100
+							}
+						},
+						"leftMenu": {
+							"visible": {
+								"value": "false"
+							},
+							"equalButtonSize": {
+								"value": false
+							},
+							"fabDirection": {
+								"value": "right"
+							},
+							"animation": {
+								"display": "Fling",
+								"value": "md-fling"
+							},
+							"classes": {
+								"value": ""
+							},
+							"dynamicClasses": {
+								"value": ""
+							},
+							"style": {
+								"value": ""
+							},
+							"iconStyle": {
+								"value": ""
+							},
+							"iconBarClass": {
+								"value": "md-icon-button"
+							},
+							"fab": {
+								"triggerButton": {
+									"style": "",
+									"class": "md-fab",
+									"icon": {
+										"value": "",
+										"style": ""
+									}
+								},
+								"actionButton": {
+									"style": "",
+									"class": "md-fab md-raised md-mini",
+									"icon": {
+										"style": ""
+									}
+								}
+							},
+							"buttonStyle": {
+								"value": ""
+							},
+							"buttonClass": {
+								"value": "md-raised"
+							},
+							"flexWidth": {
+								"value": 0
+							},
+							"type": {
+								"value": "Buttons"
+							},
+							"initialClick": {
+								"value": false
+							},
+							"dynamicPresent": {
+								"value": false
+							},
+							"dynamic": {
+								"value": ""
+							},
+							"menuItems": {
+								"value": [
+									{
+										"isTopLevel": true,
+										"label": "'Home'",
+										"icon": "'fa-home'",
+										"shortcut": "",
+										"divider": false,
+										"notification": "",
+										"display": true,
+										"disabled": false,
+										"onclick": "",
+										"menuItems": {
+											"value": []
+										}
+									}
+								]
+							}
+						},
+						"rightMenu": {
+							"visible": {
+								"value": "false"
+							},
+							"equalButtonSize": {
+								"value": false
+							},
+							"fabDirection": {
+								"value": "left"
+							},
+							"animation": {
+								"display": "Fling",
+								"value": "md-fling"
+							},
+							"classes": {
+								"value": ""
+							},
+							"dynamicClasses": {
+								"value": ""
+							},
+							"style": {
+								"value": ""
+							},
+							"iconStyle": {
+								"value": ""
+							},
+							"iconBarClass": {
+								"value": "md-icon-button"
+							},
+							"fab": {
+								"triggerButton": {
+									"style": "",
+									"class": "md-fab",
+									"icon": {
+										"value": "",
+										"style": ""
+									}
+								},
+								"actionButton": {
+									"style": "",
+									"class": "md-fab md-raised md-mini",
+									"icon": {
+										"style": ""
+									}
+								}
+							},
+							"buttonStyle": {
+								"value": ""
+							},
+							"buttonClass": {
+								"value": "md-raised"
+							},
+							"flexWidth": {
+								"value": 0
+							},
+							"type": {
+								"value": "Fab"
+							},
+							"initialClick": {
+								"value": false
+							},
+							"dynamicPresent": {
+								"value": false
+							},
+							"dynamic": {
+								"value": ""
+							},
+							"menuItems": {
+								"value": [
+									{
+										"isTopLevel": true,
+										"label": "'Home'",
+										"icon": "'fa-home'",
+										"shortcut": "",
+										"divider": false,
+										"notification": "",
+										"display": true,
+										"disabled": false,
+										"onclick": "",
+										"menuItems": {
+											"value": []
+										}
+									}
+								]
+							}
+						},
+						"status": "overridden"
+					},
+					"layout": {
+						"rows": [
+							{
+								"cols": [
+									{
+										"width": {
+											"value": "100"
+										},
+										"classes": {
+											"value": ""
+										},
+										"dynamicClasses": {
+											"value": ""
+										},
+										"style": {
+											"value": ""
+										},
+										"orientation": {
+											"value": "row"
+										},
+										"halignment": {
+											"value": "center"
+										},
+										"valignment": {
+											"value": "start"
+										}
+									}
+								],
+								"classes": {
+									"value": ""
+								},
+								"dynamicClasses": {
+									"value": ""
+								},
+								"style": {
+									"value": ""
+								}
+							},
+							{
+								"cols": [
+									{
+										"width": {
+											"value": "100"
+										},
+										"classes": {
+											"value": ""
+										},
+										"dynamicClasses": {
+											"value": ""
+										},
+										"style": {
+											"value": ""
+										},
+										"orientation": {
+											"value": "row"
+										},
+										"halignment": {
+											"value": "center"
+										},
+										"valignment": {
+											"value": "start"
+										},
+										"css": {
+											"color": "",
+											"background": "",
+											"padding": "",
+											"text-align": ""
+										}
+									}
+								],
+								"classes": {
+									"value": ""
+								},
+								"dynamicClasses": {
+									"value": ""
+								},
+								"style": {
+									"value": ""
+								}
+							},
+							{
+								"cols": [
+									{
+										"width": {
+											"value": "100"
+										},
+										"classes": {
+											"value": ""
+										},
+										"dynamicClasses": {
+											"value": ""
+										},
+										"style": {
+											"value": ""
+										},
+										"orientation": {
+											"value": "row"
+										},
+										"halignment": {
+											"value": "center"
+										},
+										"valignment": {
+											"value": "start"
+										},
+										"css": {
+											"color": "",
+											"background": "",
+											"padding": "",
+											"text-align": ""
+										}
+									}
+								],
+								"classes": {
+									"value": ""
+								},
+								"dynamicClasses": {
+									"value": ""
+								},
+								"style": {
+									"value": ""
+								}
+							},
+							{
+								"cols": [
+									{
+										"width": {
+											"value": "100"
+										},
+										"classes": {
+											"value": ""
+										},
+										"dynamicClasses": {
+											"value": ""
+										},
+										"style": {
+											"value": ""
+										},
+										"orientation": {
+											"value": "row"
+										},
+										"halignment": {
+											"value": "end"
+										},
+										"valignment": {
+											"value": "start"
+										},
+										"css": {
+											"color": "",
+											"background": "",
+											"padding": "",
+											"text-align": ""
+										}
+									}
+								],
+								"classes": {
+									"value": ""
+								},
+								"dynamicClasses": {
+									"value": ""
+								},
+								"style": {
+									"value": ""
+								}
+							}
+						],
+						"classes": {
+							"value": ""
+						},
+						"dynamicClasses": {
+							"value": ""
+						},
+						"style": {
+							"value": ""
+						},
+						"status": "overridden"
+					}
+				},
+				"children": [
+					{
+						"id": 71404,
+						"type": "panel",
+						"flex": "true",
+						"attributes": {
+							"name": {
+								"value": "pnlPanel2",
+								"status": "overridden"
+							},
+							"style": {
+								"value": "padding:20px;",
+								"status": "overridden"
+							},
+							"flex": {
+								"value": 70,
+								"status": "overridden"
+							},
+							"toolbar": {
+								"visible": {
+									"value": "true"
+								},
+								"classes": {
+									"value": ""
+								},
+								"dynamicClasses": {
+									"value": ""
+								},
+								"style": {
+									"value": ""
+								},
+								"title": {
+									"value": "'OnChange event'",
+									"visible": {
+										"value": "true"
+									},
+									"isHtml": {
+										"value": false
+									},
+									"bindingHtml": {
+										"value": ""
+									},
+									"content": {
+										"value": "<div><p>Lorem ipsum dolor sit <b>amet</b>, consectetuer adipiscing elit. <b>Aenean</b> commodo ligula eget dolor. Aenean massa.</p></div>"
+									},
+									"alignment": {
+										"value": "start"
+									},
+									"classes": {
+										"value": ""
+									},
+									"dynamicClasses": {
+										"value": ""
+									},
+									"style": {
+										"value": ""
+									},
+									"flexWidth": {
+										"value": 100
+									}
+								},
+								"leftMenu": {
+									"visible": {
+										"value": "false"
+									},
+									"equalButtonSize": {
+										"value": false
+									},
+									"fabDirection": {
+										"value": "right"
+									},
+									"animation": {
+										"display": "Fling",
+										"value": "md-fling"
+									},
+									"classes": {
+										"value": ""
+									},
+									"dynamicClasses": {
+										"value": ""
+									},
+									"style": {
+										"value": ""
+									},
+									"iconStyle": {
+										"value": ""
+									},
+									"iconBarClass": {
+										"value": "md-icon-button"
+									},
+									"fab": {
+										"triggerButton": {
+											"style": "",
+											"class": "md-fab",
+											"icon": {
+												"value": "",
+												"style": ""
+											}
+										},
+										"actionButton": {
+											"style": "",
+											"class": "md-fab md-raised md-mini",
+											"icon": {
+												"style": ""
+											}
+										}
+									},
+									"buttonStyle": {
+										"value": ""
+									},
+									"buttonClass": {
+										"value": "md-raised"
+									},
+									"flexWidth": {
+										"value": 0
+									},
+									"type": {
+										"value": "Buttons"
+									},
+									"initialClick": {
+										"value": false
+									},
+									"dynamicPresent": {
+										"value": false
+									},
+									"dynamic": {
+										"value": ""
+									},
+									"menuItems": {
+										"value": [
+											{
+												"isTopLevel": true,
+												"label": "'Home'",
+												"icon": "'fa-home'",
+												"shortcut": "",
+												"divider": false,
+												"notification": "",
+												"display": true,
+												"disabled": false,
+												"onclick": "",
+												"menuItems": {
+													"value": []
+												}
+											}
+										]
+									}
+								},
+								"rightMenu": {
+									"visible": {
+										"value": "false"
+									},
+									"equalButtonSize": {
+										"value": false
+									},
+									"fabDirection": {
+										"value": "left"
+									},
+									"animation": {
+										"display": "Fling",
+										"value": "md-fling"
+									},
+									"classes": {
+										"value": ""
+									},
+									"dynamicClasses": {
+										"value": ""
+									},
+									"style": {
+										"value": ""
+									},
+									"iconStyle": {
+										"value": ""
+									},
+									"iconBarClass": {
+										"value": "md-icon-button"
+									},
+									"fab": {
+										"triggerButton": {
+											"style": "",
+											"class": "md-fab",
+											"icon": {
+												"value": "",
+												"style": ""
+											}
+										},
+										"actionButton": {
+											"style": "",
+											"class": "md-fab md-raised md-mini",
+											"icon": {
+												"style": ""
+											}
+										}
+									},
+									"buttonStyle": {
+										"value": ""
+									},
+									"buttonClass": {
+										"value": "md-raised"
+									},
+									"flexWidth": {
+										"value": 0
+									},
+									"type": {
+										"value": "Fab"
+									},
+									"initialClick": {
+										"value": false
+									},
+									"dynamicPresent": {
+										"value": false
+									},
+									"dynamic": {
+										"value": ""
+									},
+									"menuItems": {
+										"value": [
+											{
+												"isTopLevel": true,
+												"label": "'Home'",
+												"icon": "'fa-home'",
+												"shortcut": "",
+												"divider": false,
+												"notification": "",
+												"display": true,
+												"disabled": false,
+												"onclick": "",
+												"menuItems": {
+													"value": []
+												}
+											}
+										]
+									}
+								},
+								"status": "overridden"
+							}
+						},
+						"children": [
+							{
+								"id": 91525,
+								"type": "input",
+								"flex": "true",
+								"attributes": {
+									"name": {
+										"value": "inpInput1",
+										"status": "overridden"
+									},
+									"label": {
+										"value": "'Type something here'",
+										"status": "overridden"
+									},
+									"icon": {
+										"value": "",
+										"status": "overridden"
+									},
+									"flex": {
+										"value": 100,
+										"status": "overridden"
+									},
+									"binding": {
+										"value": "",
+										"repeatable": false,
+										"$itemValue": "",
+										"status": "overridden"
+									},
+									"style": {
+										"value": "",
+										"status": "overridden"
+									},
+									"onchange": {
+										"value": "onChangeEvent()",
+										"status": "overridden"
+									}
+								},
+								"children": [],
+								"container": "layout_0_row_0_column_0"
+							}
+						],
+						"container": "layout_0_row_0_column_0"
+					},
+					{
+						"id": 95911,
+						"type": "panel",
+						"flex": "true",
+						"attributes": {
+							"name": {
+								"value": "pnlPanel3",
+								"status": "overridden"
+							},
+							"style": {
+								"value": "padding:20px;",
+								"status": "overridden"
+							},
+							"flex": {
+								"value": 70,
+								"status": "overridden"
+							},
+							"toolbar": {
+								"visible": {
+									"value": "true"
+								},
+								"classes": {
+									"value": ""
+								},
+								"dynamicClasses": {
+									"value": ""
+								},
+								"style": {
+									"value": ""
+								},
+								"title": {
+									"value": "'Dynamic class'",
+									"visible": {
+										"value": "true"
+									},
+									"isHtml": {
+										"value": false
+									},
+									"bindingHtml": {
+										"value": ""
+									},
+									"content": {
+										"value": "<div><p>Lorem ipsum dolor sit <b>amet</b>, consectetuer adipiscing elit. <b>Aenean</b> commodo ligula eget dolor. Aenean massa.</p></div>"
+									},
+									"alignment": {
+										"value": "start"
+									},
+									"classes": {
+										"value": ""
+									},
+									"dynamicClasses": {
+										"value": ""
+									},
+									"style": {
+										"value": ""
+									},
+									"flexWidth": {
+										"value": 50
+									}
+								},
+								"leftMenu": {
+									"visible": {
+										"value": "false"
+									},
+									"equalButtonSize": {
+										"value": false
+									},
+									"fabDirection": {
+										"value": "right"
+									},
+									"animation": {
+										"display": "Fling",
+										"value": "md-fling"
+									},
+									"classes": {
+										"value": ""
+									},
+									"dynamicClasses": {
+										"value": ""
+									},
+									"style": {
+										"value": ""
+									},
+									"iconStyle": {
+										"value": ""
+									},
+									"iconBarClass": {
+										"value": "md-icon-button"
+									},
+									"fab": {
+										"triggerButton": {
+											"style": "",
+											"class": "md-fab",
+											"icon": {
+												"value": "",
+												"style": ""
+											}
+										},
+										"actionButton": {
+											"style": "",
+											"class": "md-fab md-raised md-mini",
+											"icon": {
+												"style": ""
+											}
+										}
+									},
+									"buttonStyle": {
+										"value": ""
+									},
+									"buttonClass": {
+										"value": "md-raised"
+									},
+									"flexWidth": {
+										"value": 20
+									},
+									"type": {
+										"value": "Buttons"
+									},
+									"initialClick": {
+										"value": false
+									},
+									"dynamicPresent": {
+										"value": false
+									},
+									"dynamic": {
+										"value": ""
+									},
+									"menuItems": {
+										"value": [
+											{
+												"isTopLevel": true,
+												"label": "'Home'",
+												"icon": "'fa-home'",
+												"shortcut": "",
+												"divider": false,
+												"notification": "",
+												"display": true,
+												"disabled": false,
+												"onclick": "",
+												"menuItems": {
+													"value": []
+												}
+											}
+										]
+									}
+								},
+								"rightMenu": {
+									"visible": {
+										"value": "false"
+									},
+									"equalButtonSize": {
+										"value": false
+									},
+									"fabDirection": {
+										"value": "left"
+									},
+									"animation": {
+										"display": "Fling",
+										"value": "md-fling"
+									},
+									"classes": {
+										"value": ""
+									},
+									"dynamicClasses": {
+										"value": ""
+									},
+									"style": {
+										"value": ""
+									},
+									"iconStyle": {
+										"value": ""
+									},
+									"iconBarClass": {
+										"value": "md-icon-button"
+									},
+									"fab": {
+										"triggerButton": {
+											"style": "",
+											"class": "md-fab",
+											"icon": {
+												"value": "",
+												"style": ""
+											}
+										},
+										"actionButton": {
+											"style": "",
+											"class": "md-fab md-raised md-mini",
+											"icon": {
+												"style": ""
+											}
+										}
+									},
+									"buttonStyle": {
+										"value": ""
+									},
+									"buttonClass": {
+										"value": "md-raised"
+									},
+									"flexWidth": {
+										"value": 30
+									},
+									"type": {
+										"value": "Fab"
+									},
+									"initialClick": {
+										"value": false
+									},
+									"dynamicPresent": {
+										"value": false
+									},
+									"dynamic": {
+										"value": ""
+									},
+									"menuItems": {
+										"value": [
+											{
+												"isTopLevel": true,
+												"label": "'Home'",
+												"icon": "'fa-home'",
+												"shortcut": "",
+												"divider": false,
+												"notification": "",
+												"display": true,
+												"disabled": false,
+												"onclick": "",
+												"menuItems": {
+													"value": []
+												}
+											}
+										]
+									}
+								},
+								"status": "overridden"
+							},
+							"layout": {
+								"rows": [
+									{
+										"cols": [
+											{
+												"width": {
+													"value": 100
+												},
+												"classes": {
+													"value": ""
+												},
+												"dynamicClasses": {
+													"value": ""
+												},
+												"style": {
+													"value": ""
+												},
+												"orientation": {
+													"value": "row"
+												},
+												"halignment": {
+													"value": "start"
+												},
+												"valignment": {
+													"value": "start"
+												}
+											}
+										],
+										"classes": {
+											"value": ""
+										},
+										"dynamicClasses": {
+											"value": ""
+										},
+										"style": {
+											"value": ""
+										}
+									},
+									{
+										"cols": [
+											{
+												"width": {
+													"value": 50
+												},
+												"classes": {
+													"value": ""
+												},
+												"dynamicClasses": {
+													"value": ""
+												},
+												"style": {
+													"value": ""
+												},
+												"orientation": {
+													"value": "row"
+												},
+												"halignment": {
+													"value": "start"
+												},
+												"valignment": {
+													"value": "start"
+												},
+												"css": {
+													"color": "",
+													"background": "",
+													"padding": "",
+													"text-align": ""
+												}
+											},
+											{
+												"width": {
+													"value": 50
+												},
+												"classes": {
+													"value": ""
+												},
+												"dynamicClasses": {
+													"value": ""
+												},
+												"style": {
+													"value": ""
+												},
+												"orientation": {
+													"value": "row"
+												},
+												"halignment": {
+													"value": "start"
+												},
+												"valignment": {
+													"value": "start"
+												},
+												"css": {
+													"color": "",
+													"background": "",
+													"padding": "",
+													"text-align": ""
+												}
+											}
+										],
+										"classes": {
+											"value": ""
+										},
+										"dynamicClasses": {
+											"value": ""
+										},
+										"style": {
+											"value": ""
+										}
+									}
+								],
+								"classes": {
+									"value": ""
+								},
+								"dynamicClasses": {
+									"value": ""
+								},
+								"style": {
+									"value": ""
+								},
+								"status": "overridden"
+							}
+						},
+						"children": [
+							{
+								"id": 34583,
+								"type": "input",
+								"flex": "true",
+								"attributes": {
+									"name": {
+										"value": "inpInput2",
+										"status": "overridden"
+									},
+									"label": {
+										"value": "'Input label'",
+										"status": "overridden"
+									},
+									"icon": {
+										"value": "",
+										"status": "overridden"
+									},
+									"flex": {
+										"value": 100,
+										"status": "overridden"
+									},
+									"binding": {
+										"value": "dynamicValue",
+										"repeatable": false,
+										"$itemValue": "",
+										"status": "overridden"
+									},
+									"display": {
+										"value": "true",
+										"status": "overridden"
+									},
+									"disabled": {
+										"value": "false",
+										"status": "overridden"
+									},
+									"pattern": {
+										"value": "",
+										"errorMessage": "The value is invalid",
+										"status": "overridden"
+									},
+									"classes": {
+										"value": "",
+										"status": "overridden"
+									},
+									"dynamicClasses": {
+										"value": "val",
+										"status": "overridden"
+									},
+									"style": {
+										"value": "",
+										"status": "overridden"
+									}
+								},
+								"children": [],
+								"container": "layout_0_row_0_column_0"
+							},
+							{
+								"id": 11153,
+								"type": "html",
+								"flex": "true",
+								"attributes": {
+									"name": {
+										"value": "htHtml1",
+										"status": "overridden"
+									},
+									"flex": {
+										"value": 100,
+										"status": "overridden"
+									},
+									"content": {
+										"value": "<p>Try:</p>\n<ul>\n  <li>sample-red</li>\n  <li>sample-green</li>\n  <li>sample-blue</li>\n  <li>sample-brown</li>\n  <li>sample-orange</li>\n</ul>",
+										"status": "overridden"
+									},
+									"style": {
+										"value": "",
+										"status": "overridden"
+									}
+								},
+								"children": [],
+								"container": "layout_0_row_1_column_0"
+							},
+							{
+								"id": 91337,
+								"type": "input",
+								"flex": "true",
+								"attributes": {
+									"name": {
+										"value": "inpInput4",
+										"status": "overridden"
+									},
+									"label": {
+										"value": "'Type class name here'",
+										"status": "overridden"
+									},
+									"icon": {
+										"value": "",
+										"status": "overridden"
+									},
+									"flex": {
+										"value": 100,
+										"status": "overridden"
+									},
+									"binding": {
+										"value": "val",
+										"repeatable": false,
+										"$itemValue": "",
+										"status": "overridden"
+									},
+									"display": {
+										"value": "true",
+										"status": "overridden"
+									},
+									"disabled": {
+										"value": "false",
+										"status": "overridden"
+									},
+									"style": {
+										"value": "",
+										"status": "overridden"
+									}
+								},
+								"children": [],
+								"container": "layout_0_row_1_column_1"
+							}
+						],
+						"container": "layout_0_row_1_column_0"
+					},
+					{
+						"id": 49521,
+						"type": "panel",
+						"flex": "true",
+						"attributes": {
+							"name": {
+								"value": "pnlPanel4",
+								"status": "overridden"
+							},
+							"style": {
+								"value": "padding:20px;",
+								"status": "overridden"
+							},
+							"flex": {
+								"value": 70,
+								"status": "overridden"
+							},
+							"toolbar": {
+								"visible": {
+									"value": "true"
+								},
+								"classes": {
+									"value": ""
+								},
+								"dynamicClasses": {
+									"value": ""
+								},
+								"style": {
+									"value": ""
+								},
+								"title": {
+									"value": "'Min and max values'",
+									"visible": {
+										"value": "true"
+									},
+									"isHtml": {
+										"value": false
+									},
+									"bindingHtml": {
+										"value": ""
+									},
+									"content": {
+										"value": "<div><p>Lorem ipsum dolor sit <b>amet</b>, consectetuer adipiscing elit. <b>Aenean</b> commodo ligula eget dolor. Aenean massa.</p></div>"
+									},
+									"alignment": {
+										"value": "start"
+									},
+									"classes": {
+										"value": ""
+									},
+									"dynamicClasses": {
+										"value": ""
+									},
+									"style": {
+										"value": ""
+									},
+									"flexWidth": {
+										"value": 50
+									}
+								},
+								"leftMenu": {
+									"visible": {
+										"value": "false"
+									},
+									"equalButtonSize": {
+										"value": false
+									},
+									"fabDirection": {
+										"value": "right"
+									},
+									"animation": {
+										"display": "Fling",
+										"value": "md-fling"
+									},
+									"classes": {
+										"value": ""
+									},
+									"dynamicClasses": {
+										"value": ""
+									},
+									"style": {
+										"value": ""
+									},
+									"iconStyle": {
+										"value": ""
+									},
+									"iconBarClass": {
+										"value": "md-icon-button"
+									},
+									"fab": {
+										"triggerButton": {
+											"style": "",
+											"class": "md-fab",
+											"icon": {
+												"value": "",
+												"style": ""
+											}
+										},
+										"actionButton": {
+											"style": "",
+											"class": "md-fab md-raised md-mini",
+											"icon": {
+												"style": ""
+											}
+										}
+									},
+									"buttonStyle": {
+										"value": ""
+									},
+									"buttonClass": {
+										"value": "md-raised"
+									},
+									"flexWidth": {
+										"value": 20
+									},
+									"type": {
+										"value": "Buttons"
+									},
+									"initialClick": {
+										"value": false
+									},
+									"dynamicPresent": {
+										"value": false
+									},
+									"dynamic": {
+										"value": ""
+									},
+									"menuItems": {
+										"value": [
+											{
+												"isTopLevel": true,
+												"label": "'Home'",
+												"icon": "'fa-home'",
+												"shortcut": "",
+												"divider": false,
+												"notification": "",
+												"display": true,
+												"disabled": false,
+												"onclick": "",
+												"menuItems": {
+													"value": []
+												}
+											}
+										]
+									}
+								},
+								"rightMenu": {
+									"visible": {
+										"value": "false"
+									},
+									"equalButtonSize": {
+										"value": false
+									},
+									"fabDirection": {
+										"value": "left"
+									},
+									"animation": {
+										"display": "Fling",
+										"value": "md-fling"
+									},
+									"classes": {
+										"value": ""
+									},
+									"dynamicClasses": {
+										"value": ""
+									},
+									"style": {
+										"value": ""
+									},
+									"iconStyle": {
+										"value": ""
+									},
+									"iconBarClass": {
+										"value": "md-icon-button"
+									},
+									"fab": {
+										"triggerButton": {
+											"style": "",
+											"class": "md-fab",
+											"icon": {
+												"value": "",
+												"style": ""
+											}
+										},
+										"actionButton": {
+											"style": "",
+											"class": "md-fab md-raised md-mini",
+											"icon": {
+												"style": ""
+											}
+										}
+									},
+									"buttonStyle": {
+										"value": ""
+									},
+									"buttonClass": {
+										"value": "md-raised"
+									},
+									"flexWidth": {
+										"value": 30
+									},
+									"type": {
+										"value": "Fab"
+									},
+									"initialClick": {
+										"value": false
+									},
+									"dynamicPresent": {
+										"value": false
+									},
+									"dynamic": {
+										"value": ""
+									},
+									"menuItems": {
+										"value": [
+											{
+												"isTopLevel": true,
+												"label": "'Home'",
+												"icon": "'fa-home'",
+												"shortcut": "",
+												"divider": false,
+												"notification": "",
+												"display": true,
+												"disabled": false,
+												"onclick": "",
+												"menuItems": {
+													"value": []
+												}
+											}
+										]
+									}
+								},
+								"status": "overridden"
+							},
+							"layout": {
+								"rows": [
+									{
+										"cols": [
+											{
+												"width": {
+													"value": 100
+												},
+												"classes": {
+													"value": ""
+												},
+												"dynamicClasses": {
+													"value": ""
+												},
+												"style": {
+													"value": ""
+												},
+												"orientation": {
+													"value": "row"
+												},
+												"halignment": {
+													"value": "start"
+												},
+												"valignment": {
+													"value": "start"
+												}
+											}
+										],
+										"classes": {
+											"value": ""
+										},
+										"dynamicClasses": {
+											"value": ""
+										},
+										"style": {
+											"value": ""
+										}
+									},
+									{
+										"cols": [
+											{
+												"width": {
+													"value": "100"
+												},
+												"classes": {
+													"value": ""
+												},
+												"dynamicClasses": {
+													"value": ""
+												},
+												"style": {
+													"value": ""
+												},
+												"orientation": {
+													"value": "row"
+												},
+												"halignment": {
+													"value": "start"
+												},
+												"valignment": {
+													"value": "start"
+												},
+												"css": {
+													"color": "",
+													"background": "",
+													"padding": "",
+													"text-align": ""
+												}
+											}
+										],
+										"classes": {
+											"value": ""
+										},
+										"dynamicClasses": {
+											"value": ""
+										},
+										"style": {
+											"value": ""
+										}
+									}
+								],
+								"classes": {
+									"value": ""
+								},
+								"dynamicClasses": {
+									"value": ""
+								},
+								"style": {
+									"value": ""
+								},
+								"status": "overridden"
+							}
+						},
+						"children": [
+							{
+								"id": 81706,
+								"type": "input",
+								"flex": "true",
+								"attributes": {
+									"name": {
+										"value": "inpInput3",
+										"status": "overridden"
+									},
+									"label": {
+										"value": "'Type \"Number\" from 15 to 700 '",
+										"status": "overridden"
+									},
+									"icon": {
+										"value": "",
+										"status": "overridden"
+									},
+									"flex": {
+										"value": 100,
+										"status": "overridden"
+									},
+									"binding": {
+										"value": "",
+										"repeatable": false,
+										"$itemValue": "",
+										"status": "overridden"
+									},
+									"selectedType": {
+										"value": "number",
+										"status": "overridden"
+									},
+									"minNumber": {
+										"value": 15,
+										"status": "overridden"
+									},
+									"maxNumber": {
+										"value": 700,
+										"status": "overridden"
+									},
+									"style": {
+										"value": "color:#881010;",
+										"status": "overridden"
+									}
+								},
+								"children": [],
+								"container": "layout_0_row_0_column_0"
+							},
+							{
+								"id": 98135,
+								"type": "input",
+								"flex": "true",
+								"attributes": {
+									"name": {
+										"value": "inpInput5",
+										"status": "overridden"
+									},
+									"label": {
+										"value": "'Type \"String\" from 5 to 10 chars'",
+										"status": "overridden"
+									},
+									"icon": {
+										"value": "",
+										"status": "overridden"
+									},
+									"flex": {
+										"value": 100,
+										"status": "overridden"
+									},
+									"binding": {
+										"value": "",
+										"repeatable": false,
+										"$itemValue": "",
+										"status": "overridden"
+									},
+									"minlength": {
+										"value": 5,
+										"status": "overridden"
+									},
+									"maxlength": {
+										"value": 10,
+										"status": "overridden"
+									},
+									"style": {
+										"value": "",
+										"status": "overridden"
+									}
+								},
+								"children": [],
+								"container": "layout_0_row_1_column_0"
+							}
+						],
+						"container": "layout_0_row_2_column_0"
+					},
+					{
+						"id": 62898,
+						"type": "button",
+						"flex": "false",
+						"attributes": {
+							"name": {
+								"value": "btnButton1",
+								"status": "overridden"
+							},
+							"label": {
+								"value": "'BACK'",
+								"status": "overridden"
+							},
+							"icon": {
+								"value": "",
+								"status": "overridden"
+							},
+							"dynamic": {
+								"value": "",
+								"status": "overridden"
+							},
+							"dynamicPresent": {
+								"value": false,
+								"status": "overridden"
+							},
+							"style": {
+								"value": "",
+								"status": "overridden"
+							},
+							"onclick": {
+								"value": "back()",
+								"status": "overridden"
+							}
+						},
+						"children": [],
+						"container": "layout_0_row_3_column_0"
+					}
+				]
+			}
+		]
+	}
+}
