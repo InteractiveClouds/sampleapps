@@ -1,5 +1,6 @@
 {
   "title": "Input Samples",
   "description": "Demonstrate how to use input fields",
-  "thumbnail": "/images/sampleapps/vInputSample.png"
+  "thumbnail": "/images/sampleapps/vInputSample.png",
+  "documentation": "http://www.interactive-clouds.com/documentation/samples/vInputSample.html"
 }

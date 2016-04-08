@@ -1,5 +1,6 @@
 {
   "title": "Sample Styles 1",
   "description": "Example in using kind of advanced CSS styling to produce a modern and dynamic interface",
-  "thumbnail": "/images/sampleapps/styles1.png"
+  "thumbnail": "/images/sampleapps/styles1.png",
+  "documentation": "http://www.interactive-clouds.com/documentation/samples/vStyles1.html"
 }
