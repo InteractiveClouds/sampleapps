@@ -14,7 +14,7 @@ tableSample.controller( "vTableSampleController", [ '$scope', 'dfxApiRoutes', 'd
 		var options = {
 				width : '300px',
 				position : 'left',
-				viewName : 'tableSample',
+				viewName : 'vTableSample',
 				cardName : 'edit',
 				scope : $scope
 		}
@@ -45,7 +45,7 @@ tableSample.controller( "vTableSampleController", [ '$scope', 'dfxApiRoutes', 'd
 		var options = {
 				width : '300px',
 				position : 'left',
-				viewName : 'tableSample',
+				viewName : 'vTableSample',
 				cardName : 'add',
 				scope : $scope
 		}
