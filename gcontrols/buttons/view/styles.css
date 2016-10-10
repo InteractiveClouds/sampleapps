@@ -1,0 +1,44 @@
+.changeHeartColor{
+    color:red !important;
+    background-color:green;
+}
+.SBContainer {
+    margin: 20px 30px;
+}
+.SBCategoryTitle{
+    font-size: 2rem;
+    font-weight: 200;
+    padding-top: 0.5rem;
+    padding-bottom: 0.25rem;
+    border-bottom: 1px solid #E0E0E0;
+    margin-bottom: 21px;
+}
+.SBHeader {
+    font-size: 2.5rem;
+    font-weight: 250;
+    padding-top: 0.5rem;
+    padding-bottom: 0.25rem;
+    border-bottom: 2px solid #757f73;
+    margin-bottom: 21px;
+}
+.changeButtonStyle {
+    border-radius: 8px;
+    background-color:#19a69f !important;
+    color: #ffffff !important;
+}
+.buttonChangeOnHover:hover{
+    background-color: #efefef !important;
+}
+
+button.md-button.md-altTheme-theme.md-primary.customBtn {
+    background: white;
+    color: rgb(33,150,243);
+    border: 2px solid #4CD5F3;
+    /*border-radius: 15px;*/
+    padding: 5px 30px 5px 30px;
+}
+
+button.md-button.md-altTheme-theme.md-primary.customBtn:not([disabled]):hover {
+    background-color: #e6ffff;
+    opacity:0.8;
+}

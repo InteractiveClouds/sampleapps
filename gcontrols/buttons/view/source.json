@@ -1,0 +1,3020 @@
+{
+  "properties": {},
+  "definition": {
+    "default": [
+      {
+        "id": 525,
+        "type": "panel",
+        "attributes": {
+          "name": {
+            "value": "pnlPanel1",
+            "status": "overridden"
+          },
+          "flex": {
+            "value": "100",
+            "status": "overridden"
+          },
+          "autoHeight": {
+            "value": true,
+            "status": "overridden"
+          },
+          "toolbar": {
+            "collapsed": {
+              "value": "false",
+              "status": "overridden",
+              "designValue": false
+            },
+            "title": {
+              "value": "'Sample Buttons'",
+              "flexWidth": {
+                "value": 90,
+                "status": "overridden"
+              },
+              "status": "overridden"
+            },
+            "leftMenu": {
+              "flexWidth": {
+                "value": 10,
+                "status": "overridden"
+              },
+              "type": {
+                "value": "Icon Bar",
+                "status": "overridden"
+              },
+              "menuItems": {
+                "value": [
+                  {
+                    "isTopLevel": true,
+                    "label": "'Help'",
+                    "icon": {
+                      "value": "'help_outline'",
+                      "type": "svg-icon"
+                    },
+                    "shortcut": "",
+                    "divider": false,
+                    "notification": "",
+                    "display": "true",
+                    "disabled": "false",
+                    "onclick": "goToHelp()",
+                    "menuItems": {
+                      "value": []
+                    },
+                    "state": {
+                      "value": false,
+                      "binding": "true",
+                      "checkedIcon": {
+                        "value": "'thumb_up'",
+                        "type": "svg-icon",
+                        "style": "",
+                        "class": ""
+                      },
+                      "uncheckedIcon": {
+                        "value": "'thumb_down'",
+                        "type": "svg-icon",
+                        "style": "",
+                        "class": ""
+                      }
+                    }
+                  }
+                ],
+                "status": "overridden"
+              },
+              "menuItemNames": {
+                "value": {
+                  "main": {
+                    "source": "",
+                    "label": "",
+                    "type": "",
+                    "icon": {
+                      "value": "",
+                      "name": "",
+                      "type": ""
+                    },
+                    "shortcut": "",
+                    "notification": "",
+                    "display": "",
+                    "disabled": "",
+                    "onclick": "",
+                    "scopeItems": ""
+                  },
+                  "state": {
+                    "name": "",
+                    "binding": "",
+                    "checkedIcon": {
+                      "value": "",
+                      "name": "",
+                      "type": "",
+                      "style": "",
+                      "class": ""
+                    },
+                    "uncheckedIcon": {
+                      "value": "",
+                      "name": "",
+                      "type": "",
+                      "style": "",
+                      "class": ""
+                    }
+                  },
+                  "waiting": {
+                    "name": "",
+                    "binding": "",
+                    "autoDisabled": "",
+                    "icon": {
+                      "value": "",
+                      "name": "",
+                      "type": "",
+                      "style": "",
+                      "class": ""
+                    }
+                  }
+                },
+                "status": "overridden"
+              },
+              "status": "overridden"
+            },
+            "rightMenu": {
+              "visible": {
+                "value": "true",
+                "status": "overridden"
+              },
+              "flexWidth": {
+                "value": 5,
+                "status": "overridden"
+              },
+              "type": {
+                "value": "Icon Bar",
+                "status": "overridden"
+              },
+              "menuItems": {
+                "value": [
+                  {
+                    "isTopLevel": true,
+                    "label": "'Documentation'",
+                    "icon": {
+                      "value": "'my_library_books'",
+                      "type": "svg-icon"
+                    },
+                    "shortcut": "",
+                    "divider": false,
+                    "notification": "",
+                    "display": "true",
+                    "disabled": "false",
+                    "onclick": "",
+                    "menuItems": {
+                      "value": []
+                    },
+                    "iconType": "fa-icon",
+                    "state": {
+                      "value": false,
+                      "binding": "true",
+                      "checkedIcon": {
+                        "value": "'thumb_up'",
+                        "type": "svg-icon",
+                        "style": "",
+                        "class": ""
+                      },
+                      "uncheckedIcon": {
+                        "value": "'thumb_down'",
+                        "type": "svg-icon",
+                        "style": "",
+                        "class": ""
+                      }
+                    }
+                  }
+                ],
+                "status": "overridden"
+              },
+              "menuItemNames": {
+                "value": {
+                  "main": {
+                    "source": "",
+                    "label": "",
+                    "type": "",
+                    "icon": {
+                      "value": "",
+                      "name": "",
+                      "type": ""
+                    },
+                    "shortcut": "",
+                    "notification": "",
+                    "display": "",
+                    "disabled": "",
+                    "onclick": "",
+                    "scopeItems": ""
+                  },
+                  "state": {
+                    "name": "",
+                    "binding": "",
+                    "checkedIcon": {
+                      "value": "",
+                      "name": "",
+                      "type": "",
+                      "style": "",
+                      "class": ""
+                    },
+                    "uncheckedIcon": {
+                      "value": "",
+                      "name": "",
+                      "type": "",
+                      "style": "",
+                      "class": ""
+                    }
+                  },
+                  "waiting": {
+                    "name": "",
+                    "binding": "",
+                    "autoDisabled": "",
+                    "icon": {
+                      "value": "",
+                      "name": "",
+                      "type": "",
+                      "style": "",
+                      "class": ""
+                    }
+                  }
+                },
+                "status": "overridden"
+              },
+              "status": "overridden"
+            },
+            "status": "overridden"
+          },
+          "layout": {
+            "rows": [
+              {
+                "cols": [
+                  {
+                    "width": {
+                      "value": 10
+                    },
+                    "autoWidth": {
+                      "value": false
+                    },
+                    "display": {
+                      "value": "true"
+                    },
+                    "classes": {
+                      "value": ""
+                    },
+                    "dynamicClasses": {
+                      "value": ""
+                    },
+                    "style": {
+                      "value": "border-right:1px #ccc solid;"
+                    },
+                    "orientation": {
+                      "value": "row"
+                    },
+                    "halignment": {
+                      "value": "center"
+                    },
+                    "valignment": {
+                      "value": "center"
+                    },
+                    "css": {
+                      "color": "",
+                      "background": "",
+                      "padding": "",
+                      "text-align": ""
+                    }
+                  },
+                  {
+                    "width": {
+                      "value": 25
+                    },
+                    "autoWidth": {
+                      "value": false
+                    },
+                    "display": {
+                      "value": "true"
+                    },
+                    "classes": {
+                      "value": ""
+                    },
+                    "dynamicClasses": {
+                      "value": ""
+                    },
+                    "style": {
+                      "value": ""
+                    },
+                    "orientation": {
+                      "value": "row"
+                    },
+                    "halignment": {
+                      "value": "center"
+                    },
+                    "valignment": {
+                      "value": "center"
+                    },
+                    "css": {
+                      "color": "",
+                      "background": "",
+                      "padding": "",
+                      "text-align": ""
+                    }
+                  },
+                  {
+                    "width": {
+                      "value": 20
+                    },
+                    "autoWidth": {
+                      "value": false
+                    },
+                    "display": {
+                      "value": "true"
+                    },
+                    "classes": {
+                      "value": ""
+                    },
+                    "dynamicClasses": {
+                      "value": ""
+                    },
+                    "style": {
+                      "value": ""
+                    },
+                    "orientation": {
+                      "value": "row"
+                    },
+                    "halignment": {
+                      "value": "center"
+                    },
+                    "valignment": {
+                      "value": "center"
+                    },
+                    "css": {
+                      "color": "",
+                      "background": "",
+                      "padding": "",
+                      "text-align": ""
+                    }
+                  },
+                  {
+                    "width": {
+                      "value": 20
+                    },
+                    "autoWidth": {
+                      "value": false
+                    },
+                    "display": {
+                      "value": "true"
+                    },
+                    "classes": {
+                      "value": ""
+                    },
+                    "dynamicClasses": {
+                      "value": ""
+                    },
+                    "style": {
+                      "value": ""
+                    },
+                    "orientation": {
+                      "value": "row"
+                    },
+                    "halignment": {
+                      "value": "center"
+                    },
+                    "valignment": {
+                      "value": "center"
+                    },
+                    "css": {
+                      "color": "",
+                      "background": "",
+                      "padding": "",
+                      "text-align": ""
+                    }
+                  },
+                  {
+                    "width": {
+                      "value": 25
+                    },
+                    "autoWidth": {
+                      "value": false
+                    },
+                    "display": {
+                      "value": "true"
+                    },
+                    "classes": {
+                      "value": ""
+                    },
+                    "dynamicClasses": {
+                      "value": ""
+                    },
+                    "style": {
+                      "value": ""
+                    },
+                    "orientation": {
+                      "value": "row"
+                    },
+                    "halignment": {
+                      "value": "center"
+                    },
+                    "valignment": {
+                      "value": "center"
+                    },
+                    "css": {
+                      "color": "",
+                      "background": "",
+                      "padding": "",
+                      "text-align": ""
+                    }
+                  }
+                ],
+                "classes": {
+                  "value": ""
+                },
+                "dynamicClasses": {
+                  "value": ""
+                },
+                "style": {
+                  "value": "height:100px;border-bottom:1px #ccc solid;"
+                }
+              },
+              {
+                "cols": [
+                  {
+                    "width": {
+                      "value": 10
+                    },
+                    "autoWidth": {
+                      "value": false
+                    },
+                    "display": {
+                      "value": "true"
+                    },
+                    "classes": {
+                      "value": ""
+                    },
+                    "dynamicClasses": {
+                      "value": ""
+                    },
+                    "style": {
+                      "value": "border-right:1px #ccc solid;"
+                    },
+                    "orientation": {
+                      "value": "row"
+                    },
+                    "halignment": {
+                      "value": "center"
+                    },
+                    "valignment": {
+                      "value": "center"
+                    },
+                    "css": {
+                      "color": "",
+                      "background": "",
+                      "padding": "",
+                      "text-align": ""
+                    }
+                  },
+                  {
+                    "width": {
+                      "value": 30
+                    },
+                    "autoWidth": {
+                      "value": false
+                    },
+                    "display": {
+                      "value": "true"
+                    },
+                    "classes": {
+                      "value": ""
+                    },
+                    "dynamicClasses": {
+                      "value": ""
+                    },
+                    "style": {
+                      "value": ""
+                    },
+                    "orientation": {
+                      "value": "row"
+                    },
+                    "halignment": {
+                      "value": "center"
+                    },
+                    "valignment": {
+                      "value": "center"
+                    },
+                    "css": {
+                      "color": "",
+                      "background": "",
+                      "padding": "",
+                      "text-align": ""
+                    }
+                  },
+                  {
+                    "width": {
+                      "value": 60
+                    },
+                    "autoWidth": {
+                      "value": false
+                    },
+                    "display": {
+                      "value": "true"
+                    },
+                    "classes": {
+                      "value": ""
+                    },
+                    "dynamicClasses": {
+                      "value": ""
+                    },
+                    "style": {
+                      "value": ""
+                    },
+                    "orientation": {
+                      "value": "row"
+                    },
+                    "halignment": {
+                      "value": "center"
+                    },
+                    "valignment": {
+                      "value": "center"
+                    },
+                    "css": {
+                      "color": "",
+                      "background": "",
+                      "padding": "",
+                      "text-align": ""
+                    }
+                  }
+                ],
+                "classes": {
+                  "value": ""
+                },
+                "dynamicClasses": {
+                  "value": ""
+                },
+                "style": {
+                  "value": "height:100px;border-bottom:1px #ccc solid;"
+                }
+              },
+              {
+                "cols": [
+                  {
+                    "width": {
+                      "value": 10
+                    },
+                    "autoWidth": {
+                      "value": false
+                    },
+                    "display": {
+                      "value": "true"
+                    },
+                    "classes": {
+                      "value": ""
+                    },
+                    "dynamicClasses": {
+                      "value": ""
+                    },
+                    "style": {
+                      "value": "border-right:1px #ccc solid;"
+                    },
+                    "orientation": {
+                      "value": "row"
+                    },
+                    "halignment": {
+                      "value": "center"
+                    },
+                    "valignment": {
+                      "value": "center"
+                    },
+                    "css": {
+                      "color": "",
+                      "background": "",
+                      "padding": "",
+                      "text-align": ""
+                    }
+                  },
+                  {
+                    "width": {
+                      "value": 25
+                    },
+                    "autoWidth": {
+                      "value": false
+                    },
+                    "display": {
+                      "value": "true"
+                    },
+                    "classes": {
+                      "value": ""
+                    },
+                    "dynamicClasses": {
+                      "value": ""
+                    },
+                    "style": {
+                      "value": ""
+                    },
+                    "orientation": {
+                      "value": "row"
+                    },
+                    "halignment": {
+                      "value": "center"
+                    },
+                    "valignment": {
+                      "value": "center"
+                    },
+                    "css": {
+                      "color": "",
+                      "background": "",
+                      "padding": "",
+                      "text-align": ""
+                    }
+                  },
+                  {
+                    "width": {
+                      "value": 20
+                    },
+                    "autoWidth": {
+                      "value": false
+                    },
+                    "display": {
+                      "value": "true"
+                    },
+                    "classes": {
+                      "value": ""
+                    },
+                    "dynamicClasses": {
+                      "value": ""
+                    },
+                    "style": {
+                      "value": ""
+                    },
+                    "orientation": {
+                      "value": "row"
+                    },
+                    "halignment": {
+                      "value": "center"
+                    },
+                    "valignment": {
+                      "value": "center"
+                    },
+                    "css": {
+                      "color": "",
+                      "background": "",
+                      "padding": "",
+                      "text-align": ""
+                    }
+                  },
+                  {
+                    "width": {
+                      "value": 20
+                    },
+                    "autoWidth": {
+                      "value": false
+                    },
+                    "display": {
+                      "value": "true"
+                    },
+                    "classes": {
+                      "value": ""
+                    },
+                    "dynamicClasses": {
+                      "value": ""
+                    },
+                    "style": {
+                      "value": ""
+                    },
+                    "orientation": {
+                      "value": "row"
+                    },
+                    "halignment": {
+                      "value": "center"
+                    },
+                    "valignment": {
+                      "value": "center"
+                    },
+                    "css": {
+                      "color": "",
+                      "background": "",
+                      "padding": "",
+                      "text-align": ""
+                    }
+                  },
+                  {
+                    "width": {
+                      "value": 25
+                    },
+                    "autoWidth": {
+                      "value": false
+                    },
+                    "display": {
+                      "value": "true"
+                    },
+                    "classes": {
+                      "value": ""
+                    },
+                    "dynamicClasses": {
+                      "value": ""
+                    },
+                    "style": {
+                      "value": ""
+                    },
+                    "orientation": {
+                      "value": "row"
+                    },
+                    "halignment": {
+                      "value": "center"
+                    },
+                    "valignment": {
+                      "value": "center"
+                    },
+                    "css": {
+                      "color": "",
+                      "background": "",
+                      "padding": "",
+                      "text-align": ""
+                    }
+                  }
+                ],
+                "classes": {
+                  "value": ""
+                },
+                "dynamicClasses": {
+                  "value": ""
+                },
+                "style": {
+                  "value": "height:100px;border-bottom:1px #ccc solid;"
+                }
+              },
+              {
+                "cols": [
+                  {
+                    "width": {
+                      "value": 10
+                    },
+                    "autoWidth": {
+                      "value": false
+                    },
+                    "display": {
+                      "value": "true"
+                    },
+                    "classes": {
+                      "value": ""
+                    },
+                    "dynamicClasses": {
+                      "value": ""
+                    },
+                    "style": {
+                      "value": "border-right:1px #ccc solid;"
+                    },
+                    "orientation": {
+                      "value": "row"
+                    },
+                    "halignment": {
+                      "value": "start"
+                    },
+                    "valignment": {
+                      "value": "start"
+                    },
+                    "css": {
+                      "color": "",
+                      "background": "",
+                      "padding": "",
+                      "text-align": ""
+                    }
+                  },
+                  {
+                    "width": {
+                      "value": 25
+                    },
+                    "autoWidth": {
+                      "value": false
+                    },
+                    "display": {
+                      "value": "true"
+                    },
+                    "classes": {
+                      "value": ""
+                    },
+                    "dynamicClasses": {
+                      "value": ""
+                    },
+                    "style": {
+                      "value": ""
+                    },
+                    "orientation": {
+                      "value": "row"
+                    },
+                    "halignment": {
+                      "value": "center"
+                    },
+                    "valignment": {
+                      "value": "center"
+                    },
+                    "css": {
+                      "color": "",
+                      "background": "",
+                      "padding": "",
+                      "text-align": ""
+                    }
+                  },
+                  {
+                    "width": {
+                      "value": 20
+                    },
+                    "autoWidth": {
+                      "value": false
+                    },
+                    "display": {
+                      "value": "true"
+                    },
+                    "classes": {
+                      "value": ""
+                    },
+                    "dynamicClasses": {
+                      "value": ""
+                    },
+                    "style": {
+                      "value": ""
+                    },
+                    "orientation": {
+                      "value": "row"
+                    },
+                    "halignment": {
+                      "value": "center"
+                    },
+                    "valignment": {
+                      "value": "center"
+                    },
+                    "css": {
+                      "color": "",
+                      "background": "",
+                      "padding": "",
+                      "text-align": ""
+                    }
+                  },
+                  {
+                    "width": {
+                      "value": 20
+                    },
+                    "autoWidth": {
+                      "value": false
+                    },
+                    "display": {
+                      "value": "true"
+                    },
+                    "classes": {
+                      "value": ""
+                    },
+                    "dynamicClasses": {
+                      "value": ""
+                    },
+                    "style": {
+                      "value": ""
+                    },
+                    "orientation": {
+                      "value": "row"
+                    },
+                    "halignment": {
+                      "value": "center"
+                    },
+                    "valignment": {
+                      "value": "center"
+                    },
+                    "css": {
+                      "color": "",
+                      "background": "",
+                      "padding": "",
+                      "text-align": ""
+                    }
+                  },
+                  {
+                    "width": {
+                      "value": 25
+                    },
+                    "autoWidth": {
+                      "value": false
+                    },
+                    "display": {
+                      "value": "true"
+                    },
+                    "classes": {
+                      "value": ""
+                    },
+                    "dynamicClasses": {
+                      "value": ""
+                    },
+                    "style": {
+                      "value": ""
+                    },
+                    "orientation": {
+                      "value": "row"
+                    },
+                    "halignment": {
+                      "value": "center"
+                    },
+                    "valignment": {
+                      "value": "center"
+                    },
+                    "css": {
+                      "color": "",
+                      "background": "",
+                      "padding": "",
+                      "text-align": ""
+                    }
+                  }
+                ],
+                "classes": {
+                  "value": ""
+                },
+                "dynamicClasses": {
+                  "value": ""
+                },
+                "style": {
+                  "value": "height:100px;border-bottom:1px #ccc solid;"
+                }
+              },
+              {
+                "cols": [
+                  {
+                    "width": {
+                      "value": 10
+                    },
+                    "autoWidth": {
+                      "value": false
+                    },
+                    "display": {
+                      "value": "true"
+                    },
+                    "classes": {
+                      "value": ""
+                    },
+                    "dynamicClasses": {
+                      "value": ""
+                    },
+                    "style": {
+                      "value": "border-right:1px #ccc solid;"
+                    },
+                    "orientation": {
+                      "value": "row"
+                    },
+                    "halignment": {
+                      "value": "center"
+                    },
+                    "valignment": {
+                      "value": "center"
+                    },
+                    "css": {
+                      "color": "",
+                      "background": "",
+                      "padding": "",
+                      "text-align": ""
+                    }
+                  },
+                  {
+                    "width": {
+                      "value": 25
+                    },
+                    "autoWidth": {
+                      "value": false
+                    },
+                    "display": {
+                      "value": "true"
+                    },
+                    "classes": {
+                      "value": ""
+                    },
+                    "dynamicClasses": {
+                      "value": ""
+                    },
+                    "style": {
+                      "value": ""
+                    },
+                    "orientation": {
+                      "value": "row"
+                    },
+                    "halignment": {
+                      "value": "center"
+                    },
+                    "valignment": {
+                      "value": "center"
+                    },
+                    "css": {
+                      "color": "",
+                      "background": "",
+                      "padding": "",
+                      "text-align": ""
+                    }
+                  },
+                  {
+                    "width": {
+                      "value": 15
+                    },
+                    "autoWidth": {
+                      "value": false
+                    },
+                    "display": {
+                      "value": "true"
+                    },
+                    "classes": {
+                      "value": ""
+                    },
+                    "dynamicClasses": {
+                      "value": ""
+                    },
+                    "style": {
+                      "value": ""
+                    },
+                    "orientation": {
+                      "value": "row"
+                    },
+                    "halignment": {
+                      "value": "center"
+                    },
+                    "valignment": {
+                      "value": "center"
+                    },
+                    "css": {
+                      "color": "",
+                      "background": "",
+                      "padding": "",
+                      "text-align": ""
+                    }
+                  },
+                  {
+                    "width": {
+                      "value": 25
+                    },
+                    "autoWidth": {
+                      "value": false
+                    },
+                    "display": {
+                      "value": "true"
+                    },
+                    "classes": {
+                      "value": ""
+                    },
+                    "dynamicClasses": {
+                      "value": ""
+                    },
+                    "style": {
+                      "value": ""
+                    },
+                    "orientation": {
+                      "value": "row"
+                    },
+                    "halignment": {
+                      "value": "center"
+                    },
+                    "valignment": {
+                      "value": "center"
+                    },
+                    "css": {
+                      "color": "",
+                      "background": "",
+                      "padding": "",
+                      "text-align": ""
+                    }
+                  },
+                  {
+                    "width": {
+                      "value": 25
+                    },
+                    "autoWidth": {
+                      "value": false
+                    },
+                    "display": {
+                      "value": "true"
+                    },
+                    "classes": {
+                      "value": ""
+                    },
+                    "dynamicClasses": {
+                      "value": ""
+                    },
+                    "style": {
+                      "value": ""
+                    },
+                    "orientation": {
+                      "value": "row"
+                    },
+                    "halignment": {
+                      "value": "center"
+                    },
+                    "valignment": {
+                      "value": "center"
+                    },
+                    "css": {
+                      "color": "",
+                      "background": "",
+                      "padding": "",
+                      "text-align": ""
+                    }
+                  }
+                ],
+                "classes": {
+                  "value": ""
+                },
+                "dynamicClasses": {
+                  "value": ""
+                },
+                "style": {
+                  "value": "height:100px;border-bottom:1px #ccc solid;"
+                }
+              },
+              {
+                "cols": [
+                  {
+                    "width": {
+                      "value": 10
+                    },
+                    "autoWidth": {
+                      "value": false
+                    },
+                    "display": {
+                      "value": "true"
+                    },
+                    "classes": {
+                      "value": ""
+                    },
+                    "dynamicClasses": {
+                      "value": ""
+                    },
+                    "style": {
+                      "value": "border-right:1px #ccc solid;"
+                    },
+                    "orientation": {
+                      "value": "row"
+                    },
+                    "halignment": {
+                      "value": "center"
+                    },
+                    "valignment": {
+                      "value": "center"
+                    },
+                    "css": {
+                      "color": "",
+                      "background": "",
+                      "padding": "",
+                      "text-align": ""
+                    }
+                  },
+                  {
+                    "width": {
+                      "value": 15
+                    },
+                    "autoWidth": {
+                      "value": false
+                    },
+                    "display": {
+                      "value": "true"
+                    },
+                    "classes": {
+                      "value": ""
+                    },
+                    "dynamicClasses": {
+                      "value": ""
+                    },
+                    "style": {
+                      "value": ""
+                    },
+                    "orientation": {
+                      "value": "column"
+                    },
+                    "halignment": {
+                      "value": "center"
+                    },
+                    "valignment": {
+                      "value": "center"
+                    },
+                    "css": {
+                      "color": "",
+                      "background": "",
+                      "padding": "",
+                      "text-align": ""
+                    }
+                  },
+                  {
+                    "width": {
+                      "value": 25
+                    },
+                    "autoWidth": {
+                      "value": false
+                    },
+                    "display": {
+                      "value": "true"
+                    },
+                    "classes": {
+                      "value": ""
+                    },
+                    "dynamicClasses": {
+                      "value": ""
+                    },
+                    "style": {
+                      "value": ""
+                    },
+                    "orientation": {
+                      "value": "column"
+                    },
+                    "halignment": {
+                      "value": "center"
+                    },
+                    "valignment": {
+                      "value": "center"
+                    },
+                    "css": {
+                      "color": "",
+                      "background": "",
+                      "padding": "",
+                      "text-align": ""
+                    }
+                  },
+                  {
+                    "width": {
+                      "value": 25
+                    },
+                    "autoWidth": {
+                      "value": false
+                    },
+                    "display": {
+                      "value": "true"
+                    },
+                    "classes": {
+                      "value": ""
+                    },
+                    "dynamicClasses": {
+                      "value": ""
+                    },
+                    "style": {
+                      "value": ""
+                    },
+                    "orientation": {
+                      "value": "column"
+                    },
+                    "halignment": {
+                      "value": "center"
+                    },
+                    "valignment": {
+                      "value": "center"
+                    },
+                    "css": {
+                      "color": "",
+                      "background": "",
+                      "padding": "",
+                      "text-align": ""
+                    }
+                  },
+                  {
+                    "width": {
+                      "value": 25
+                    },
+                    "autoWidth": {
+                      "value": false
+                    },
+                    "display": {
+                      "value": "true"
+                    },
+                    "classes": {
+                      "value": ""
+                    },
+                    "dynamicClasses": {
+                      "value": ""
+                    },
+                    "style": {
+                      "value": ""
+                    },
+                    "orientation": {
+                      "value": "column"
+                    },
+                    "halignment": {
+                      "value": "center"
+                    },
+                    "valignment": {
+                      "value": "center"
+                    },
+                    "css": {
+                      "color": "",
+                      "background": "",
+                      "padding": "",
+                      "text-align": ""
+                    }
+                  }
+                ],
+                "classes": {
+                  "value": ""
+                },
+                "dynamicClasses": {
+                  "value": ""
+                },
+                "style": {
+                  "value": "height:100px;border-bottom:1px #ccc solid;"
+                }
+              }
+            ],
+            "status": "overridden"
+          }
+        },
+        "children": [
+          {
+            "id": 3761,
+            "type": "button",
+            "flex": "false",
+            "just_dropped": true,
+            "attributes": {
+              "name": {
+                "value": "btnButton1",
+                "status": "overridden"
+              },
+              "label": {
+                "value": "(loadingStatus) ? 'loading...' : 'load'",
+                "status": "overridden"
+              },
+              "icon": {
+                "value": "'replay_5'",
+                "position": "center",
+                "status": "overridden"
+              },
+              "waiting": {
+                "value": "loadingStatus",
+                "status": "overridden"
+              },
+              "menuItems": {
+                "value": [],
+                "status": "overridden"
+              },
+              "menuItemNames": {
+                "value": {
+                  "main": {
+                    "source": "",
+                    "label": "",
+                    "type": "",
+                    "icon": {
+                      "value": "",
+                      "name": "",
+                      "type": ""
+                    },
+                    "shortcut": "",
+                    "notification": "",
+                    "display": "",
+                    "disabled": "",
+                    "onclick": "",
+                    "scopeItems": ""
+                  }
+                },
+                "status": "overridden"
+              },
+              "flex": {
+                "value": 30,
+                "status": "overridden"
+              },
+              "onclick": {
+                "value": "simulateLoad()",
+                "status": "overridden"
+              }
+            },
+            "children": [],
+            "container": "layout_0_row_4_column_1"
+          },
+          {
+            "id": 59435,
+            "type": "statictext",
+            "flex": "false",
+            "just_dropped": true,
+            "attributes": {
+              "name": {
+                "value": "txtText4",
+                "status": "overridden"
+              },
+              "text": {
+                "value": "'Disable, Visible /  Invisible'",
+                "status": "overridden"
+              },
+              "style": {
+                "value": "text-align:center",
+                "status": "overridden"
+              }
+            },
+            "children": [],
+            "container": "layout_0_row_4_column_0"
+          },
+          {
+            "id": 84087,
+            "type": "button",
+            "flex": "false",
+            "just_dropped": true,
+            "attributes": {
+              "name": {
+                "value": "btnButton11",
+                "status": "overridden"
+              },
+              "label": {
+                "value": "'Edit Menu'",
+                "status": "overridden"
+              },
+              "icon": {
+                "value": "",
+                "position": "center",
+                "status": "overridden"
+              },
+              "waiting": {
+                "value": "",
+                "icon": {
+                  "value": "",
+                  "type": "svg-icon",
+                  "status": "overridden"
+                },
+                "status": "overridden"
+              },
+              "menuItems": {
+                "value": [
+                  {
+                    "label": "'Cut'",
+                    "shortcut": "",
+                    "divider": false,
+                    "icon": {
+                      "value": "'content_cut'",
+                      "type": "svg-icon"
+                    },
+                    "notification": "",
+                    "display": "true",
+                    "disabled": "false",
+                    "onclick": "",
+                    "menuItems": {
+                      "value": []
+                    },
+                    "iconType": "fa-icon"
+                  },
+                  {
+                    "label": "'Copy'",
+                    "shortcut": "",
+                    "divider": false,
+                    "icon": {
+                      "value": "'content_copy'",
+                      "type": "svg-icon"
+                    },
+                    "notification": "",
+                    "display": "true",
+                    "disabled": "false",
+                    "onclick": "",
+                    "menuItems": {
+                      "value": []
+                    },
+                    "iconType": "fa-icon"
+                  },
+                  {
+                    "label": "'Paste'",
+                    "shortcut": "",
+                    "divider": false,
+                    "icon": {
+                      "value": "'content_paste'",
+                      "type": "svg-icon"
+                    },
+                    "notification": "",
+                    "display": "true",
+                    "disabled": "false",
+                    "onclick": "",
+                    "menuItems": {
+                      "value": []
+                    },
+                    "iconType": "fa-icon"
+                  }
+                ],
+                "status": "overridden"
+              },
+              "menuItemNames": {
+                "value": {
+                  "main": {
+                    "source": "",
+                    "label": "",
+                    "type": "",
+                    "icon": {
+                      "value": "",
+                      "name": "",
+                      "type": ""
+                    },
+                    "shortcut": "",
+                    "notification": "",
+                    "display": "",
+                    "disabled": "",
+                    "onclick": "",
+                    "scopeItems": ""
+                  }
+                },
+                "status": "overridden"
+              },
+              "flex": {
+                "value": 25,
+                "status": "overridden"
+              }
+            },
+            "children": [],
+            "container": "layout_0_row_2_column_4"
+          },
+          {
+            "id": 11370,
+            "type": "button",
+            "flex": "false",
+            "just_dropped": true,
+            "attributes": {
+              "name": {
+                "value": "btnButton9",
+                "status": "overridden"
+              },
+              "label": {
+                "value": "",
+                "status": "overridden"
+              },
+              "icon": {
+                "value": "'fa-heart'",
+                "type": "fa-icon",
+                "position": "center",
+                "style": "background:#fff;",
+                "class": "buttonHeart",
+                "status": "overridden"
+              },
+              "menuItems": {
+                "value": [],
+                "status": "overridden"
+              },
+              "menuItemNames": {
+                "value": {
+                  "main": {
+                    "source": "",
+                    "label": "",
+                    "type": "",
+                    "icon": {
+                      "value": "",
+                      "name": "",
+                      "type": ""
+                    },
+                    "shortcut": "",
+                    "notification": "",
+                    "display": "",
+                    "disabled": "",
+                    "onclick": "",
+                    "scopeItems": ""
+                  }
+                },
+                "status": "overridden"
+              },
+              "classes": {
+                "value": "md-fab",
+                "status": "overridden"
+              },
+              "dynamicClasses": {
+                "value": "{changeHeartColor: changeButtonColor}",
+                "status": "overridden"
+              },
+              "flex": {
+                "value": 25,
+                "status": "overridden"
+              },
+              "style": {
+                "value": "background:#fff; color:#000;",
+                "status": "overridden"
+              },
+              "onclick": {
+                "value": "buttonHeartColor()",
+                "status": "overridden"
+              }
+            },
+            "children": [],
+            "container": "layout_0_row_2_column_3"
+          },
+          {
+            "id": 72138,
+            "type": "button",
+            "flex": "false",
+            "just_dropped": true,
+            "attributes": {
+              "name": {
+                "value": "btnButton16",
+                "status": "overridden"
+              },
+              "label": {
+                "value": "'ok'",
+                "status": "overridden"
+              },
+              "menuItems": {
+                "value": [],
+                "status": "overridden"
+              },
+              "menuItemNames": {
+                "value": {
+                  "main": {
+                    "source": "",
+                    "label": "",
+                    "type": "",
+                    "icon": {
+                      "value": "",
+                      "name": "",
+                      "type": ""
+                    },
+                    "shortcut": "",
+                    "notification": "",
+                    "display": "",
+                    "disabled": "",
+                    "onclick": "",
+                    "scopeItems": ""
+                  }
+                },
+                "status": "overridden"
+              },
+              "classes": {
+                "value": "md-fab",
+                "status": "overridden"
+              },
+              "flex": {
+                "value": 25,
+                "status": "overridden"
+              },
+              "style": {
+                "value": "background-color:#19a69f;",
+                "status": "overridden"
+              }
+            },
+            "children": [],
+            "container": "layout_0_row_2_column_2"
+          },
+          {
+            "id": 48055,
+            "type": "button",
+            "flex": "false",
+            "just_dropped": true,
+            "attributes": {
+              "name": {
+                "value": "btnButton10",
+                "status": "overridden"
+              },
+              "label": {
+                "value": "'Cancel'",
+                "status": "overridden"
+              },
+              "menuItems": {
+                "value": [],
+                "status": "overridden"
+              },
+              "menuItemNames": {
+                "value": {
+                  "main": {
+                    "source": "",
+                    "label": "",
+                    "type": "",
+                    "icon": {
+                      "value": "",
+                      "name": "",
+                      "type": ""
+                    },
+                    "shortcut": "",
+                    "notification": "",
+                    "display": "",
+                    "disabled": "",
+                    "onclick": "",
+                    "scopeItems": ""
+                  }
+                },
+                "status": "overridden"
+              },
+              "flex": {
+                "value": 25,
+                "status": "overridden"
+              },
+              "style": {
+                "value": "background-color:#fc5b6c;",
+                "status": "overridden"
+              }
+            },
+            "children": [],
+            "container": "layout_0_row_2_column_1"
+          },
+          {
+            "id": 81649,
+            "type": "statictext",
+            "flex": "false",
+            "just_dropped": true,
+            "attributes": {
+              "name": {
+                "value": "txtText3",
+                "status": "overridden"
+              },
+              "text": {
+                "value": "'Styles & shapes'",
+                "status": "overridden"
+              },
+              "style": {
+                "value": "text-align:center",
+                "status": "overridden"
+              }
+            },
+            "children": [],
+            "container": "layout_0_row_2_column_0"
+          },
+          {
+            "id": 61576,
+            "type": "button",
+            "flex": "false",
+            "just_dropped": true,
+            "attributes": {
+              "name": {
+                "value": "btnButton8",
+                "status": "overridden"
+              },
+              "label": {
+                "value": "'flex 80'",
+                "status": "overridden"
+              },
+              "icon": {
+                "value": "",
+                "position": "center",
+                "status": "overridden"
+              },
+              "menuItems": {
+                "value": [],
+                "status": "overridden"
+              },
+              "menuItemNames": {
+                "value": {
+                  "main": {
+                    "source": "",
+                    "label": "",
+                    "type": "",
+                    "icon": {
+                      "value": "",
+                      "name": "",
+                      "type": ""
+                    },
+                    "shortcut": "",
+                    "notification": "",
+                    "display": "",
+                    "disabled": "",
+                    "onclick": "",
+                    "scopeItems": ""
+                  }
+                },
+                "status": "overridden"
+              },
+              "notFlex": {
+                "value": false,
+                "status": "overridden"
+              },
+              "flex": {
+                "value": 80,
+                "status": "overridden"
+              }
+            },
+            "children": [],
+            "container": "layout_0_row_1_column_2"
+          },
+          {
+            "id": 53952,
+            "type": "button",
+            "flex": "false",
+            "just_dropped": true,
+            "attributes": {
+              "name": {
+                "value": "btnButton6",
+                "status": "overridden"
+              },
+              "label": {
+                "value": "'Flex 20'",
+                "status": "overridden"
+              },
+              "icon": {
+                "value": "",
+                "position": "center",
+                "status": "overridden"
+              },
+              "menuItems": {
+                "value": [],
+                "status": "overridden"
+              },
+              "menuItemNames": {
+                "value": {
+                  "main": {
+                    "source": "",
+                    "label": "",
+                    "type": "",
+                    "icon": {
+                      "value": "",
+                      "name": "",
+                      "type": ""
+                    },
+                    "shortcut": "",
+                    "notification": "",
+                    "display": "",
+                    "disabled": "",
+                    "onclick": "",
+                    "scopeItems": ""
+                  }
+                },
+                "status": "overridden"
+              },
+              "flex": {
+                "value": 20,
+                "status": "overridden"
+              }
+            },
+            "children": [],
+            "container": "layout_0_row_1_column_1"
+          },
+          {
+            "id": 1178,
+            "type": "statictext",
+            "flex": "false",
+            "just_dropped": true,
+            "attributes": {
+              "name": {
+                "value": "txtText2",
+                "status": "overridden"
+              },
+              "text": {
+                "value": "'Flex width'",
+                "status": "overridden"
+              }
+            },
+            "children": [],
+            "container": "layout_0_row_1_column_0"
+          },
+          {
+            "id": 62837,
+            "type": "button",
+            "flex": "false",
+            "just_dropped": true,
+            "attributes": {
+              "name": {
+                "value": "btnButton5",
+                "status": "overridden"
+              },
+              "label": {
+                "value": "'apple'",
+                "status": "overridden"
+              },
+              "icon": {
+                "value": "'apple'",
+                "position": "center",
+                "status": "overridden"
+              },
+              "menuItems": {
+                "value": [],
+                "status": "overridden"
+              },
+              "menuItemNames": {
+                "value": {
+                  "main": {
+                    "source": "",
+                    "label": "",
+                    "type": "",
+                    "icon": {
+                      "value": "",
+                      "name": "",
+                      "type": ""
+                    },
+                    "shortcut": "",
+                    "notification": "",
+                    "display": "",
+                    "disabled": "",
+                    "onclick": "",
+                    "scopeItems": ""
+                  }
+                },
+                "status": "overridden"
+              },
+              "flex": {
+                "value": 25,
+                "status": "overridden"
+              },
+              "style": {
+                "value": "background:#757f73;",
+                "status": "overridden"
+              }
+            },
+            "children": [],
+            "container": "layout_0_row_0_column_4"
+          },
+          {
+            "id": 59088,
+            "type": "button",
+            "flex": "false",
+            "just_dropped": true,
+            "attributes": {
+              "name": {
+                "value": "btnButton15",
+                "status": "overridden"
+              },
+              "label": {
+                "value": "'submit'",
+                "status": "overridden"
+              },
+              "icon": {
+                "value": "'check_circle'",
+                "position": "right",
+                "status": "overridden"
+              },
+              "menuItems": {
+                "value": [],
+                "status": "overridden"
+              },
+              "menuItemNames": {
+                "value": {
+                  "main": {
+                    "source": "",
+                    "label": "",
+                    "type": "",
+                    "icon": {
+                      "value": "",
+                      "name": "",
+                      "type": ""
+                    },
+                    "shortcut": "",
+                    "notification": "",
+                    "display": "",
+                    "disabled": "",
+                    "onclick": "",
+                    "scopeItems": ""
+                  }
+                },
+                "status": "overridden"
+              },
+              "flex": {
+                "value": 25,
+                "status": "overridden"
+              },
+              "style": {
+                "value": "background:#4c8619;",
+                "status": "overridden"
+              }
+            },
+            "children": [],
+            "container": "layout_0_row_0_column_3"
+          },
+          {
+            "id": 7116,
+            "type": "button",
+            "flex": "false",
+            "just_dropped": true,
+            "attributes": {
+              "name": {
+                "value": "btnButton4",
+                "status": "overridden"
+              },
+              "label": {
+                "value": "",
+                "status": "overridden"
+              },
+              "icon": {
+                "value": "'call'",
+                "position": "center",
+                "status": "overridden"
+              },
+              "menuItems": {
+                "value": [],
+                "status": "overridden"
+              },
+              "menuItemNames": {
+                "value": {
+                  "main": {
+                    "source": "",
+                    "label": "",
+                    "type": "",
+                    "icon": {
+                      "value": "",
+                      "name": "",
+                      "type": ""
+                    },
+                    "shortcut": "",
+                    "notification": "",
+                    "display": "",
+                    "disabled": "",
+                    "onclick": "",
+                    "scopeItems": ""
+                  }
+                },
+                "status": "overridden"
+              },
+              "flex": {
+                "value": 20,
+                "status": "overridden"
+              }
+            },
+            "children": [],
+            "container": "layout_0_row_0_column_2"
+          },
+          {
+            "id": 30760,
+            "type": "button",
+            "flex": "false",
+            "just_dropped": true,
+            "attributes": {
+              "name": {
+                "value": "btnButton3",
+                "status": "overridden"
+              },
+              "label": {
+                "value": "'push'",
+                "status": "overridden"
+              },
+              "icon": {
+                "value": "",
+                "position": "center",
+                "status": "overridden"
+              },
+              "menuItems": {
+                "value": [],
+                "status": "overridden"
+              },
+              "menuItemNames": {
+                "value": {
+                  "main": {
+                    "source": "",
+                    "label": "",
+                    "type": "",
+                    "icon": {
+                      "value": "",
+                      "name": "",
+                      "type": ""
+                    },
+                    "shortcut": "",
+                    "notification": "",
+                    "display": "",
+                    "disabled": "",
+                    "onclick": "",
+                    "scopeItems": ""
+                  }
+                },
+                "status": "overridden"
+              },
+              "flex": {
+                "value": 25,
+                "status": "overridden"
+              }
+            },
+            "children": [],
+            "container": "layout_0_row_0_column_1"
+          },
+          {
+            "id": 78545,
+            "type": "statictext",
+            "flex": "false",
+            "just_dropped": true,
+            "attributes": {
+              "name": {
+                "value": "txtText1",
+                "status": "overridden"
+              },
+              "text": {
+                "value": "'Basics'",
+                "status": "overridden"
+              },
+              "tooltipProperties": {
+                "direction": "top",
+                "status": "overridden"
+              }
+            },
+            "children": [],
+            "container": "layout_0_row_0_column_0"
+          },
+          {
+            "id": 3060,
+            "type": "button",
+            "flex": "false",
+            "just_dropped": true,
+            "attributes": {
+              "name": {
+                "value": "btnButton12",
+                "status": "overridden"
+              },
+              "label": {
+                "value": "'show dialog'",
+                "status": "overridden"
+              },
+              "display": {
+                "value": "toggleButtonBoolean",
+                "status": "overridden"
+              },
+              "menuItems": {
+                "value": [],
+                "status": "overridden"
+              },
+              "menuItemNames": {
+                "value": {
+                  "main": {
+                    "source": "",
+                    "label": "",
+                    "type": "",
+                    "icon": {
+                      "value": "",
+                      "name": "",
+                      "type": ""
+                    },
+                    "shortcut": "",
+                    "notification": "",
+                    "display": "",
+                    "disabled": "",
+                    "onclick": "",
+                    "scopeItems": ""
+                  }
+                },
+                "status": "overridden"
+              },
+              "flex": {
+                "value": 30,
+                "status": "overridden"
+              },
+              "onclick": {
+                "value": "showDialog()",
+                "status": "overridden"
+              }
+            },
+            "children": [],
+            "container": "layout_0_row_4_column_4"
+          },
+          {
+            "id": 68185,
+            "type": "button",
+            "flex": "false",
+            "just_dropped": true,
+            "attributes": {
+              "name": {
+                "value": "btnButton2",
+                "status": "overridden"
+              },
+              "label": {
+                "value": "toggleButtonBoolean ? 'hide button' : 'show button'",
+                "status": "overridden"
+              },
+              "icon": {
+                "value": "'arrow_forward'",
+                "position": "right",
+                "status": "overridden"
+              },
+              "menuItems": {
+                "value": [],
+                "status": "overridden"
+              },
+              "menuItemNames": {
+                "value": {
+                  "main": {
+                    "source": "",
+                    "label": "",
+                    "type": "",
+                    "icon": {
+                      "value": "",
+                      "name": "",
+                      "type": ""
+                    },
+                    "shortcut": "",
+                    "notification": "",
+                    "display": "",
+                    "disabled": "",
+                    "onclick": "",
+                    "scopeItems": ""
+                  }
+                },
+                "status": "overridden"
+              },
+              "flex": {
+                "value": 30,
+                "status": "overridden"
+              },
+              "onclick": {
+                "value": "toggleDisplay()",
+                "status": "overridden"
+              }
+            },
+            "children": [],
+            "container": "layout_0_row_4_column_3"
+          },
+          {
+            "id": 39326,
+            "type": "button",
+            "flex": "true",
+            "just_dropped": true,
+            "attributes": {
+              "name": {
+                "value": "btnButton25",
+                "status": "overridden"
+              },
+              "label": {
+                "value": "'Disabled'",
+                "status": "overridden"
+              },
+              "disabled": {
+                "value": "true",
+                "status": "overridden"
+              },
+              "menuItemNames": {
+                "value": {
+                  "main": {
+                    "source": "",
+                    "label": "",
+                    "type": "",
+                    "icon": {
+                      "value": "",
+                      "name": "",
+                      "type": ""
+                    },
+                    "shortcut": "",
+                    "notification": "",
+                    "display": "",
+                    "disabled": "",
+                    "onclick": "",
+                    "scopeItems": ""
+                  }
+                },
+                "status": "overridden"
+              },
+              "flex": {
+                "value": 15,
+                "status": "overridden"
+              }
+            },
+            "children": [],
+            "container": "layout_0_row_4_column_2"
+          },
+          {
+            "id": 46867,
+            "type": "statictext",
+            "flex": "false",
+            "just_dropped": true,
+            "attributes": {
+              "name": {
+                "value": "txtText6",
+                "status": "overridden"
+              },
+              "text": {
+                "value": "'Angular Material Styles / Custom'",
+                "status": "overridden"
+              },
+              "style": {
+                "value": "text-align:center",
+                "status": "overridden"
+              }
+            },
+            "children": [],
+            "container": "layout_0_row_3_column_0"
+          },
+          {
+            "id": 78769,
+            "type": "button",
+            "flex": "false",
+            "just_dropped": true,
+            "attributes": {
+              "name": {
+                "value": "btnButton17",
+                "status": "overridden"
+              },
+              "label": {
+                "value": "'md-primary'",
+                "status": "overridden"
+              },
+              "menuItemNames": {
+                "value": {
+                  "main": {
+                    "source": "",
+                    "label": "",
+                    "type": "",
+                    "icon": {
+                      "value": "",
+                      "name": "",
+                      "type": ""
+                    },
+                    "shortcut": "",
+                    "notification": "",
+                    "display": "",
+                    "disabled": "",
+                    "onclick": "",
+                    "scopeItems": ""
+                  }
+                },
+                "status": "overridden"
+              },
+              "flex": {
+                "value": 30,
+                "status": "overridden"
+              }
+            },
+            "children": [],
+            "container": "layout_0_row_3_column_1"
+          },
+          {
+            "id": 84452,
+            "type": "button",
+            "flex": "false",
+            "just_dropped": true,
+            "attributes": {
+              "name": {
+                "value": "btnButton18",
+                "status": "overridden"
+              },
+              "label": {
+                "value": "'md-Warn'",
+                "status": "overridden"
+              },
+              "menuItemNames": {
+                "value": {
+                  "main": {
+                    "source": "",
+                    "label": "",
+                    "type": "",
+                    "icon": {
+                      "value": "",
+                      "name": "",
+                      "type": ""
+                    },
+                    "shortcut": "",
+                    "notification": "",
+                    "display": "",
+                    "disabled": "",
+                    "onclick": "",
+                    "scopeItems": ""
+                  }
+                },
+                "status": "overridden"
+              },
+              "classes": {
+                "value": "md-warn",
+                "status": "overridden"
+              },
+              "flex": {
+                "value": 30,
+                "status": "overridden"
+              }
+            },
+            "children": [],
+            "container": "layout_0_row_3_column_2"
+          },
+          {
+            "id": 29268,
+            "type": "button",
+            "flex": "false",
+            "just_dropped": true,
+            "attributes": {
+              "name": {
+                "value": "btnButton19",
+                "status": "overridden"
+              },
+              "label": {
+                "value": "'Custom'",
+                "status": "overridden"
+              },
+              "menuItemNames": {
+                "value": {
+                  "main": {
+                    "source": "",
+                    "label": "",
+                    "type": "",
+                    "icon": {
+                      "value": "",
+                      "name": "",
+                      "type": ""
+                    },
+                    "shortcut": "",
+                    "notification": "",
+                    "display": "",
+                    "disabled": "",
+                    "onclick": "",
+                    "scopeItems": ""
+                  }
+                },
+                "status": "overridden"
+              },
+              "classes": {
+                "value": "customBtn",
+                "status": "overridden"
+              },
+              "dynamicClasses": {
+                "value": "{changeButtonStyle: changeButtonStyleBoolean}",
+                "status": "overridden"
+              },
+              "flex": {
+                "value": 30,
+                "status": "overridden"
+              },
+              "onclick": {
+                "value": "changeButtonStyle()",
+                "status": "overridden"
+              }
+            },
+            "children": [],
+            "container": "layout_0_row_3_column_3"
+          },
+          {
+            "id": 34690,
+            "type": "button",
+            "flex": "false",
+            "just_dropped": true,
+            "attributes": {
+              "name": {
+                "value": "btnButton20",
+                "status": "overridden"
+              },
+              "label": {
+                "value": "'On hover'",
+                "status": "overridden"
+              },
+              "menuItemNames": {
+                "value": {
+                  "main": {
+                    "source": "",
+                    "label": "",
+                    "type": "",
+                    "icon": {
+                      "value": "",
+                      "name": "",
+                      "type": ""
+                    },
+                    "shortcut": "",
+                    "notification": "",
+                    "display": "",
+                    "disabled": "",
+                    "onclick": "",
+                    "scopeItems": ""
+                  }
+                },
+                "status": "overridden"
+              },
+              "classes": {
+                "value": "buttonChangeOnHover",
+                "status": "overridden"
+              },
+              "flex": {
+                "value": 30,
+                "status": "overridden"
+              }
+            },
+            "children": [],
+            "container": "layout_0_row_3_column_4"
+          },
+          {
+            "id": 6206,
+            "type": "statictext",
+            "flex": "false",
+            "just_dropped": true,
+            "attributes": {
+              "name": {
+                "value": "txtText7",
+                "status": "overridden"
+              },
+              "text": {
+                "value": "'Events'",
+                "status": "overridden"
+              },
+              "style": {
+                "value": "text-align:center",
+                "status": "overridden"
+              }
+            },
+            "children": [],
+            "container": "layout_0_row_5_column_0"
+          },
+          {
+            "id": 47827,
+            "type": "button",
+            "flex": "false",
+            "just_dropped": true,
+            "attributes": {
+              "name": {
+                "value": "btnButton22",
+                "status": "overridden"
+              },
+              "label": {
+                "value": "'on doubleclick'",
+                "status": "overridden"
+              },
+              "menuItemNames": {
+                "value": {
+                  "main": {
+                    "source": "",
+                    "label": "",
+                    "type": "",
+                    "icon": {
+                      "value": "",
+                      "name": "",
+                      "type": ""
+                    },
+                    "shortcut": "",
+                    "notification": "",
+                    "display": "",
+                    "disabled": "",
+                    "onclick": "",
+                    "scopeItems": ""
+                  }
+                },
+                "status": "overridden"
+              },
+              "flex": {
+                "value": 30,
+                "status": "overridden"
+              },
+              "ondblclick": {
+                "value": "showTextOnDoubleClick()",
+                "status": "overridden"
+              }
+            },
+            "children": [],
+            "container": "layout_0_row_5_column_2"
+          },
+          {
+            "id": 31319,
+            "type": "button",
+            "flex": "false",
+            "just_dropped": true,
+            "attributes": {
+              "name": {
+                "value": "btnButton23",
+                "status": "overridden"
+              },
+              "label": {
+                "value": "'on mouse enter/leave'",
+                "status": "overridden"
+              },
+              "menuItemNames": {
+                "value": {
+                  "main": {
+                    "source": "",
+                    "label": "",
+                    "type": "",
+                    "icon": {
+                      "value": "",
+                      "name": "",
+                      "type": ""
+                    },
+                    "shortcut": "",
+                    "notification": "",
+                    "display": "",
+                    "disabled": "",
+                    "onclick": "",
+                    "scopeItems": ""
+                  }
+                },
+                "status": "overridden"
+              },
+              "flex": {
+                "value": 30,
+                "status": "overridden"
+              },
+              "onclick": {
+                "value": "hideTextOnClick()",
+                "status": "overridden"
+              },
+              "onmouseenter": {
+                "value": "showTextOnMouseEnter()",
+                "status": "overridden"
+              },
+              "onmouseleave": {
+                "value": "showTextOnMouseLeave()",
+                "status": "overridden"
+              }
+            },
+            "children": [],
+            "container": "layout_0_row_5_column_3"
+          },
+          {
+            "id": 39448,
+            "type": "button",
+            "flex": "false",
+            "just_dropped": true,
+            "attributes": {
+              "name": {
+                "value": "btnButton24",
+                "status": "overridden"
+              },
+              "label": {
+                "value": "'on mouse over'",
+                "status": "overridden"
+              },
+              "menuItemNames": {
+                "value": {
+                  "main": {
+                    "source": "",
+                    "label": "",
+                    "type": "",
+                    "icon": {
+                      "value": "",
+                      "name": "",
+                      "type": ""
+                    },
+                    "shortcut": "",
+                    "notification": "",
+                    "display": "",
+                    "disabled": "",
+                    "onclick": "",
+                    "scopeItems": ""
+                  }
+                },
+                "status": "overridden"
+              },
+              "flex": {
+                "value": 30,
+                "status": "overridden"
+              },
+              "onmouseover": {
+                "value": "showTextOnMouseOver()",
+                "status": "overridden"
+              },
+              "onmouseleave": {
+                "value": "hideTextOnMouseLeave()",
+                "status": "overridden"
+              }
+            },
+            "children": [],
+            "container": "layout_0_row_5_column_4"
+          },
+          {
+            "id": 10732,
+            "type": "statictext",
+            "flex": "false",
+            "just_dropped": true,
+            "attributes": {
+              "name": {
+                "value": "txtText12",
+                "status": "overridden"
+              },
+              "text": {
+                "value": "'You mouse leave'",
+                "status": "overridden"
+              },
+              "display": {
+                "value": "showTextOnMouseLeaveBoolean",
+                "status": "overridden"
+              }
+            },
+            "children": [],
+            "container": "layout_0_row_5_column_3"
+          },
+          {
+            "id": 94722,
+            "type": "statictext",
+            "flex": "false",
+            "just_dropped": true,
+            "attributes": {
+              "name": {
+                "value": "txtText8",
+                "status": "overridden"
+              },
+              "text": {
+                "value": "'You mouse enter'",
+                "status": "overridden"
+              },
+              "display": {
+                "value": "showTextOnMouseEnterBoolean",
+                "status": "overridden"
+              }
+            },
+            "children": [],
+            "container": "layout_0_row_5_column_3"
+          },
+          {
+            "id": 88229,
+            "type": "statictext",
+            "flex": "false",
+            "just_dropped": true,
+            "attributes": {
+              "name": {
+                "value": "txtText9",
+                "status": "overridden"
+              },
+              "text": {
+                "value": "'You mouse over'",
+                "status": "overridden"
+              },
+              "display": {
+                "value": "showTextOnMouseOverBoolean",
+                "status": "overridden"
+              }
+            },
+            "children": [],
+            "container": "layout_0_row_5_column_4"
+          },
+          {
+            "id": 13257,
+            "type": "button",
+            "flex": "false",
+            "just_dropped": true,
+            "attributes": {
+              "name": {
+                "value": "btnButton21",
+                "status": "overridden"
+              },
+              "label": {
+                "value": "'on click'",
+                "status": "overridden"
+              },
+              "menuItems": {
+                "value": [],
+                "status": "overridden"
+              },
+              "menuItemNames": {
+                "value": {
+                  "main": {
+                    "source": "",
+                    "label": "",
+                    "type": "",
+                    "icon": {
+                      "value": "",
+                      "name": "",
+                      "type": ""
+                    },
+                    "shortcut": "",
+                    "notification": "",
+                    "display": "",
+                    "disabled": "",
+                    "onclick": "",
+                    "scopeItems": ""
+                  }
+                },
+                "status": "overridden"
+              },
+              "flex": {
+                "value": 30,
+                "status": "overridden"
+              },
+              "onclick": {
+                "value": "showTextOnClick()",
+                "status": "overridden"
+              }
+            },
+            "children": [],
+            "container": "layout_0_row_5_column_1"
+          },
+          {
+            "id": 63222,
+            "type": "statictext",
+            "flex": "false",
+            "just_dropped": true,
+            "attributes": {
+              "name": {
+                "value": "txtText10",
+                "status": "overridden"
+              },
+              "text": {
+                "value": "'You clicked'",
+                "status": "overridden"
+              },
+              "display": {
+                "value": "showTextOnClickBoolean",
+                "status": "overridden"
+              },
+              "style": {
+                "value": "text-align:center",
+                "status": "overridden"
+              }
+            },
+            "children": [],
+            "container": "layout_0_row_5_column_1"
+          },
+          {
+            "id": 9134,
+            "type": "statictext",
+            "flex": "false",
+            "just_dropped": true,
+            "attributes": {
+              "name": {
+                "value": "txtText11",
+                "status": "overridden"
+              },
+              "text": {
+                "value": "'You doubleclicked'",
+                "status": "overridden"
+              },
+              "display": {
+                "value": "showTextOnDoubleClickBoolean",
+                "status": "overridden"
+              }
+            },
+            "children": [],
+            "container": "layout_0_row_5_column_2"
+          }
+        ],
+        "animation": {
+          "in": "fadeIn",
+          "out": "slideOutLeft"
+        }
+      }
+    ],
+    "help": [
+      {
+        "id": 389,
+        "type": "panel",
+        "attributes": {
+          "name": {
+            "value": "pnlPanel1",
+            "status": "overridden"
+          },
+          "flex": {
+            "value": "100",
+            "status": "overridden"
+          },
+          "toolbar": {
+            "title": {
+              "value": "'Sample Buttons Help'",
+              "style": {
+                "value": "padding:0 10px 0;",
+                "status": "overridden"
+              },
+              "status": "overridden"
+            },
+            "leftMenu": {
+              "visible": {
+                "value": "true",
+                "status": "overridden"
+              },
+              "flexWidth": {
+                "value": 5,
+                "status": "overridden"
+              },
+              "type": {
+                "value": "Icon Bar",
+                "status": "overridden"
+              },
+              "menuItems": {
+                "value": [
+                  {
+                    "isTopLevel": true,
+                    "label": "'Default'",
+                    "icon": {
+                      "value": "'arrow_back'",
+                      "type": "svg-icon"
+                    },
+                    "shortcut": "",
+                    "divider": false,
+                    "notification": "",
+                    "display": "true",
+                    "disabled": "false",
+                    "onclick": "goToDefault()",
+                    "menuItems": {
+                      "value": []
+                    },
+                    "state": {
+                      "value": false,
+                      "binding": "true",
+                      "checkedIcon": {
+                        "value": "'thumb_up'",
+                        "type": "svg-icon",
+                        "style": "",
+                        "class": ""
+                      },
+                      "uncheckedIcon": {
+                        "value": "'thumb_down'",
+                        "type": "svg-icon",
+                        "style": "",
+                        "class": ""
+                      }
+                    }
+                  }
+                ],
+                "status": "overridden"
+              },
+              "menuItemNames": {
+                "value": {
+                  "main": {
+                    "source": "",
+                    "label": "",
+                    "type": "",
+                    "icon": {
+                      "value": "",
+                      "name": "",
+                      "type": ""
+                    },
+                    "shortcut": "",
+                    "notification": "",
+                    "display": "",
+                    "disabled": "",
+                    "onclick": "",
+                    "scopeItems": ""
+                  },
+                  "state": {
+                    "name": "",
+                    "binding": "",
+                    "checkedIcon": {
+                      "value": "",
+                      "name": "",
+                      "type": "",
+                      "style": "",
+                      "class": ""
+                    },
+                    "uncheckedIcon": {
+                      "value": "",
+                      "name": "",
+                      "type": "",
+                      "style": "",
+                      "class": ""
+                    }
+                  },
+                  "waiting": {
+                    "name": "",
+                    "binding": "",
+                    "autoDisabled": "",
+                    "icon": {
+                      "value": "",
+                      "name": "",
+                      "type": "",
+                      "style": "",
+                      "class": ""
+                    }
+                  }
+                },
+                "status": "overridden"
+              },
+              "status": "overridden"
+            },
+            "rightMenu": {
+              "menuItems": {
+                "value": [
+                  {
+                    "label": "'Home'",
+                    "shortcut": "",
+                    "divider": false,
+                    "icon": {
+                      "value": "'home'",
+                      "type": "svg-icon"
+                    },
+                    "notification": "",
+                    "display": "true",
+                    "disabled": "false",
+                    "onclick": "goToDefault()",
+                    "menuItems": {
+                      "value": []
+                    },
+                    "iconType": "fa-icon"
+                  }
+                ],
+                "status": "overridden"
+              },
+              "menuItemNames": {
+                "value": {
+                  "main": {
+                    "source": "",
+                    "label": "",
+                    "type": "",
+                    "icon": {
+                      "value": "",
+                      "name": "",
+                      "type": ""
+                    },
+                    "shortcut": "",
+                    "notification": "",
+                    "display": "",
+                    "disabled": "",
+                    "onclick": "",
+                    "scopeItems": ""
+                  },
+                  "state": {
+                    "name": "",
+                    "binding": "",
+                    "checkedIcon": {
+                      "value": "",
+                      "name": "",
+                      "type": "",
+                      "style": "",
+                      "class": ""
+                    },
+                    "uncheckedIcon": {
+                      "value": "",
+                      "name": "",
+                      "type": "",
+                      "style": "",
+                      "class": ""
+                    }
+                  },
+                  "waiting": {
+                    "name": "",
+                    "binding": "",
+                    "autoDisabled": "",
+                    "icon": {
+                      "value": "",
+                      "name": "",
+                      "type": "",
+                      "style": "",
+                      "class": ""
+                    }
+                  }
+                },
+                "status": "overridden"
+              },
+              "status": "overridden"
+            },
+            "status": "overridden"
+          }
+        },
+        "children": [
+          {
+            "id": 58830,
+            "type": "html",
+            "flex": "true",
+            "just_dropped": true,
+            "attributes": {
+              "name": {
+                "value": "htHtml1",
+                "status": "overridden"
+              },
+              "flex": {
+                "value": 100,
+                "status": "overridden"
+              },
+              "content": {
+                "value": "<div class=\"SBContainer\">\n<h1 class=\"SBHeader\"><b>Categories:</b></h1>\n<h3 class=\"SBCategoryTitle\">Basics</h3>\n<p>Buttons in this category represent simple buttons. We can see an example of a button just with a label, a button with just an icon, a button with a label and an icon on the right as well as a button with a label and an icon on the left. Also there are examples of the background and icon color change.</p>\n<h3 class=\"SBCategoryTitle\">Flex width</h3>\n<p>The width of buttons can be determined by the width of the label or it can be set by the flex value which is represented in this example.</p>\n<h3 class=\"SBCategoryTitle\">Styles</h3>\n<p>This category represents examples of a color, shape and label changes (the first three buttons). The fab button with a heart applies a dynamic class property to change the color of a heart when clicked. The last button in this category has a drop-down menu which is activated by clicking on the arrow on the right hand side</p>\n<h3 class=\"SBCategoryTitle\">Waiting, visible/unvisible</h3>\n<p>In this category we see an example of the wait property to display a loading effect when a button is pressed. Also we have an example of a \"visible / invisible button\". Clicking \"SHOW NEXT\" triggers appearance of another button which displays a dialog box when pressed.</p>\n</div>",
+                "status": "overridden"
+              }
+            },
+            "children": [],
+            "container": "layout_0_row_0_column_0"
+          }
+        ],
+        "animation": {
+          "in": "fadeIn",
+          "out": "slideOutLeft"
+        }
+      }
+    ]
+  }
+}
