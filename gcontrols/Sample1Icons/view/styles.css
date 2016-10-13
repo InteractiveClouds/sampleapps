@@ -1,0 +1,21 @@
+/*change icon CSS Style*/
+.iconSampleClass {
+    background-color:#3ad1de;
+    border-style:solid;
+    border-width:1px;
+    border-color:#3a3a3a;
+    border-radius:16px;
+    color:#ffffff;
+    padding:8px;
+}
+
+/*change icon in hover*/
+.iconChangeOnHover:hover{
+    color: #1954b3 !important;
+}
+
+/*change icon dynamic Style*/
+.changeHomeColor{
+    color:red !important;
+
+}
