@@ -1,0 +1,1706 @@
+{
+  "properties": {},
+  "definition": {
+    "default": [
+      {
+        "id": 794,
+        "type": "panel",
+        "attributes": {
+          "name": {
+            "value": "pnlPanel1",
+            "status": "overridden"
+          },
+          "flex": {
+            "value": "100",
+            "status": "overridden"
+          },
+          "autoHeight": {
+            "value": true,
+            "status": "overridden"
+          },
+          "toolbar": {
+            "collapsed": {
+              "value": "false",
+              "status": "overridden",
+              "designValue": false
+            },
+            "title": {
+              "value": "'Sample Input'",
+              "status": "overridden"
+            },
+            "leftMenu": {
+              "menuItems": {
+                "value": [
+                  {
+                    "isTopLevel": true,
+                    "label": "'Home'",
+                    "icon": {
+                      "value": "'home'",
+                      "type": "svg-icon"
+                    },
+                    "shortcut": "",
+                    "divider": false,
+                    "notification": "",
+                    "display": "true",
+                    "disabled": "false",
+                    "onclick": "",
+                    "menuItems": {
+                      "value": []
+                    },
+                    "waiting": {
+                      "value": "",
+                      "autoDisabled": false,
+                      "icon": {
+                        "value": "'fa-spinner'",
+                        "type": "fa-icon",
+                        "style": "",
+                        "class": "fa-pulse"
+                      }
+                    }
+                  }
+                ],
+                "status": "overridden"
+              },
+              "menuItemNames": {
+                "value": {
+                  "main": {
+                    "source": "",
+                    "label": "",
+                    "type": "",
+                    "icon": {
+                      "value": "",
+                      "name": "",
+                      "type": ""
+                    },
+                    "shortcut": "",
+                    "notification": "",
+                    "display": "",
+                    "disabled": "",
+                    "onclick": "",
+                    "scopeItems": ""
+                  },
+                  "state": {
+                    "name": "",
+                    "binding": "",
+                    "checkedIcon": {
+                      "value": "",
+                      "name": "",
+                      "type": "",
+                      "style": "",
+                      "class": ""
+                    },
+                    "uncheckedIcon": {
+                      "value": "",
+                      "name": "",
+                      "type": "",
+                      "style": "",
+                      "class": ""
+                    }
+                  },
+                  "waiting": {
+                    "name": "",
+                    "binding": "",
+                    "autoDisabled": "",
+                    "icon": {
+                      "value": "",
+                      "name": "",
+                      "type": "",
+                      "style": "",
+                      "class": ""
+                    }
+                  }
+                },
+                "status": "overridden"
+              },
+              "status": "overridden"
+            },
+            "rightMenu": {
+              "menuItems": {
+                "value": [
+                  {
+                    "isTopLevel": true,
+                    "label": "'Home'",
+                    "icon": {
+                      "value": "'home'",
+                      "type": "svg-icon"
+                    },
+                    "shortcut": "",
+                    "divider": false,
+                    "notification": "",
+                    "display": "true",
+                    "disabled": "false",
+                    "onclick": "",
+                    "menuItems": {
+                      "value": []
+                    },
+                    "iconType": "fa-icon"
+                  }
+                ],
+                "status": "overridden"
+              },
+              "menuItemNames": {
+                "value": {
+                  "main": {
+                    "source": "",
+                    "label": "",
+                    "type": "",
+                    "icon": {
+                      "value": "",
+                      "name": "",
+                      "type": ""
+                    },
+                    "shortcut": "",
+                    "notification": "",
+                    "display": "",
+                    "disabled": "",
+                    "onclick": "",
+                    "scopeItems": ""
+                  },
+                  "state": {
+                    "name": "",
+                    "binding": "",
+                    "checkedIcon": {
+                      "value": "",
+                      "name": "",
+                      "type": "",
+                      "style": "",
+                      "class": ""
+                    },
+                    "uncheckedIcon": {
+                      "value": "",
+                      "name": "",
+                      "type": "",
+                      "style": "",
+                      "class": ""
+                    }
+                  },
+                  "waiting": {
+                    "name": "",
+                    "binding": "",
+                    "autoDisabled": "",
+                    "icon": {
+                      "value": "",
+                      "name": "",
+                      "type": "",
+                      "style": "",
+                      "class": ""
+                    }
+                  }
+                },
+                "status": "overridden"
+              },
+              "status": "overridden"
+            },
+            "status": "overridden"
+          },
+          "layout": {
+            "rows": [
+              {
+                "height": {
+                  "value": 20
+                },
+                "cols": [
+                  {
+                    "width": {
+                      "value": 10
+                    },
+                    "autoWidth": {
+                      "value": false
+                    },
+                    "display": {
+                      "value": "true"
+                    },
+                    "classes": {
+                      "value": ""
+                    },
+                    "dynamicClasses": {
+                      "value": ""
+                    },
+                    "style": {
+                      "value": "border-right:2px #ccc solid;"
+                    },
+                    "orientation": {
+                      "value": "column"
+                    },
+                    "halignment": {
+                      "value": "center"
+                    },
+                    "valignment": {
+                      "value": "center"
+                    }
+                  },
+                  {
+                    "width": {
+                      "value": 30
+                    },
+                    "autoWidth": {
+                      "value": false
+                    },
+                    "display": {
+                      "value": "true"
+                    },
+                    "classes": {
+                      "value": ""
+                    },
+                    "dynamicClasses": {
+                      "value": ""
+                    },
+                    "style": {
+                      "value": ""
+                    },
+                    "orientation": {
+                      "value": "row"
+                    },
+                    "halignment": {
+                      "value": "center"
+                    },
+                    "valignment": {
+                      "value": "center"
+                    },
+                    "css": {
+                      "color": "",
+                      "background": "",
+                      "padding": "",
+                      "text-align": ""
+                    }
+                  },
+                  {
+                    "width": {
+                      "value": 15
+                    },
+                    "autoWidth": {
+                      "value": false
+                    },
+                    "display": {
+                      "value": "true"
+                    },
+                    "classes": {
+                      "value": ""
+                    },
+                    "dynamicClasses": {
+                      "value": ""
+                    },
+                    "style": {
+                      "value": ""
+                    },
+                    "orientation": {
+                      "value": "row"
+                    },
+                    "halignment": {
+                      "value": "center"
+                    },
+                    "valignment": {
+                      "value": "center"
+                    },
+                    "css": {
+                      "color": "",
+                      "background": "",
+                      "padding": "",
+                      "text-align": ""
+                    }
+                  },
+                  {
+                    "width": {
+                      "value": 15
+                    },
+                    "autoWidth": {
+                      "value": false
+                    },
+                    "display": {
+                      "value": "true"
+                    },
+                    "classes": {
+                      "value": ""
+                    },
+                    "dynamicClasses": {
+                      "value": ""
+                    },
+                    "style": {
+                      "value": ""
+                    },
+                    "orientation": {
+                      "value": "row"
+                    },
+                    "halignment": {
+                      "value": "center"
+                    },
+                    "valignment": {
+                      "value": "center"
+                    },
+                    "css": {
+                      "color": "",
+                      "background": "",
+                      "padding": "",
+                      "text-align": ""
+                    }
+                  },
+                  {
+                    "width": {
+                      "value": 15
+                    },
+                    "autoWidth": {
+                      "value": false
+                    },
+                    "display": {
+                      "value": "true"
+                    },
+                    "classes": {
+                      "value": ""
+                    },
+                    "dynamicClasses": {
+                      "value": ""
+                    },
+                    "style": {
+                      "value": ""
+                    },
+                    "orientation": {
+                      "value": "row"
+                    },
+                    "halignment": {
+                      "value": "center"
+                    },
+                    "valignment": {
+                      "value": "center"
+                    },
+                    "css": {
+                      "color": "",
+                      "background": "",
+                      "padding": "",
+                      "text-align": ""
+                    }
+                  },
+                  {
+                    "width": {
+                      "value": 15
+                    },
+                    "autoWidth": {
+                      "value": false
+                    },
+                    "display": {
+                      "value": "true"
+                    },
+                    "classes": {
+                      "value": ""
+                    },
+                    "dynamicClasses": {
+                      "value": ""
+                    },
+                    "style": {
+                      "value": ""
+                    },
+                    "orientation": {
+                      "value": "row"
+                    },
+                    "halignment": {
+                      "value": "center"
+                    },
+                    "valignment": {
+                      "value": "center"
+                    },
+                    "css": {
+                      "color": "",
+                      "background": "",
+                      "padding": "",
+                      "text-align": ""
+                    }
+                  }
+                ],
+                "classes": {
+                  "value": ""
+                },
+                "dynamicClasses": {
+                  "value": ""
+                },
+                "style": {
+                  "value": "border-bottom:2px #ccc solid;"
+                }
+              },
+              {
+                "cols": [
+                  {
+                    "width": {
+                      "value": 10
+                    },
+                    "autoWidth": {
+                      "value": false
+                    },
+                    "display": {
+                      "value": "true"
+                    },
+                    "classes": {
+                      "value": ""
+                    },
+                    "dynamicClasses": {
+                      "value": ""
+                    },
+                    "style": {
+                      "value": "border-right:2px #ccc solid;"
+                    },
+                    "orientation": {
+                      "value": "row"
+                    },
+                    "halignment": {
+                      "value": "center"
+                    },
+                    "valignment": {
+                      "value": "center"
+                    },
+                    "css": {
+                      "color": "",
+                      "background": "",
+                      "padding": "",
+                      "text-align": ""
+                    }
+                  },
+                  {
+                    "width": {
+                      "value": 30
+                    },
+                    "autoWidth": {
+                      "value": false
+                    },
+                    "display": {
+                      "value": "true"
+                    },
+                    "classes": {
+                      "value": ""
+                    },
+                    "dynamicClasses": {
+                      "value": ""
+                    },
+                    "style": {
+                      "value": ""
+                    },
+                    "orientation": {
+                      "value": "row"
+                    },
+                    "halignment": {
+                      "value": "center"
+                    },
+                    "valignment": {
+                      "value": "center"
+                    },
+                    "css": {
+                      "color": "",
+                      "background": "",
+                      "padding": "",
+                      "text-align": ""
+                    }
+                  },
+                  {
+                    "width": {
+                      "value": 30
+                    },
+                    "autoWidth": {
+                      "value": false
+                    },
+                    "display": {
+                      "value": "true"
+                    },
+                    "classes": {
+                      "value": ""
+                    },
+                    "dynamicClasses": {
+                      "value": ""
+                    },
+                    "style": {
+                      "value": ""
+                    },
+                    "orientation": {
+                      "value": "row"
+                    },
+                    "halignment": {
+                      "value": "center"
+                    },
+                    "valignment": {
+                      "value": "center"
+                    },
+                    "css": {
+                      "color": "",
+                      "background": "",
+                      "padding": "",
+                      "text-align": ""
+                    }
+                  },
+                  {
+                    "width": {
+                      "value": 30
+                    },
+                    "autoWidth": {
+                      "value": false
+                    },
+                    "display": {
+                      "value": "true"
+                    },
+                    "classes": {
+                      "value": ""
+                    },
+                    "dynamicClasses": {
+                      "value": ""
+                    },
+                    "style": {
+                      "value": ""
+                    },
+                    "orientation": {
+                      "value": "row"
+                    },
+                    "halignment": {
+                      "value": "center"
+                    },
+                    "valignment": {
+                      "value": "center"
+                    },
+                    "css": {
+                      "color": "",
+                      "background": "",
+                      "padding": "",
+                      "text-align": ""
+                    }
+                  }
+                ],
+                "classes": {
+                  "value": ""
+                },
+                "dynamicClasses": {
+                  "value": ""
+                },
+                "style": {
+                  "value": "border-bottom:2px #ccc solid;"
+                },
+                "height": {
+                  "value": 20
+                }
+              },
+              {
+                "cols": [
+                  {
+                    "width": {
+                      "value": 10
+                    },
+                    "autoWidth": {
+                      "value": false
+                    },
+                    "display": {
+                      "value": "true"
+                    },
+                    "classes": {
+                      "value": ""
+                    },
+                    "dynamicClasses": {
+                      "value": ""
+                    },
+                    "style": {
+                      "value": "border-right:2px #ccc solid;"
+                    },
+                    "orientation": {
+                      "value": "row"
+                    },
+                    "halignment": {
+                      "value": "center"
+                    },
+                    "valignment": {
+                      "value": "center"
+                    },
+                    "css": {
+                      "color": "",
+                      "background": "",
+                      "padding": "",
+                      "text-align": ""
+                    }
+                  },
+                  {
+                    "width": {
+                      "value": 45
+                    },
+                    "autoWidth": {
+                      "value": false
+                    },
+                    "display": {
+                      "value": "true"
+                    },
+                    "classes": {
+                      "value": ""
+                    },
+                    "dynamicClasses": {
+                      "value": ""
+                    },
+                    "style": {
+                      "value": ""
+                    },
+                    "orientation": {
+                      "value": "row"
+                    },
+                    "halignment": {
+                      "value": "center"
+                    },
+                    "valignment": {
+                      "value": "center"
+                    },
+                    "css": {
+                      "color": "",
+                      "background": "",
+                      "padding": "",
+                      "text-align": ""
+                    }
+                  },
+                  {
+                    "width": {
+                      "value": 45
+                    },
+                    "autoWidth": {
+                      "value": false
+                    },
+                    "display": {
+                      "value": "true"
+                    },
+                    "classes": {
+                      "value": ""
+                    },
+                    "dynamicClasses": {
+                      "value": ""
+                    },
+                    "style": {
+                      "value": ""
+                    },
+                    "orientation": {
+                      "value": "column"
+                    },
+                    "halignment": {
+                      "value": "center"
+                    },
+                    "valignment": {
+                      "value": "center"
+                    },
+                    "css": {
+                      "color": "",
+                      "background": "",
+                      "padding": "",
+                      "text-align": ""
+                    }
+                  }
+                ],
+                "classes": {
+                  "value": ""
+                },
+                "dynamicClasses": {
+                  "value": ""
+                },
+                "style": {
+                  "value": "border-bottom:2px #ccc solid;"
+                },
+                "height": {
+                  "value": 20
+                }
+              },
+              {
+                "cols": [
+                  {
+                    "width": {
+                      "value": 10
+                    },
+                    "autoWidth": {
+                      "value": false
+                    },
+                    "display": {
+                      "value": "true"
+                    },
+                    "classes": {
+                      "value": ""
+                    },
+                    "dynamicClasses": {
+                      "value": ""
+                    },
+                    "style": {
+                      "value": "border-right:2px #ccc solid;"
+                    },
+                    "orientation": {
+                      "value": "row"
+                    },
+                    "halignment": {
+                      "value": "center"
+                    },
+                    "valignment": {
+                      "value": "center"
+                    },
+                    "css": {
+                      "color": "",
+                      "background": "",
+                      "padding": "",
+                      "text-align": ""
+                    }
+                  },
+                  {
+                    "width": {
+                      "value": 45
+                    },
+                    "autoWidth": {
+                      "value": false
+                    },
+                    "display": {
+                      "value": "true"
+                    },
+                    "classes": {
+                      "value": ""
+                    },
+                    "dynamicClasses": {
+                      "value": ""
+                    },
+                    "style": {
+                      "value": ""
+                    },
+                    "orientation": {
+                      "value": "column"
+                    },
+                    "halignment": {
+                      "value": "center"
+                    },
+                    "valignment": {
+                      "value": "center"
+                    },
+                    "css": {
+                      "color": "",
+                      "background": "",
+                      "padding": "",
+                      "text-align": ""
+                    }
+                  },
+                  {
+                    "width": {
+                      "value": 45
+                    },
+                    "autoWidth": {
+                      "value": false
+                    },
+                    "display": {
+                      "value": "true"
+                    },
+                    "classes": {
+                      "value": ""
+                    },
+                    "dynamicClasses": {
+                      "value": ""
+                    },
+                    "style": {
+                      "value": ""
+                    },
+                    "orientation": {
+                      "value": "column"
+                    },
+                    "halignment": {
+                      "value": "center"
+                    },
+                    "valignment": {
+                      "value": "center"
+                    },
+                    "css": {
+                      "color": "",
+                      "background": "",
+                      "padding": "",
+                      "text-align": ""
+                    }
+                  }
+                ],
+                "classes": {
+                  "value": ""
+                },
+                "dynamicClasses": {
+                  "value": ""
+                },
+                "style": {
+                  "value": "border-bottom:2px #ccc solid;"
+                },
+                "height": {
+                  "value": 20
+                }
+              }
+            ],
+            "status": "overridden"
+          }
+        },
+        "children": [
+          {
+            "id": 27506,
+            "type": "input",
+            "flex": "true",
+            "just_dropped": true,
+            "attributes": {
+              "name": {
+                "value": "inpInput2",
+                "status": "overridden"
+              },
+              "label": {
+                "value": "'min/max length'",
+                "status": "overridden"
+              },
+              "required": {
+                "value": "true",
+                "status": "overridden"
+              },
+              "minlength": {
+                "value": 5,
+                "status": "overridden"
+              },
+              "maxlength": {
+                "value": 15,
+                "status": "overridden"
+              },
+              "minNumber": {
+                "value": null,
+                "status": "overridden"
+              },
+              "maxNumber": {
+                "value": null,
+                "status": "overridden"
+              },
+              "temporary": {
+                "status": "overridden"
+              },
+              "flex": {
+                "value": 95,
+                "status": "overridden"
+              }
+            },
+            "children": [],
+            "container": "layout_0_row_0_column_1"
+          },
+          {
+            "id": 37863,
+            "type": "statictext",
+            "flex": "false",
+            "just_dropped": true,
+            "attributes": {
+              "name": {
+                "value": "txtText1",
+                "status": "overridden"
+              },
+              "text": {
+                "value": "'Length, Types'",
+                "status": "overridden"
+              },
+              "style": {
+                "value": "text-align:center",
+                "status": "overridden"
+              }
+            },
+            "children": [],
+            "container": "layout_0_row_0_column_0"
+          },
+          {
+            "id": 74433,
+            "type": "input",
+            "flex": "true",
+            "just_dropped": true,
+            "attributes": {
+              "name": {
+                "value": "inpInput4",
+                "status": "overridden"
+              },
+              "label": {
+                "value": "'Login'",
+                "status": "overridden"
+              },
+              "icon": {
+                "value": "'login'",
+                "status": "overridden"
+              },
+              "position": {
+                "value": "right",
+                "status": "overridden"
+              },
+              "minlength": {
+                "value": null,
+                "status": "overridden"
+              },
+              "maxlength": {
+                "value": null,
+                "status": "overridden"
+              },
+              "minNumber": {
+                "value": null,
+                "status": "overridden"
+              },
+              "maxNumber": {
+                "value": null,
+                "status": "overridden"
+              },
+              "flex": {
+                "value": 95,
+                "status": "overridden"
+              },
+              "style": {
+                "value": "background:#dad8d8;undefined:undefined;undefined:undefined;font-family:\"Comic Sans MS\", cursive, sans-serif;font-size:18px;undefined:undefined;",
+                "status": "overridden"
+              }
+            },
+            "children": [],
+            "container": "layout_0_row_1_column_1"
+          },
+          {
+            "id": 52965,
+            "type": "input",
+            "flex": "true",
+            "just_dropped": true,
+            "attributes": {
+              "name": {
+                "value": "inpInput5",
+                "status": "overridden"
+              },
+              "label": {
+                "value": "'Change color css'",
+                "status": "overridden"
+              },
+              "minlength": {
+                "value": null,
+                "status": "overridden"
+              },
+              "maxlength": {
+                "value": null,
+                "status": "overridden"
+              },
+              "minNumber": {
+                "value": null,
+                "status": "overridden"
+              },
+              "maxNumber": {
+                "value": null,
+                "status": "overridden"
+              },
+              "classes": {
+                "value": "customInput",
+                "status": "overridden"
+              },
+              "flex": {
+                "value": 95,
+                "status": "overridden"
+              }
+            },
+            "children": [],
+            "container": "layout_0_row_1_column_2"
+          },
+          {
+            "id": 78996,
+            "type": "statictext",
+            "flex": "false",
+            "just_dropped": true,
+            "attributes": {
+              "name": {
+                "value": "txtText2",
+                "status": "overridden"
+              },
+              "text": {
+                "value": "'Style'",
+                "status": "overridden"
+              }
+            },
+            "children": [],
+            "container": "layout_0_row_1_column_0"
+          },
+          {
+            "id": 89931,
+            "type": "statictext",
+            "flex": "false",
+            "just_dropped": true,
+            "attributes": {
+              "name": {
+                "value": "txtText3",
+                "status": "overridden"
+              },
+              "text": {
+                "value": "'Binding, Complex Binding'",
+                "status": "overridden"
+              },
+              "style": {
+                "value": "text-align:center",
+                "status": "overridden"
+              }
+            },
+            "children": [],
+            "container": "layout_0_row_2_column_0"
+          },
+          {
+            "id": 31375,
+            "type": "statictext",
+            "flex": "false",
+            "just_dropped": true,
+            "attributes": {
+              "name": {
+                "value": "txtText4",
+                "status": "overridden"
+              },
+              "text": {
+                "value": "'Events'",
+                "status": "overridden"
+              }
+            },
+            "children": [],
+            "container": "layout_0_row_3_column_0"
+          },
+          {
+            "id": 18394,
+            "type": "input",
+            "flex": "true",
+            "just_dropped": true,
+            "attributes": {
+              "name": {
+                "value": "inpInput6",
+                "status": "overridden"
+              },
+              "label": {
+                "value": "'Car'",
+                "status": "overridden"
+              },
+              "binding": {
+                "value": "auto.car",
+                "status": "overridden"
+              },
+              "minlength": {
+                "value": null,
+                "status": "overridden"
+              },
+              "maxlength": {
+                "value": null,
+                "status": "overridden"
+              },
+              "minNumber": {
+                "value": null,
+                "status": "overridden"
+              },
+              "maxNumber": {
+                "value": null,
+                "status": "overridden"
+              },
+              "flex": {
+                "value": 50,
+                "status": "overridden"
+              }
+            },
+            "children": [],
+            "container": "layout_0_row_2_column_1"
+          },
+          {
+            "id": 87779,
+            "type": "input",
+            "flex": "true",
+            "just_dropped": true,
+            "attributes": {
+              "name": {
+                "value": "inpInput7",
+                "status": "overridden"
+              },
+              "label": {
+                "value": "'FirstName'",
+                "status": "overridden"
+              },
+              "binding": {
+                "value": "firstName",
+                "status": "overridden"
+              },
+              "minlength": {
+                "value": null,
+                "status": "overridden"
+              },
+              "maxlength": {
+                "value": null,
+                "status": "overridden"
+              },
+              "minNumber": {
+                "value": null,
+                "status": "overridden"
+              },
+              "maxNumber": {
+                "value": null,
+                "status": "overridden"
+              },
+              "flex": {
+                "value": 50,
+                "status": "overridden"
+              }
+            },
+            "children": [],
+            "container": "layout_0_row_2_column_2"
+          },
+          {
+            "id": 62469,
+            "type": "input",
+            "flex": "true",
+            "just_dropped": true,
+            "attributes": {
+              "name": {
+                "value": "inpInput8",
+                "status": "overridden"
+              },
+              "label": {
+                "value": "'Phone number'",
+                "status": "overridden"
+              },
+              "selectedType": {
+                "value": "number",
+                "status": "overridden"
+              },
+              "minlength": {
+                "value": null,
+                "status": "overridden"
+              },
+              "maxlength": {
+                "value": null,
+                "status": "overridden"
+              },
+              "minNumber": {
+                "value": null,
+                "status": "overridden"
+              },
+              "maxNumber": {
+                "value": null,
+                "status": "overridden"
+              },
+              "flex": {
+                "value": 50,
+                "status": "overridden"
+              },
+              "onmouseover": {
+                "value": "showTextOnMouseOver()",
+                "status": "overridden"
+              },
+              "onmouseenter": {
+                "value": "showTextOnMouseEnter()",
+                "status": "overridden"
+              },
+              "onmouseleave": {
+                "value": "showTextOnMouseLeave()",
+                "status": "overridden"
+              }
+            },
+            "children": [],
+            "container": "layout_0_row_3_column_1"
+          },
+          {
+            "id": 95263,
+            "type": "input",
+            "flex": "true",
+            "just_dropped": true,
+            "attributes": {
+              "name": {
+                "value": "inpInput9",
+                "status": "overridden"
+              },
+              "label": {
+                "value": "'Adress'",
+                "status": "overridden"
+              },
+              "minlength": {
+                "value": null,
+                "status": "overridden"
+              },
+              "maxlength": {
+                "value": null,
+                "status": "overridden"
+              },
+              "minNumber": {
+                "value": null,
+                "status": "overridden"
+              },
+              "maxNumber": {
+                "value": null,
+                "status": "overridden"
+              },
+              "flex": {
+                "value": 50,
+                "status": "overridden"
+              },
+              "onclick": {
+                "value": "showTextOnClick()",
+                "status": "overridden"
+              },
+              "ondblclick": {
+                "value": "showTextOnDoubleClick()",
+                "status": "overridden"
+              }
+            },
+            "children": [],
+            "container": "layout_0_row_3_column_2"
+          },
+          {
+            "id": 18689,
+            "type": "statictext",
+            "flex": "false",
+            "just_dropped": true,
+            "attributes": {
+              "name": {
+                "value": "txtText6",
+                "status": "overridden"
+              },
+              "text": {
+                "value": "'Mouse enter'",
+                "status": "overridden"
+              },
+              "display": {
+                "value": "showTextOnMouseEnterBoolean",
+                "status": "overridden"
+              }
+            },
+            "children": [],
+            "container": "layout_0_row_3_column_1"
+          },
+          {
+            "id": 34462,
+            "type": "statictext",
+            "flex": "false",
+            "just_dropped": true,
+            "attributes": {
+              "name": {
+                "value": "txtText8",
+                "status": "overridden"
+              },
+              "text": {
+                "value": "'Mouse leave'",
+                "status": "overridden"
+              },
+              "display": {
+                "value": "showTextOnMouseLeaveBoolean",
+                "status": "overridden"
+              }
+            },
+            "children": [],
+            "container": "layout_0_row_3_column_1"
+          },
+          {
+            "id": 93320,
+            "type": "statictext",
+            "flex": "false",
+            "just_dropped": true,
+            "attributes": {
+              "name": {
+                "value": "txtText7",
+                "status": "overridden"
+              },
+              "text": {
+                "value": "'Mouse over'",
+                "status": "overridden"
+              },
+              "display": {
+                "value": "showTextOnMouseOverBoolean",
+                "status": "overridden"
+              }
+            },
+            "children": [],
+            "container": "layout_0_row_3_column_1"
+          },
+          {
+            "id": 34358,
+            "type": "statictext",
+            "flex": "false",
+            "just_dropped": true,
+            "attributes": {
+              "name": {
+                "value": "txtText9",
+                "status": "overridden"
+              },
+              "text": {
+                "value": "'You clicked'",
+                "status": "overridden"
+              },
+              "display": {
+                "value": "showTextOnClickBoolean",
+                "status": "overridden"
+              },
+              "tooltipProperties": {
+                "direction": "left",
+                "status": "overridden"
+              }
+            },
+            "children": [],
+            "container": "layout_0_row_3_column_2"
+          },
+          {
+            "id": 96357,
+            "type": "statictext",
+            "flex": "false",
+            "just_dropped": true,
+            "attributes": {
+              "name": {
+                "value": "txtText10",
+                "status": "overridden"
+              },
+              "text": {
+                "value": "'You doubleclicked'",
+                "status": "overridden"
+              },
+              "display": {
+                "value": "showTextOnDoubleClickBoolean",
+                "status": "overridden"
+              },
+              "tooltipProperties": {
+                "direction": "right",
+                "status": "overridden"
+              }
+            },
+            "children": [],
+            "container": "layout_0_row_3_column_2"
+          },
+          {
+            "id": 67483,
+            "type": "input",
+            "flex": "true",
+            "just_dropped": true,
+            "attributes": {
+              "name": {
+                "value": "inpInput3",
+                "status": "overridden"
+              },
+              "label": {
+                "value": "'Enter abc to change color'",
+                "status": "overridden"
+              },
+              "position": {
+                "value": "right",
+                "status": "overridden"
+              },
+              "binding": {
+                "value": "dynClassBinding",
+                "status": "overridden"
+              },
+              "required": {
+                "value": "true",
+                "status": "overridden"
+              },
+              "minlength": {
+                "value": null,
+                "status": "overridden"
+              },
+              "maxlength": {
+                "value": null,
+                "status": "overridden"
+              },
+              "minNumber": {
+                "value": null,
+                "status": "overridden"
+              },
+              "maxNumber": {
+                "value": 10,
+                "status": "overridden"
+              },
+              "flex": {
+                "value": 95,
+                "status": "overridden"
+              },
+              "dynamicClasses": {
+                "value": "{changeDynColor: dynClassBinding=='abc'}",
+                "status": "overridden"
+              }
+            },
+            "children": [],
+            "container": "layout_0_row_1_column_3"
+          },
+          {
+            "id": 83364,
+            "type": "input",
+            "flex": "true",
+            "just_dropped": true,
+            "attributes": {
+              "name": {
+                "value": "inpInput10",
+                "status": "overridden"
+              },
+              "label": {
+                "value": "'Text'",
+                "status": "overridden"
+              },
+              "minlength": {
+                "value": null,
+                "status": "overridden"
+              },
+              "maxlength": {
+                "value": null,
+                "status": "overridden"
+              },
+              "minNumber": {
+                "value": null,
+                "status": "overridden"
+              },
+              "maxNumber": {
+                "value": null,
+                "status": "overridden"
+              },
+              "flex": {
+                "value": 50,
+                "status": "overridden"
+              }
+            },
+            "children": [],
+            "container": "layout_0_row_0_column_2"
+          },
+          {
+            "id": 49251,
+            "type": "input",
+            "flex": "true",
+            "just_dropped": true,
+            "attributes": {
+              "name": {
+                "value": "inpInput11",
+                "status": "overridden"
+              },
+              "label": {
+                "value": "'Number'",
+                "status": "overridden"
+              },
+              "selectedType": {
+                "value": "number",
+                "status": "overridden"
+              },
+              "minlength": {
+                "value": null,
+                "status": "overridden"
+              },
+              "maxlength": {
+                "value": null,
+                "status": "overridden"
+              },
+              "minNumber": {
+                "value": null,
+                "status": "overridden"
+              },
+              "maxNumber": {
+                "value": 10,
+                "status": "overridden"
+              },
+              "temporary": {
+                "value": null,
+                "status": "overridden"
+              },
+              "flex": {
+                "value": 50,
+                "status": "overridden"
+              }
+            },
+            "children": [],
+            "container": "layout_0_row_0_column_3"
+          },
+          {
+            "id": 69751,
+            "type": "input",
+            "flex": "true",
+            "just_dropped": true,
+            "attributes": {
+              "name": {
+                "value": "inpInput12",
+                "status": "overridden"
+              },
+              "label": {
+                "value": "'Password'",
+                "status": "overridden"
+              },
+              "selectedType": {
+                "value": "password",
+                "status": "overridden"
+              },
+              "minlength": {
+                "value": null,
+                "status": "overridden"
+              },
+              "maxlength": {
+                "value": null,
+                "status": "overridden"
+              },
+              "minNumber": {
+                "value": null,
+                "status": "overridden"
+              },
+              "maxNumber": {
+                "value": null,
+                "status": "overridden"
+              },
+              "flex": {
+                "value": 50,
+                "status": "overridden"
+              }
+            },
+            "children": [],
+            "container": "layout_0_row_0_column_4"
+          },
+          {
+            "id": 87449,
+            "type": "input",
+            "flex": "true",
+            "just_dropped": true,
+            "attributes": {
+              "name": {
+                "value": "inpInput13",
+                "status": "overridden"
+              },
+              "label": {
+                "value": "'Email'",
+                "status": "overridden"
+              },
+              "selectedType": {
+                "value": "email",
+                "status": "overridden"
+              },
+              "minlength": {
+                "value": null,
+                "status": "overridden"
+              },
+              "maxlength": {
+                "value": null,
+                "status": "overridden"
+              },
+              "minNumber": {
+                "value": null,
+                "status": "overridden"
+              },
+              "maxNumber": {
+                "value": null,
+                "status": "overridden"
+              },
+              "flex": {
+                "value": 50,
+                "status": "overridden"
+              }
+            },
+            "children": [],
+            "container": "layout_0_row_0_column_5"
+          },
+          {
+            "id": 57409,
+            "type": "input",
+            "flex": "true",
+            "just_dropped": true,
+            "attributes": {
+              "name": {
+                "value": "inpInput15",
+                "status": "overridden"
+              },
+              "label": {
+                "value": "'LastName'",
+                "status": "overridden"
+              },
+              "binding": {
+                "value": "lastName",
+                "status": "overridden"
+              },
+              "display": {
+                "value": "firstName",
+                "status": "overridden"
+              },
+              "minlength": {
+                "value": null,
+                "status": "overridden"
+              },
+              "maxlength": {
+                "value": null,
+                "status": "overridden"
+              },
+              "minNumber": {
+                "value": null,
+                "status": "overridden"
+              },
+              "maxNumber": {
+                "value": null,
+                "status": "overridden"
+              },
+              "flex": {
+                "value": 50,
+                "status": "overridden"
+              }
+            },
+            "children": [],
+            "container": "layout_0_row_2_column_2"
+          },
+          {
+            "id": 43662,
+            "type": "input",
+            "flex": "true",
+            "just_dropped": true,
+            "attributes": {
+              "name": {
+                "value": "inpInput14",
+                "status": "overridden"
+              },
+              "label": {
+                "value": "'E-mail'",
+                "status": "overridden"
+              },
+              "binding": {
+                "value": "email",
+                "status": "overridden"
+              },
+              "selectedType": {
+                "value": "email",
+                "status": "overridden"
+              },
+              "display": {
+                "value": "lastName",
+                "status": "overridden"
+              },
+              "minlength": {
+                "value": null,
+                "status": "overridden"
+              },
+              "maxlength": {
+                "value": null,
+                "status": "overridden"
+              },
+              "minNumber": {
+                "value": null,
+                "status": "overridden"
+              },
+              "maxNumber": {
+                "value": null,
+                "status": "overridden"
+              },
+              "flex": {
+                "value": 50,
+                "status": "overridden"
+              }
+            },
+            "children": [],
+            "container": "layout_0_row_2_column_2"
+          },
+          {
+            "id": 26314,
+            "type": "statictext",
+            "flex": "false",
+            "just_dropped": true,
+            "attributes": {
+              "name": {
+                "value": "txtText12",
+                "status": "overridden"
+              },
+              "text": {
+                "value": "'Thank you for your personal information'",
+                "status": "overridden"
+              },
+              "display": {
+                "value": "email",
+                "status": "overridden"
+              }
+            },
+            "children": [],
+            "container": "layout_0_row_2_column_2"
+          },
+          {
+            "id": 94655,
+            "type": "statictext",
+            "flex": "false",
+            "just_dropped": true,
+            "attributes": {
+              "name": {
+                "value": "txtText11",
+                "status": "overridden"
+              },
+              "text": {
+                "value": "",
+                "status": "overridden"
+              }
+            },
+            "children": [],
+            "container": "layout_0_row_2_column_2"
+          }
+        ],
+        "animation": {
+          "in": "fadeIn",
+          "out": "slideOutLeft"
+        }
+      }
+    ]
+  }
+}

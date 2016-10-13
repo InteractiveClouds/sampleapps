@@ -1,0 +1,26 @@
+/*CSS dynamic style change color*/
+.changeDynColor md-input-container:not(.md-input-invalid) label, .changeDynColor md-input-container:not(.md-input-invalid).md-input-has-value label  {
+    color: red;
+}
+.changeDynColor md-input-container:not(.md-input-invalid) .md-input {
+    color: red;
+    border-color: red;
+    border-bottom-width: 2px;
+}
+/*CSS style change color*/
+.customInput md-input-container:not(.md-input-invalid) label, .customInput md-input-container:not(.md-input-invalid).md-input-has-value label  {
+    color: #57b7d6;
+}
+.customInput md-input-container:not(.md-input-invalid) .md-input {
+    color: #57b7d6;
+    border-color: #57b7d6;
+    border-bottom-width: 2px;
+}
+.customInput md-input-container:not(.md-input-invalid).md-input-focused label {
+    color: #8bdcf7;
+}
+.customInput md-input-container:not(.md-input-invalid).md-input-focused .md-input {
+    color: #8bdcf7;
+    border-color: #8bdcf7;
+    border-bottom-width: 3px;
+}

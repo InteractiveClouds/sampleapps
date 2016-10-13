@@ -1,0 +1,33 @@
+/*change checkbox CSS class*/
+.changeCheckbox2Style{
+    background-color:red !important;
+    color:#fff;
+}
+.changeCheckbox3Style{
+    border-radius: 5%;
+    background-color:#dffbd9 !important;
+}
+.changeCheckbox4Style{
+    font-family: 'Gidugu';
+    font-size:15px;
+    color:#1a6d09;
+}
+.changeCheckbox5Style{
+    background-color:green !important;
+    color:#fff;
+}
+
+/*change text color dynamyc Style*/
+.changeTypeColor{
+    color:red !important;
+}
+
+
+/*change checkbox hover*/
+.checkboxChangeOnHover:hover{
+    background-color: #f5b2c0 !important;
+}
+.checkboxChangeOnHover2:hover{
+    background-color: #f5b2c0 !important;
+}
+

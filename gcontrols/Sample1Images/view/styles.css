@@ -1,0 +1,16 @@
+/*change image in hover*/
+.imageChangeOnHover:hover{
+    background-color: #efefef !important
+}
+/*change image CSS Style*/
+.img {
+    border-radius: 20%;
+}
+.changeHomeColor{
+    color:red !important;
+
+}
+.imageBin{
+    border-radius: 25%;
+
+}
