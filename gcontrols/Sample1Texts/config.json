@@ -1,6 +1,6 @@
 {
   "title": "Text Samples",
-  "description": "Demonstrates how to use texts",
+  "description": "This sample view illustrates various usages of Static Texts",
   "thumbnail": "/images/sampleapps/samples_text.png",
   "documentation": "https://interactive-clouds.com/documentation/devguide/web-gcs/webgc-statictext.html"
 }

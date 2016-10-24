@@ -1,6 +1,6 @@
 {
   "title": "Input Samples",
-  "description": "Demonstrates how to use inputs",
+  "description": "This sample view illustrates various usages of input fields",
   "thumbnail": "/images/sampleapps/samples_input.png",
   "documentation": "https://interactive-clouds.com/documentation/devguide/web-gcs/webgc-input.html"
 }
