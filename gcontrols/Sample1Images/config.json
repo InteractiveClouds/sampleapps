@@ -1,6 +1,6 @@
 {
   "title": "Image Samples",
   "description": "Demonstrates how to use images",
-  "thumbnail": "/images/sampleapps/Sample1Images.png",
-  "documentation": "http://www.interactive-clouds.com/documentation/samples/imageSamples.html"
+  "thumbnail": "/images/sampleapps/samples_images.png",
+  "documentation": "https://interactive-clouds.com/documentation/devguide/web-gcs/webgc-image.html"
 }

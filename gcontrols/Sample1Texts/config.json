@@ -1,6 +1,6 @@
 {
   "title": "Text Samples",
   "description": "Demonstrates how to use texts",
-  "thumbnail": "/images/sampleapps/Sample1Texts.png",
-  "documentation": "http://www.interactive-clouds.com/documentation/samples/textSamples.html"
+  "thumbnail": "/images/sampleapps/samples_text.png",
+  "documentation": "https://interactive-clouds.com/documentation/devguide/web-gcs/webgc-statictext.html"
 }

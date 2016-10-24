@@ -1,6 +1,6 @@
 {
   "title": "Checkbox Samples",
   "description": "Demonstrates how to use checkboxes",
-  "thumbnail": "/images/sampleapps/SampleCheckbox.png",
-  "documentation": "http://www.interactive-clouds.com/documentation/samples/SampleCheckbox.html"
+  "thumbnail": "/images/sampleapps/samples_checkbox.png",
+  "documentation": "https://interactive-clouds.com/documentation/devguide/web-gcs/webgc-checkbox.html"
 }

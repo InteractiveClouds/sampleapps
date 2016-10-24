@@ -1,6 +1,6 @@
 {
   "title": "Icons Samples",
   "description": "Demonstrates how to use icons",
-  "thumbnail": "/images/sampleapps/Sample1Icons.png",
-  "documentation": "http://www.interactive-clouds.com/documentation/samples/iconSamples.html"
+  "thumbnail": "/images/sampleapps/samples_icons.png",
+  "documentation": "https://interactive-clouds.com/documentation/devguide/web-gcs/webgc-icon.html"
 }

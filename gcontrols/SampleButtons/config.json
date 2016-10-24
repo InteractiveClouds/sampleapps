@@ -1,6 +1,6 @@
 {
   "title": "Button Samples",
-  "description": "Demonstrates how to use buttons",
-  "thumbnail": "/images/sampleapps/SampleButtons.png",
-  "documentation": "http://www.interactive-clouds.com/documentation/samples/buttonSamples.html"
+  "description": "This sample view illustrates various usages of buttons",
+  "thumbnail": "/images/sampleapps/samples_buttons.png",
+  "documentation": "https://interactive-clouds.com/documentation/devguide/web-gcs/webgc-button.html"
 }
