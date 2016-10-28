@@ -1,26 +1,60 @@
 /*CSS dynamic style change color*/
 .changeDynColor md-input-container:not(.md-input-invalid) label, .changeDynColor md-input-container:not(.md-input-invalid).md-input-has-value label  {
-    color: red;
+  color: green;
+  text-transform: uppercase;
 }
 .changeDynColor md-input-container:not(.md-input-invalid) .md-input {
-    color: red;
-    border-color: red;
-    border-bottom-width: 2px;
+  color: green;
+  border-color: green;
+  border-bottom-width: 2px;
 }
-/*CSS style change color*/
+.changeDynColor md-input-container:not(.md-input-invalid).md-input-focused label {
+  color: green;
+
+}
+.changeDynColor md-input-container:not(.md-input-invalid).md-input-focused .md-input {
+  border-color: green;
+}
+
+
+
+
+/*CSS Class change color*/
 .customInput md-input-container:not(.md-input-invalid) label, .customInput md-input-container:not(.md-input-invalid).md-input-has-value label  {
-    color: #57b7d6;
+  color: #57b7d6;
+  font-style: italic;
 }
 .customInput md-input-container:not(.md-input-invalid) .md-input {
-    color: #57b7d6;
-    border-color: #57b7d6;
-    border-bottom-width: 2px;
+  color: #57b7d6;
+  border-color: #57b7d6;
+  border-bottom-width: 2px;
 }
 .customInput md-input-container:not(.md-input-invalid).md-input-focused label {
-    color: #8bdcf7;
+  color: #00c1ff;
+  font-style: italic;
 }
+
 .customInput md-input-container:not(.md-input-invalid).md-input-focused .md-input {
-    color: #8bdcf7;
-    border-color: #8bdcf7;
-    border-bottom-width: 3px;
+  color: #8bdcf7;
+  border-color: #8bdcf7;
+  border-bottom-width: 3px;
+}
+.customInput md-input-container .md-input {
+  padding: 0;
+  padding-left: 0px !important;
+  height: 20px;
+}
+/*change input border style*/
+.customInput1 md-input-container:not(.md-input-invalid) .md-input {
+  border-bottom-width: 2px;
+  border-color: #333;
+}
+.customInput1 md-input-container:not(.md-input-invalid) label, .customInput md-input-container:not(.md-input-invalid).md-input-has-value label  {
+  color: #333;
+
+}
+.customInput2 md-input-container:not(.md-input-invalid) .md-input {
+  color: #170d88;
+  font-style: italic;
+  font-size: 20px;
 }

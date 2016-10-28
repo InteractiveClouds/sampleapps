@@ -1,1421 +1,1346 @@
 {
-  "properties": {},
-  "definition": {
-    "default": [
-      {
-        "id": 733,
-        "type": "panel",
-        "attributes": {
-          "name": {
-            "value": "pnlPanel1",
-            "status": "overridden"
-          },
-          "flex": {
-            "value": "100",
-            "status": "overridden"
-          },
-          "autoHeight": {
-            "value": true,
-            "status": "overridden"
-          },
-          "toolbar": {
-            "collapsed": {
-              "value": "false",
-              "status": "overridden",
-              "designValue": false
-            },
-            "title": {
-              "value": "'Sample Checkbox'",
-              "status": "overridden"
-            },
-            "leftMenu": {
-              "menuItems": {
-                "value": [
-                  {
-                    "isTopLevel": true,
-                    "label": "'Home'",
-                    "icon": {
-                      "value": "'home'",
-                      "type": "svg-icon"
-                    },
-                    "shortcut": "",
-                    "divider": false,
-                    "notification": "",
-                    "display": "true",
-                    "disabled": "false",
-                    "onclick": "",
-                    "menuItems": {
-                      "value": []
-                    },
-                    "waiting": {
-                      "value": "",
-                      "autoDisabled": false,
-                      "icon": {
-                        "value": "'fa-spinner'",
-                        "type": "fa-icon",
-                        "style": "",
-                        "class": "fa-pulse"
-                      }
-                    }
-                  }
-                ],
-                "status": "overridden"
-              },
-              "menuItemNames": {
-                "value": {
-                  "main": {
-                    "source": "",
-                    "label": "",
-                    "type": "",
-                    "icon": {
-                      "value": "",
-                      "name": "",
-                      "type": ""
-                    },
-                    "shortcut": "",
-                    "notification": "",
-                    "display": "",
-                    "disabled": "",
-                    "onclick": "",
-                    "scopeItems": ""
-                  },
-                  "state": {
-                    "name": "",
-                    "binding": "",
-                    "checkedIcon": {
-                      "value": "",
-                      "name": "",
-                      "type": "",
-                      "style": "",
-                      "class": ""
-                    },
-                    "uncheckedIcon": {
-                      "value": "",
-                      "name": "",
-                      "type": "",
-                      "style": "",
-                      "class": ""
-                    }
-                  },
-                  "waiting": {
-                    "name": "",
-                    "binding": "",
-                    "autoDisabled": "",
-                    "icon": {
-                      "value": "",
-                      "name": "",
-                      "type": "",
-                      "style": "",
-                      "class": ""
-                    }
-                  }
-                },
-                "status": "overridden"
-              },
-              "status": "overridden"
-            },
-            "rightMenu": {
-              "menuItems": {
-                "value": [
-                  {
-                    "isTopLevel": true,
-                    "label": "'Home'",
-                    "icon": {
-                      "value": "'home'",
-                      "type": "svg-icon"
-                    },
-                    "shortcut": "",
-                    "divider": false,
-                    "notification": "",
-                    "display": "true",
-                    "disabled": "false",
-                    "onclick": "",
-                    "menuItems": {
-                      "value": []
-                    },
-                    "iconType": "fa-icon"
-                  }
-                ],
-                "status": "overridden"
-              },
-              "menuItemNames": {
-                "value": {
-                  "main": {
-                    "source": "",
-                    "label": "",
-                    "type": "",
-                    "icon": {
-                      "value": "",
-                      "name": "",
-                      "type": ""
-                    },
-                    "shortcut": "",
-                    "notification": "",
-                    "display": "",
-                    "disabled": "",
-                    "onclick": "",
-                    "scopeItems": ""
-                  },
-                  "state": {
-                    "name": "",
-                    "binding": "",
-                    "checkedIcon": {
-                      "value": "",
-                      "name": "",
-                      "type": "",
-                      "style": "",
-                      "class": ""
-                    },
-                    "uncheckedIcon": {
-                      "value": "",
-                      "name": "",
-                      "type": "",
-                      "style": "",
-                      "class": ""
-                    }
-                  },
-                  "waiting": {
-                    "name": "",
-                    "binding": "",
-                    "autoDisabled": "",
-                    "icon": {
-                      "value": "",
-                      "name": "",
-                      "type": "",
-                      "style": "",
-                      "class": ""
-                    }
-                  }
-                },
-                "status": "overridden"
-              },
-              "status": "overridden"
-            },
-            "status": "overridden"
-          },
-          "layout": {
-            "rows": [
-              {
-                "height": {
-                  "value": 100
-                },
-                "cols": [
-                  {
-                    "width": {
-                      "value": 10
-                    },
-                    "autoWidth": {
-                      "value": false
-                    },
-                    "display": {
-                      "value": "true"
-                    },
-                    "classes": {
-                      "value": ""
-                    },
-                    "dynamicClasses": {
-                      "value": ""
-                    },
-                    "style": {
-                      "value": "border-right:1px #ccc solid;"
-                    },
-                    "orientation": {
-                      "value": "row"
-                    },
-                    "halignment": {
-                      "value": "center"
-                    },
-                    "valignment": {
-                      "value": "center"
-                    }
-                  },
-                  {
-                    "width": {
-                      "value": 25
-                    },
-                    "autoWidth": {
-                      "value": false
-                    },
-                    "display": {
-                      "value": "true"
-                    },
-                    "classes": {
-                      "value": ""
-                    },
-                    "dynamicClasses": {
-                      "value": ""
-                    },
-                    "style": {
-                      "value": ""
-                    },
-                    "orientation": {
-                      "value": "row"
-                    },
-                    "halignment": {
-                      "value": "center"
-                    },
-                    "valignment": {
-                      "value": "center"
-                    },
-                    "css": {
-                      "color": "",
-                      "background": "",
-                      "padding": "",
-                      "text-align": ""
-                    }
-                  },
-                  {
-                    "width": {
-                      "value": 65
-                    },
-                    "autoWidth": {
-                      "value": false
-                    },
-                    "display": {
-                      "value": "true"
-                    },
-                    "classes": {
-                      "value": ""
-                    },
-                    "dynamicClasses": {
-                      "value": ""
-                    },
-                    "style": {
-                      "value": ""
-                    },
-                    "orientation": {
-                      "value": "column"
-                    },
-                    "halignment": {
-                      "value": "center"
-                    },
-                    "valignment": {
-                      "value": "center"
-                    },
-                    "css": {
-                      "color": "",
-                      "background": "",
-                      "padding": "",
-                      "text-align": ""
-                    }
-                  }
-                ],
-                "classes": {
-                  "value": ""
-                },
-                "dynamicClasses": {
-                  "value": ""
-                },
-                "style": {
-                  "value": "height:150px;border-bottom:1px #ccc solid;"
-                }
-              },
-              {
-                "cols": [
-                  {
-                    "width": {
-                      "value": 10
-                    },
-                    "autoWidth": {
-                      "value": false
-                    },
-                    "display": {
-                      "value": "true"
-                    },
-                    "classes": {
-                      "value": ""
-                    },
-                    "dynamicClasses": {
-                      "value": ""
-                    },
-                    "style": {
-                      "value": "border-right:1px #ccc solid;"
-                    },
-                    "orientation": {
-                      "value": "row"
-                    },
-                    "halignment": {
-                      "value": "center"
-                    },
-                    "valignment": {
-                      "value": "center"
-                    },
-                    "css": {
-                      "color": "",
-                      "background": "",
-                      "padding": "",
-                      "text-align": ""
-                    }
-                  },
-                  {
-                    "width": {
-                      "value": 30
-                    },
-                    "autoWidth": {
-                      "value": false
-                    },
-                    "display": {
-                      "value": "true"
-                    },
-                    "classes": {
-                      "value": ""
-                    },
-                    "dynamicClasses": {
-                      "value": ""
-                    },
-                    "style": {
-                      "value": ""
-                    },
-                    "orientation": {
-                      "value": "row"
-                    },
-                    "halignment": {
-                      "value": "center"
-                    },
-                    "valignment": {
-                      "value": "center"
-                    },
-                    "css": {
-                      "color": "",
-                      "background": "",
-                      "padding": "",
-                      "text-align": ""
-                    }
-                  },
-                  {
-                    "width": {
-                      "value": 30
-                    },
-                    "autoWidth": {
-                      "value": false
-                    },
-                    "display": {
-                      "value": "true"
-                    },
-                    "classes": {
-                      "value": ""
-                    },
-                    "dynamicClasses": {
-                      "value": ""
-                    },
-                    "style": {
-                      "value": ""
-                    },
-                    "orientation": {
-                      "value": "row"
-                    },
-                    "halignment": {
-                      "value": "center"
-                    },
-                    "valignment": {
-                      "value": "center"
-                    },
-                    "css": {
-                      "color": "",
-                      "background": "",
-                      "padding": "",
-                      "text-align": ""
-                    }
-                  },
-                  {
-                    "width": {
-                      "value": 30
-                    },
-                    "autoWidth": {
-                      "value": false
-                    },
-                    "display": {
-                      "value": "true"
-                    },
-                    "classes": {
-                      "value": ""
-                    },
-                    "dynamicClasses": {
-                      "value": ""
-                    },
-                    "style": {
-                      "value": ""
-                    },
-                    "orientation": {
-                      "value": "row"
-                    },
-                    "halignment": {
-                      "value": "center"
-                    },
-                    "valignment": {
-                      "value": "center"
-                    },
-                    "css": {
-                      "color": "",
-                      "background": "",
-                      "padding": "",
-                      "text-align": ""
-                    }
-                  }
-                ],
-                "classes": {
-                  "value": ""
-                },
-                "dynamicClasses": {
-                  "value": ""
-                },
-                "style": {
-                  "value": "height:150px;border-bottom:1px #ccc solid;"
-                }
-              },
-              {
-                "cols": [
-                  {
-                    "width": {
-                      "value": 10
-                    },
-                    "autoWidth": {
-                      "value": false
-                    },
-                    "display": {
-                      "value": "true"
-                    },
-                    "classes": {
-                      "value": ""
-                    },
-                    "dynamicClasses": {
-                      "value": ""
-                    },
-                    "style": {
-                      "value": "border-right:1px #ccc solid;"
-                    },
-                    "orientation": {
-                      "value": "row"
-                    },
-                    "halignment": {
-                      "value": "center"
-                    },
-                    "valignment": {
-                      "value": "center"
-                    },
-                    "css": {
-                      "color": "",
-                      "background": "",
-                      "padding": "",
-                      "text-align": ""
-                    }
-                  },
-                  {
-                    "width": {
-                      "value": 45
-                    },
-                    "autoWidth": {
-                      "value": false
-                    },
-                    "display": {
-                      "value": "true"
-                    },
-                    "classes": {
-                      "value": ""
-                    },
-                    "dynamicClasses": {
-                      "value": ""
-                    },
-                    "style": {
-                      "value": ""
-                    },
-                    "orientation": {
-                      "value": "column"
-                    },
-                    "halignment": {
-                      "value": "center"
-                    },
-                    "valignment": {
-                      "value": "center"
-                    },
-                    "css": {
-                      "color": "",
-                      "background": "",
-                      "padding": "",
-                      "text-align": ""
-                    }
-                  },
-                  {
-                    "width": {
-                      "value": 45
-                    },
-                    "autoWidth": {
-                      "value": false
-                    },
-                    "display": {
-                      "value": "true"
-                    },
-                    "classes": {
-                      "value": ""
-                    },
-                    "dynamicClasses": {
-                      "value": ""
-                    },
-                    "style": {
-                      "value": ""
-                    },
-                    "orientation": {
-                      "value": "column"
-                    },
-                    "halignment": {
-                      "value": "center"
-                    },
-                    "valignment": {
-                      "value": "center"
-                    },
-                    "css": {
-                      "color": "",
-                      "background": "",
-                      "padding": "",
-                      "text-align": ""
-                    }
-                  }
-                ],
-                "classes": {
-                  "value": ""
-                },
-                "dynamicClasses": {
-                  "value": ""
-                },
-                "style": {
-                  "value": "height:200px;border-bottom:1px #ccc solid;"
-                }
-              },
-              {
-                "cols": [
-                  {
-                    "width": {
-                      "value": 10
-                    },
-                    "autoWidth": {
-                      "value": false
-                    },
-                    "display": {
-                      "value": "true"
-                    },
-                    "classes": {
-                      "value": ""
-                    },
-                    "dynamicClasses": {
-                      "value": ""
-                    },
-                    "style": {
-                      "value": "border-right:1px #ccc solid;"
-                    },
-                    "orientation": {
-                      "value": "row"
-                    },
-                    "halignment": {
-                      "value": "center"
-                    },
-                    "valignment": {
-                      "value": "center"
-                    },
-                    "css": {
-                      "color": "",
-                      "background": "",
-                      "padding": "",
-                      "text-align": ""
-                    }
-                  },
-                  {
-                    "width": {
-                      "value": 45
-                    },
-                    "autoWidth": {
-                      "value": false
-                    },
-                    "display": {
-                      "value": "true"
-                    },
-                    "classes": {
-                      "value": ""
-                    },
-                    "dynamicClasses": {
-                      "value": ""
-                    },
-                    "style": {
-                      "value": ""
-                    },
-                    "orientation": {
-                      "value": "column"
-                    },
-                    "halignment": {
-                      "value": "center"
-                    },
-                    "valignment": {
-                      "value": "center"
-                    },
-                    "css": {
-                      "color": "",
-                      "background": "",
-                      "padding": "",
-                      "text-align": ""
-                    }
-                  },
-                  {
-                    "width": {
-                      "value": 45
-                    },
-                    "autoWidth": {
-                      "value": false
-                    },
-                    "display": {
-                      "value": "true"
-                    },
-                    "classes": {
-                      "value": ""
-                    },
-                    "dynamicClasses": {
-                      "value": ""
-                    },
-                    "style": {
-                      "value": ""
-                    },
-                    "orientation": {
-                      "value": "column"
-                    },
-                    "halignment": {
-                      "value": "center"
-                    },
-                    "valignment": {
-                      "value": "center"
-                    },
-                    "css": {
-                      "color": "",
-                      "background": "",
-                      "padding": "",
-                      "text-align": ""
-                    }
-                  }
-                ],
-                "classes": {
-                  "value": ""
-                },
-                "dynamicClasses": {
-                  "value": ""
-                },
-                "style": {
-                  "value": "height:150px;border-bottom:1px #ccc solid;"
-                }
-              }
-            ],
-            "status": "overridden"
-          }
-        },
-        "children": [
-          {
-            "id": 64906,
-            "type": "checkbox",
-            "flex": "false",
-            "just_dropped": true,
-            "attributes": {
-              "name": {
-                "value": "chkCheckbox1",
-                "status": "overridden"
-              },
-              "binding": {
-                "value": "check_answers",
-                "status": "overridden"
-              },
-              "label": {
-                "value": "'Give an answer to continue:'",
-                "status": "overridden"
-              },
-              "staticArray": {
-                "value": [
-                  {
-                    "label": "'Do you want to receive emails from partners?'",
-                    "checked": "'yes'",
-                    "unchecked": "'no'",
-                    "isChecked": false
-                  },
-                  {
-                    "label": "'I accept the terms of the license agreement'",
-                    "checked": "true",
-                    "unchecked": "false",
-                    "isChecked": true
-                  }
-                ],
-                "status": "overridden"
-              }
-            },
-            "children": [],
-            "container": "layout_0_row_0_column_1"
-          },
-          {
-            "id": 48567,
-            "type": "statictext",
-            "flex": "false",
-            "just_dropped": true,
-            "attributes": {
-              "name": {
-                "value": "txtText1",
-                "status": "overridden"
-              },
-              "text": {
-                "value": "'Basics'",
-                "status": "overridden"
-              }
-            },
-            "children": [],
-            "container": "layout_0_row_0_column_0"
-          },
-          {
-            "id": 46356,
-            "type": "statictext",
-            "flex": "false",
-            "just_dropped": true,
-            "attributes": {
-              "name": {
-                "value": "txtText2",
-                "status": "overridden"
-              },
-              "text": {
-                "value": "'Style'",
-                "status": "overridden"
-              }
-            },
-            "children": [],
-            "container": "layout_0_row_1_column_0"
-          },
-          {
-            "id": 9125,
-            "type": "statictext",
-            "flex": "false",
-            "just_dropped": true,
-            "attributes": {
-              "name": {
-                "value": "txtText4",
-                "status": "overridden"
-              },
-              "text": {
-                "value": "'Binding'",
-                "status": "overridden"
-              },
-              "style": {
-                "value": "text-align:center",
-                "status": "overridden"
-              }
-            },
-            "children": [],
-            "container": "layout_0_row_2_column_0"
-          },
-          {
-            "id": 90799,
-            "type": "checkbox",
-            "flex": "false",
-            "just_dropped": true,
-            "attributes": {
-              "name": {
-                "value": "chkCheckbox3",
-                "status": "overridden"
-              },
-              "label": {
-                "value": "'Select the country you are planning to visit this year'",
-                "status": "overridden"
-              },
-              "displayValue": {
-                "value": true,
-                "status": "overridden"
-              },
-              "direction": {
-                "value": "row",
-                "status": "overridden"
-              },
-              "staticArray": {
-                "value": [
-                  {
-                    "label": "'USA'",
-                    "checked": "true",
-                    "unchecked": "false",
-                    "isChecked": false
-                  },
-                  {
-                    "label": "'France'",
-                    "checked": "true",
-                    "unchecked": "false",
-                    "isChecked": false
-                  },
-                  {
-                    "label": "'Ukraine'",
-                    "checked": "true",
-                    "unchecked": "false",
-                    "isChecked": false
-                  }
-                ],
-                "status": "overridden"
-              },
-              "disabled": {
-                "value": "check_disabled",
-                "status": "overridden"
-              }
-            },
-            "children": [],
-            "container": "layout_0_row_0_column_2"
-          },
-          {
-            "id": 93675,
-            "type": "checkbox",
-            "flex": "false",
-            "just_dropped": true,
-            "attributes": {
-              "name": {
-                "value": "chkCheckbox2",
-                "status": "overridden"
-              },
-              "label": {
-                "value": "'Your device: '",
-                "status": "overridden"
-              },
-              "staticArray": {
-                "value": [
-                  {
-                    "label": "'mobile'",
-                    "checked": "'yes'",
-                    "unchecked": "'no'",
-                    "isChecked": true
-                  },
-                  {
-                    "label": "'tablet'",
-                    "checked": "",
-                    "unchecked": "",
-                    "isChecked": false
-                  },
-                  {
-                    "label": "'desktop'",
-                    "checked": "",
-                    "unchecked": "",
-                    "isChecked": false
-                  }
-                ],
-                "status": "overridden"
-              },
-              "labelStyle": {
-                "style": "font-family:'Montserrat', sans-serif;color:#2a2ce5;",
-                "status": "overridden"
-              },
-              "itemStyle": {
-                "label": {
-                  "style": "font-family: 'Open Sans Condensed', sans-serif;font-size:20px;color:#2a2ce5;",
-                  "status": "overridden"
-                },
-                "status": "overridden"
-              }
-            },
-            "children": [],
-            "container": "layout_0_row_1_column_1"
-          },
-          {
-            "id": 64768,
-            "type": "checkbox",
-            "flex": "false",
-            "just_dropped": true,
-            "attributes": {
-              "name": {
-                "value": "chkCheckbox4",
-                "status": "overridden"
-              },
-              "label": {
-                "value": "'Please verify your age!'",
-                "status": "overridden"
-              },
-              "staticArray": {
-                "value": [
-                  {
-                    "label": "'Yes, I have already turned 21'",
-                    "checked": "'yes'",
-                    "unchecked": "'no'",
-                    "isChecked": false
-                  }
-                ],
-                "status": "overridden"
-              },
-              "itemStyle": {
-                "label": {
-                  "class": "changeCheckbox4Style",
-                  "status": "overridden"
-                },
-                "status": "overridden"
-              },
-              "onclick": {
-                "value": "changeBackCheckbox()",
-                "status": "overridden"
-              }
-            },
-            "children": [],
-            "container": "layout_0_row_1_column_2"
-          },
-          {
-            "id": 48972,
-            "type": "checkbox",
-            "flex": "false",
-            "just_dropped": true,
-            "attributes": {
-              "name": {
-                "value": "chkCheckbox5",
-                "status": "overridden"
-              },
-              "label": {
-                "value": "'Do you like red?'",
-                "status": "overridden"
-              },
-              "staticArray": {
-                "value": [
-                  {
-                    "label": "'click it and change type color'",
-                    "checked": "'yes'",
-                    "unchecked": "'no'",
-                    "isChecked": false
-                  }
-                ],
-                "status": "overridden"
-              },
-              "dynamicClasses": {
-                "value": "{changeTypeColor: changeCheckboxColor}",
-                "status": "overridden"
-              },
-              "labelStyle": {
-                "style": "color:red;",
-                "class": "checkboxChangeOnHover",
-                "status": "overridden"
-              },
-              "itemStyle": {
-                "item": {
-                  "class": "checkboxChangeOnHover2",
-                  "status": "overridden"
-                },
-                "status": "overridden"
-              },
-              "onclick": {
-                "value": "changeCheckbox()",
-                "status": "overridden"
-              }
-            },
-            "children": [],
-            "container": "layout_0_row_1_column_3"
-          },
-          {
-            "id": 26308,
-            "type": "statictext",
-            "flex": "false",
-            "just_dropped": true,
-            "attributes": {
-              "name": {
-                "value": "txtText11",
-                "status": "overridden"
-              },
-              "text": {
-                "value": "'What kind of transportation do you prefer?'",
-                "status": "overridden"
-              }
-            },
-            "children": [],
-            "container": "layout_0_row_2_column_1"
-          },
-          {
-            "id": 1126,
-            "type": "checkbox",
-            "flex": "false",
-            "just_dropped": true,
-            "attributes": {
-              "name": {
-                "value": "chkCheckbox6",
-                "status": "overridden"
-              },
-              "label": {
-                "value": "'Option 1:'",
-                "status": "overridden"
-              },
-              "staticArray": {
-                "value": [
-                  {
-                    "label": "bin",
-                    "checked": "'yes'",
-                    "unchecked": "'no'",
-                    "isChecked": false
-                  }
-                ],
-                "status": "overridden"
-              },
-              "dynamicClasses": {
-                "value": "checkboxItems",
-                "status": "overridden"
-              }
-            },
-            "children": [],
-            "container": "layout_0_row_2_column_1"
-          },
-          {
-            "id": 49590,
-            "type": "checkbox",
-            "flex": "false",
-            "just_dropped": true,
-            "attributes": {
-              "name": {
-                "value": "chkCheckbox10",
-                "status": "overridden"
-              },
-              "binding": {
-                "value": "selectedCheckboxItem",
-                "status": "overridden"
-              },
-              "source": {
-                "value": "checkboxItems",
-                "status": "overridden"
-              },
-              "label": {
-                "value": "'Select your favorite fruit:'",
-                "status": "overridden"
-              },
-              "checkValue": {
-                "trueCheckValue": "trueCheckValue",
-                "falseCheckValue": "falseCheckValue",
-                "label": "label",
-                "status": "overridden"
-              },
-              "staticArray": {
-                "value": [
-                  {
-                    "label": "'option1: '",
-                    "checked": "'yes'",
-                    "unchecked": "'no'",
-                    "isChecked": true
-                  }
-                ],
-                "status": "overridden"
-              },
-              "optionsType": {
-                "value": "dynamic",
-                "status": "overridden"
-              }
-            },
-            "children": [],
-            "container": "layout_0_row_2_column_2"
-          },
-          {
-            "id": 60285,
-            "type": "button",
-            "flex": "true",
-            "just_dropped": true,
-            "attributes": {
-              "name": {
-                "value": "btnButton1",
-                "status": "overridden"
-              },
-              "label": {
-                "value": "'Continue'",
-                "status": "overridden"
-              },
-              "disabled": {
-                "value": "check_answers[0] == 'no' || check_answers[1] == false",
-                "status": "overridden"
-              },
-              "menuItems": {
-                "value": [],
-                "status": "overridden"
-              },
-              "menuItemNames": {
-                "value": {
-                  "main": {
-                    "source": "",
-                    "label": "",
-                    "type": "",
-                    "icon": {
-                      "value": "",
-                      "name": "",
-                      "type": ""
-                    },
-                    "shortcut": "",
-                    "notification": "",
-                    "display": "",
-                    "disabled": "",
-                    "onclick": "",
-                    "scopeItems": ""
-                  }
-                },
-                "status": "overridden"
-              },
-              "flex": {
-                "value": 15,
-                "status": "overridden"
-              }
-            },
-            "children": [],
-            "container": "layout_0_row_0_column_1"
-          },
-          {
-            "id": 81971,
-            "type": "button",
-            "flex": "true",
-            "just_dropped": true,
-            "attributes": {
-              "name": {
-                "value": "btnButton2",
-                "status": "overridden"
-              },
-              "label": {
-                "value": "((check_disabled) ? 'Disabled' : 'Enabled')",
-                "status": "overridden"
-              },
-              "menuItemNames": {
-                "value": {
-                  "main": {
-                    "source": "",
-                    "label": "",
-                    "type": "",
-                    "icon": {
-                      "value": "",
-                      "name": "",
-                      "type": ""
-                    },
-                    "shortcut": "",
-                    "notification": "",
-                    "display": "",
-                    "disabled": "",
-                    "onclick": "",
-                    "scopeItems": ""
-                  }
-                },
-                "status": "overridden"
-              },
-              "flex": {
-                "value": 15,
-                "status": "overridden"
-              },
-              "onclick": {
-                "value": "check_disabled = !check_disabled",
-                "status": "overridden"
-              }
-            },
-            "children": [],
-            "container": "layout_0_row_0_column_2"
-          },
-          {
-            "id": 79170,
-            "type": "statictext",
-            "flex": "false",
-            "just_dropped": true,
-            "attributes": {
-              "name": {
-                "value": "txtText8",
-                "status": "overridden"
-              },
-              "text": {
-                "value": "'Events'",
-                "status": "overridden"
-              }
-            },
-            "children": [],
-            "container": "layout_0_row_3_column_0"
-          },
-          {
-            "id": 97666,
-            "type": "checkbox",
-            "flex": "false",
-            "just_dropped": true,
-            "attributes": {
-              "name": {
-                "value": "chkCheckbox11",
-                "status": "overridden"
-              },
-              "label": {
-                "value": "'Do you want to continue?'",
-                "status": "overridden"
-              },
-              "staticArray": {
-                "value": [
-                  {
-                    "label": "'click here to continue'",
-                    "checked": "'yes'",
-                    "unchecked": "'no'",
-                    "isChecked": false
-                  }
-                ],
-                "status": "overridden"
-              },
-              "onclick": {
-                "value": "showTextOnClick()",
-                "status": "overridden"
-              },
-              "ondblclick": {
-                "value": "showTextOnDoubleClick()",
-                "status": "overridden"
-              }
-            },
-            "children": [],
-            "container": "layout_0_row_3_column_1"
-          },
-          {
-            "id": 7387,
-            "type": "checkbox",
-            "flex": "false",
-            "just_dropped": true,
-            "attributes": {
-              "name": {
-                "value": "chkCheckbox12",
-                "status": "overridden"
-              },
-              "label": {
-                "value": "'A flight class you prefer?'",
-                "status": "overridden"
-              },
-              "staticArray": {
-                "value": [
-                  {
-                    "label": "'econom class'",
-                    "checked": "'yes'",
-                    "unchecked": "'no'",
-                    "isChecked": false
-                  },
-                  {
-                    "label": "'buisness class'",
-                    "checked": "",
-                    "unchecked": "",
-                    "isChecked": false
-                  }
-                ],
-                "status": "overridden"
-              },
-              "onclick": {
-                "value": "hideTextOnClick()",
-                "status": "overridden"
-              },
-              "onmouseover": {
-                "value": "showTextOnMouseOver()",
-                "status": "overridden"
-              },
-              "onmouseleave": {
-                "value": "showTextOnMouseLeave()",
-                "status": "overridden"
-              }
-            },
-            "children": [],
-            "container": "layout_0_row_3_column_2"
-          },
-          {
-            "id": 9920,
-            "type": "statictext",
-            "flex": "false",
-            "just_dropped": true,
-            "attributes": {
-              "name": {
-                "value": "txtText6",
-                "status": "overridden"
-              },
-              "text": {
-                "value": "'You mouse over'",
-                "status": "overridden"
-              },
-              "display": {
-                "value": "showTextOnMouseOverBoolean",
-                "status": "overridden"
-              }
-            },
-            "children": [],
-            "container": "layout_0_row_3_column_2"
-          },
-          {
-            "id": 78697,
-            "type": "statictext",
-            "flex": "false",
-            "just_dropped": true,
-            "attributes": {
-              "name": {
-                "value": "txtText7",
-                "status": "overridden"
-              },
-              "text": {
-                "value": "'You mouse leave'",
-                "status": "overridden"
-              },
-              "display": {
-                "value": "showTextOnMouseLeaveBoolean",
-                "status": "overridden"
-              }
-            },
-            "children": [],
-            "container": "layout_0_row_3_column_2"
-          },
-          {
-            "id": 2999,
-            "type": "statictext",
-            "flex": "false",
-            "just_dropped": true,
-            "attributes": {
-              "name": {
-                "value": "txtText9",
-                "status": "overridden"
-              },
-              "text": {
-                "value": "'You clicked'",
-                "status": "overridden"
-              },
-              "display": {
-                "value": "showTextOnClickBoolean",
-                "status": "overridden"
-              }
-            },
-            "children": [],
-            "container": "layout_0_row_3_column_1"
-          },
-          {
-            "id": 9257,
-            "type": "statictext",
-            "flex": "false",
-            "just_dropped": true,
-            "attributes": {
-              "name": {
-                "value": "txtText10",
-                "status": "overridden"
-              },
-              "text": {
-                "value": "'You doubleclicked'",
-                "status": "overridden"
-              },
-              "display": {
-                "value": "showTextOnDoubleClickBoolean",
-                "status": "overridden"
-              }
-            },
-            "children": [],
-            "container": "layout_0_row_3_column_1"
-          },
-          {
-            "id": 8500,
-            "type": "checkbox",
-            "flex": "false",
-            "just_dropped": true,
-            "attributes": {
-              "name": {
-                "value": "chkCheckbox13",
-                "status": "overridden"
-              },
-              "label": {
-                "value": "'Option 2:'",
-                "status": "overridden"
-              },
-              "staticArray": {
-                "value": [
-                  {
-                    "label": "bin2",
-                    "checked": "'yes'",
-                    "unchecked": "'no'",
-                    "isChecked": false
-                  }
-                ],
-                "status": "overridden"
-              }
-            },
-            "children": [],
-            "container": "layout_0_row_2_column_1"
-          }
-        ],
-        "animation": {
-          "in": "fadeIn",
-          "out": "slideOutLeft"
-        }
-      }
-    ]
-  }
+	"properties": {},
+	"definition": {
+		"default": [
+			{
+				"id": 733,
+				"type": "panel",
+				"attributes": {
+					"name": {
+						"value": "pnlPanel1",
+						"status": "overridden"
+					},
+					"flex": {
+						"value": "100",
+						"status": "overridden"
+					},
+					"autoHeight": {
+						"value": true,
+						"status": "overridden"
+					},
+					"toolbar": {
+						"collapsed": {
+							"value": "false",
+							"status": "overridden",
+							"designValue": false
+						},
+						"title": {
+							"value": "'Sample Checkbox'",
+							"status": "overridden"
+						},
+						"leftMenu": {
+							"menuItems": {
+								"value": [
+									{
+										"isTopLevel": true,
+										"label": "'Home'",
+										"icon": {
+											"value": "'home'",
+											"type": "svg-icon"
+										},
+										"shortcut": "",
+										"divider": false,
+										"notification": "",
+										"display": "true",
+										"disabled": "false",
+										"onclick": "",
+										"menuItems": {
+											"value": []
+										},
+										"waiting": {
+											"value": "",
+											"autoDisabled": false,
+											"icon": {
+												"value": "'fa-spinner'",
+												"type": "fa-icon",
+												"style": "",
+												"class": "fa-pulse"
+											}
+										}
+									}
+								],
+								"status": "overridden"
+							},
+							"status": "overridden"
+						},
+						"rightMenu": {
+							"menuItems": {
+								"value": [
+									{
+										"isTopLevel": true,
+										"label": "'Home'",
+										"icon": {
+											"value": "'home'",
+											"type": "svg-icon"
+										},
+										"shortcut": "",
+										"divider": false,
+										"notification": "",
+										"display": "true",
+										"disabled": "false",
+										"onclick": "",
+										"menuItems": {
+											"value": []
+										},
+										"iconType": "fa-icon"
+									}
+								],
+								"status": "overridden"
+							},
+							"status": "overridden"
+						},
+						"status": "overridden"
+					},
+					"layout": {
+						"rows": [
+							{
+								"height": {
+									"value": 100
+								},
+								"cols": [
+									{
+										"width": {
+											"value": 10
+										},
+										"autoWidth": {
+											"value": false
+										},
+										"display": {
+											"value": "true"
+										},
+										"classes": {
+											"value": ""
+										},
+										"dynamicClasses": {
+											"value": ""
+										},
+										"style": {
+											"value": "border-right:1px #ccc solid;"
+										},
+										"orientation": {
+											"value": "row"
+										},
+										"halignment": {
+											"value": "center"
+										},
+										"valignment": {
+											"value": "center"
+										}
+									},
+									{
+										"width": {
+											"value": 25
+										},
+										"autoWidth": {
+											"value": false
+										},
+										"display": {
+											"value": "true"
+										},
+										"classes": {
+											"value": ""
+										},
+										"dynamicClasses": {
+											"value": ""
+										},
+										"style": {
+											"value": "border-right:1px #ccc solid;"
+										},
+										"orientation": {
+											"value": "row"
+										},
+										"halignment": {
+											"value": "center"
+										},
+										"valignment": {
+											"value": "center"
+										},
+										"css": {
+											"color": "",
+											"background": "",
+											"padding": "",
+											"text-align": ""
+										}
+									},
+									{
+										"width": {
+											"value": 65
+										},
+										"autoWidth": {
+											"value": false
+										},
+										"display": {
+											"value": "true"
+										},
+										"classes": {
+											"value": ""
+										},
+										"dynamicClasses": {
+											"value": ""
+										},
+										"style": {
+											"value": "border-right:1px #ccc solid;"
+										},
+										"orientation": {
+											"value": "column"
+										},
+										"halignment": {
+											"value": "center"
+										},
+										"valignment": {
+											"value": "center"
+										},
+										"css": {
+											"color": "",
+											"background": "",
+											"padding": "",
+											"text-align": ""
+										}
+									}
+								],
+								"classes": {
+									"value": ""
+								},
+								"dynamicClasses": {
+									"value": ""
+								},
+								"style": {
+									"value": "height:150px;border-bottom:1px #ccc solid;"
+								}
+							},
+							{
+								"cols": [
+									{
+										"width": {
+											"value": 10
+										},
+										"autoWidth": {
+											"value": false
+										},
+										"display": {
+											"value": "true"
+										},
+										"classes": {
+											"value": ""
+										},
+										"dynamicClasses": {
+											"value": ""
+										},
+										"style": {
+											"value": "border-right:1px #ccc solid;"
+										},
+										"orientation": {
+											"value": "row"
+										},
+										"halignment": {
+											"value": "center"
+										},
+										"valignment": {
+											"value": "center"
+										},
+										"css": {
+											"color": "",
+											"background": "",
+											"padding": "",
+											"text-align": ""
+										}
+									},
+									{
+										"width": {
+											"value": 30
+										},
+										"autoWidth": {
+											"value": false
+										},
+										"display": {
+											"value": "true"
+										},
+										"classes": {
+											"value": ""
+										},
+										"dynamicClasses": {
+											"value": ""
+										},
+										"style": {
+											"value": "border-right:1px #ccc solid;"
+										},
+										"orientation": {
+											"value": "row"
+										},
+										"halignment": {
+											"value": "center"
+										},
+										"valignment": {
+											"value": "center"
+										},
+										"css": {
+											"color": "",
+											"background": "",
+											"padding": "",
+											"text-align": ""
+										}
+									},
+									{
+										"width": {
+											"value": 30
+										},
+										"autoWidth": {
+											"value": false
+										},
+										"display": {
+											"value": "true"
+										},
+										"classes": {
+											"value": ""
+										},
+										"dynamicClasses": {
+											"value": ""
+										},
+										"style": {
+											"value": "border-right:1px #ccc solid;"
+										},
+										"orientation": {
+											"value": "row"
+										},
+										"halignment": {
+											"value": "center"
+										},
+										"valignment": {
+											"value": "center"
+										},
+										"css": {
+											"color": "",
+											"background": "",
+											"padding": "",
+											"text-align": ""
+										}
+									},
+									{
+										"width": {
+											"value": 30
+										},
+										"autoWidth": {
+											"value": false
+										},
+										"display": {
+											"value": "true"
+										},
+										"classes": {
+											"value": ""
+										},
+										"dynamicClasses": {
+											"value": ""
+										},
+										"style": {
+											"value": "border-right:1px #ccc solid;"
+										},
+										"orientation": {
+											"value": "row"
+										},
+										"halignment": {
+											"value": "center"
+										},
+										"valignment": {
+											"value": "center"
+										},
+										"css": {
+											"color": "",
+											"background": "",
+											"padding": "",
+											"text-align": ""
+										}
+									}
+								],
+								"classes": {
+									"value": ""
+								},
+								"dynamicClasses": {
+									"value": ""
+								},
+								"style": {
+									"value": "height:150px;border-bottom:1px #ccc solid;"
+								}
+							},
+							{
+								"cols": [
+									{
+										"width": {
+											"value": 10
+										},
+										"autoWidth": {
+											"value": false
+										},
+										"display": {
+											"value": "true"
+										},
+										"classes": {
+											"value": ""
+										},
+										"dynamicClasses": {
+											"value": ""
+										},
+										"style": {
+											"value": "border-right:1px #ccc solid;"
+										},
+										"orientation": {
+											"value": "row"
+										},
+										"halignment": {
+											"value": "center"
+										},
+										"valignment": {
+											"value": "center"
+										},
+										"css": {
+											"color": "",
+											"background": "",
+											"padding": "",
+											"text-align": ""
+										}
+									},
+									{
+										"width": {
+											"value": 45
+										},
+										"autoWidth": {
+											"value": false
+										},
+										"display": {
+											"value": "true"
+										},
+										"classes": {
+											"value": ""
+										},
+										"dynamicClasses": {
+											"value": ""
+										},
+										"style": {
+											"value": "border-right:1px #ccc solid;"
+										},
+										"orientation": {
+											"value": "column"
+										},
+										"halignment": {
+											"value": "center"
+										},
+										"valignment": {
+											"value": "center"
+										},
+										"css": {
+											"color": "",
+											"background": "",
+											"padding": "",
+											"text-align": ""
+										}
+									},
+									{
+										"width": {
+											"value": 45
+										},
+										"autoWidth": {
+											"value": false
+										},
+										"display": {
+											"value": "true"
+										},
+										"classes": {
+											"value": ""
+										},
+										"dynamicClasses": {
+											"value": ""
+										},
+										"style": {
+											"value": "border-right:1px #ccc solid;"
+										},
+										"orientation": {
+											"value": "column"
+										},
+										"halignment": {
+											"value": "center"
+										},
+										"valignment": {
+											"value": "center"
+										},
+										"css": {
+											"color": "",
+											"background": "",
+											"padding": "",
+											"text-align": ""
+										}
+									}
+								],
+								"classes": {
+									"value": ""
+								},
+								"dynamicClasses": {
+									"value": ""
+								},
+								"style": {
+									"value": "height:200px;border-bottom:1px #ccc solid;"
+								}
+							},
+							{
+								"cols": [
+									{
+										"width": {
+											"value": 10
+										},
+										"autoWidth": {
+											"value": false
+										},
+										"display": {
+											"value": "true"
+										},
+										"classes": {
+											"value": ""
+										},
+										"dynamicClasses": {
+											"value": ""
+										},
+										"style": {
+											"value": "border-right:1px #ccc solid;"
+										},
+										"orientation": {
+											"value": "row"
+										},
+										"halignment": {
+											"value": "center"
+										},
+										"valignment": {
+											"value": "center"
+										},
+										"css": {
+											"color": "",
+											"background": "",
+											"padding": "",
+											"text-align": ""
+										}
+									},
+									{
+										"width": {
+											"value": 35
+										},
+										"autoWidth": {
+											"value": false
+										},
+										"display": {
+											"value": "true"
+										},
+										"classes": {
+											"value": ""
+										},
+										"dynamicClasses": {
+											"value": ""
+										},
+										"style": {
+											"value": "border-right:1px #ccc solid;"
+										},
+										"orientation": {
+											"value": "column"
+										},
+										"halignment": {
+											"value": "center"
+										},
+										"valignment": {
+											"value": "center"
+										},
+										"css": {
+											"color": "",
+											"background": "",
+											"padding": "",
+											"text-align": ""
+										}
+									},
+									{
+										"width": {
+											"value": 20
+										},
+										"autoWidth": {
+											"value": false
+										},
+										"display": {
+											"value": "true"
+										},
+										"classes": {
+											"value": ""
+										},
+										"dynamicClasses": {
+											"value": ""
+										},
+										"style": {
+											"value": "border-right:1px #ccc solid;"
+										},
+										"orientation": {
+											"value": "column"
+										},
+										"halignment": {
+											"value": "center"
+										},
+										"valignment": {
+											"value": "center"
+										},
+										"css": {
+											"color": "",
+											"background": "",
+											"padding": "",
+											"text-align": ""
+										}
+									},
+									{
+										"width": {
+											"value": 35
+										},
+										"autoWidth": {
+											"value": false
+										},
+										"display": {
+											"value": "true"
+										},
+										"classes": {
+											"value": ""
+										},
+										"dynamicClasses": {
+											"value": ""
+										},
+										"style": {
+											"value": "border-right:1px #ccc solid;"
+										},
+										"orientation": {
+											"value": "row"
+										},
+										"halignment": {
+											"value": "center"
+										},
+										"valignment": {
+											"value": "center"
+										},
+										"css": {
+											"color": "",
+											"background": "",
+											"padding": "",
+											"text-align": ""
+										}
+									}
+								],
+								"classes": {
+									"value": ""
+								},
+								"dynamicClasses": {
+									"value": ""
+								},
+								"style": {
+									"value": "height:150px;border-bottom:1px #ccc solid;"
+								}
+							}
+						],
+						"status": "overridden"
+					}
+				},
+				"children": [
+					{
+						"id": 64906,
+						"type": "checkbox",
+						"flex": "false",
+						"just_dropped": true,
+						"attributes": {
+							"name": {
+								"value": "chkCheckbox1",
+								"status": "overridden"
+							},
+							"binding": {
+								"value": "check_answers",
+								"status": "overridden"
+							},
+							"label": {
+								"value": "'Give an answer to continue:'",
+								"status": "overridden"
+							},
+							"staticArray": {
+								"value": [
+									{
+										"label": "'Do you want to receive emails from partners?'",
+										"checked": "'yes'",
+										"unchecked": "'no'",
+										"isChecked": false
+									},
+									{
+										"label": "'I accept the terms of the license agreement'",
+										"checked": "true",
+										"unchecked": "false",
+										"isChecked": true
+									}
+								],
+								"status": "overridden"
+							}
+						},
+						"children": [],
+						"container": "layout_0_row_0_column_1"
+					},
+					{
+						"id": 48567,
+						"type": "statictext",
+						"flex": "false",
+						"just_dropped": true,
+						"attributes": {
+							"name": {
+								"value": "txtText1",
+								"status": "overridden"
+							},
+							"text": {
+								"value": "'Basics'",
+								"status": "overridden"
+							}
+						},
+						"children": [],
+						"container": "layout_0_row_0_column_0"
+					},
+					{
+						"id": 46356,
+						"type": "statictext",
+						"flex": "false",
+						"just_dropped": true,
+						"attributes": {
+							"name": {
+								"value": "txtText2",
+								"status": "overridden"
+							},
+							"text": {
+								"value": "'Style'",
+								"status": "overridden"
+							}
+						},
+						"children": [],
+						"container": "layout_0_row_1_column_0"
+					},
+					{
+						"id": 9125,
+						"type": "statictext",
+						"flex": "false",
+						"just_dropped": true,
+						"attributes": {
+							"name": {
+								"value": "txtText4",
+								"status": "overridden"
+							},
+							"text": {
+								"value": "'Binding'",
+								"status": "overridden"
+							},
+							"style": {
+								"value": "text-align:center",
+								"status": "overridden"
+							}
+						},
+						"children": [],
+						"container": "layout_0_row_2_column_0"
+					},
+					{
+						"id": 90799,
+						"type": "checkbox",
+						"flex": "false",
+						"just_dropped": true,
+						"attributes": {
+							"name": {
+								"value": "chkCheckbox3",
+								"status": "overridden"
+							},
+							"label": {
+								"value": "disableCheckboxBasics ? 'Disabled' : 'Select the country you are planning to visit this year'",
+								"status": "overridden"
+							},
+							"displayValue": {
+								"value": true,
+								"status": "overridden"
+							},
+							"direction": {
+								"value": "row",
+								"status": "overridden"
+							},
+							"staticArray": {
+								"value": [
+									{
+										"label": "'USA'",
+										"checked": "true",
+										"unchecked": "false",
+										"isChecked": false
+									},
+									{
+										"label": "'France'",
+										"checked": "true",
+										"unchecked": "false",
+										"isChecked": true
+									},
+									{
+										"label": "'Ukraine'",
+										"checked": "true",
+										"unchecked": "false",
+										"isChecked": false
+									}
+								],
+								"status": "overridden"
+							},
+							"disabled": {
+								"value": "disableCheckboxBasics",
+								"status": "overridden"
+							}
+						},
+						"children": [],
+						"container": "layout_0_row_0_column_2"
+					},
+					{
+						"id": 93675,
+						"type": "checkbox",
+						"flex": "false",
+						"just_dropped": true,
+						"attributes": {
+							"name": {
+								"value": "chkCheckbox2",
+								"status": "overridden"
+							},
+							"label": {
+								"value": "'Your device: '",
+								"status": "overridden"
+							},
+							"staticArray": {
+								"value": [
+									{
+										"label": "'mobile'",
+										"checked": "'yes'",
+										"unchecked": "'no'",
+										"isChecked": false
+									},
+									{
+										"label": "'tablet'",
+										"checked": "",
+										"unchecked": "",
+										"isChecked": false
+									},
+									{
+										"label": "'desktop'",
+										"checked": "",
+										"unchecked": "",
+										"isChecked": true
+									}
+								],
+								"status": "overridden"
+							},
+							"labelStyle": {
+								"style": "font-family:'Montserrat', sans-serif;",
+								"status": "overridden"
+							},
+							"itemStyle": {
+								"label": {
+									"style": "font-family: 'Open Sans Condensed', sans-serif;font-size:20px;",
+									"status": "overridden"
+								},
+								"status": "overridden"
+							}
+						},
+						"children": [],
+						"container": "layout_0_row_1_column_1"
+					},
+					{
+						"id": 64768,
+						"type": "checkbox",
+						"flex": "false",
+						"just_dropped": true,
+						"attributes": {
+							"name": {
+								"value": "chkCheckbox4",
+								"status": "overridden"
+							},
+							"label": {
+								"value": "'Please verify your age!'",
+								"status": "overridden"
+							},
+							"staticArray": {
+								"value": [
+									{
+										"label": "'Yes, I have already turned 21'",
+										"checked": "'yes'",
+										"unchecked": "'no'",
+										"isChecked": false
+									}
+								],
+								"status": "overridden"
+							},
+							"labelStyle": {
+								"class": "changeCheckboxStyle",
+								"status": "overridden"
+							},
+							"itemStyle": {
+								"item": {
+									"class": "blue",
+									"status": "overridden"
+								},
+								"label": {
+									"class": "changeCheckboxStyle",
+									"status": "overridden"
+								},
+								"status": "overridden"
+							},
+							"onclick": {
+								"value": "changeBackCheckbox()",
+								"status": "overridden"
+							}
+						},
+						"children": [],
+						"container": "layout_0_row_1_column_2"
+					},
+					{
+						"id": 48972,
+						"type": "checkbox",
+						"flex": "false",
+						"just_dropped": true,
+						"attributes": {
+							"name": {
+								"value": "chkCheckbox5",
+								"status": "overridden"
+							},
+							"label": {
+								"value": "'Do you like green?'",
+								"status": "overridden"
+							},
+							"staticArray": {
+								"value": [
+									{
+										"label": "'click it and change type color'",
+										"checked": "'yes'",
+										"unchecked": "'no'",
+										"isChecked": false
+									}
+								],
+								"status": "overridden"
+							},
+							"dynamicClasses": {
+								"value": "{changeTypeColor: changeCheckboxColor}",
+								"status": "overridden"
+							},
+							"labelStyle": {
+								"style": "color:green;",
+								"class": "checkboxChangeOnHover",
+								"status": "overridden"
+							},
+							"itemStyle": {
+								"item": {
+									"class": "green",
+									"status": "overridden"
+								},
+								"status": "overridden"
+							},
+							"onclick": {
+								"value": "changeCheckbox()",
+								"status": "overridden"
+							}
+						},
+						"children": [],
+						"container": "layout_0_row_1_column_3"
+					},
+					{
+						"id": 26308,
+						"type": "statictext",
+						"flex": "false",
+						"just_dropped": true,
+						"attributes": {
+							"name": {
+								"value": "txtText11",
+								"status": "overridden"
+							},
+							"text": {
+								"value": "'What kind of transportation do you prefer?'",
+								"status": "overridden"
+							}
+						},
+						"children": [],
+						"container": "layout_0_row_2_column_1"
+					},
+					{
+						"id": 49590,
+						"type": "checkbox",
+						"flex": "false",
+						"just_dropped": true,
+						"attributes": {
+							"name": {
+								"value": "chkCheckbox10",
+								"status": "overridden"
+							},
+							"binding": {
+								"value": "selectedCheckboxItem",
+								"status": "overridden"
+							},
+							"source": {
+								"value": "checkboxItems",
+								"status": "overridden"
+							},
+							"label": {
+								"value": "'Select your favorite fruit:'",
+								"status": "overridden"
+							},
+							"checkValue": {
+								"trueCheckValue": "trueCheckValue",
+								"falseCheckValue": "falseCheckValue",
+								"label": "label",
+								"status": "overridden"
+							},
+							"staticArray": {
+								"value": [
+									{
+										"label": "'option1: '",
+										"checked": "'yes'",
+										"unchecked": "'no'",
+										"isChecked": true
+									}
+								],
+								"status": "overridden"
+							},
+							"optionsType": {
+								"value": "dynamic",
+								"status": "overridden"
+							}
+						},
+						"children": [],
+						"container": "layout_0_row_2_column_2"
+					},
+					{
+						"id": 60285,
+						"type": "button",
+						"flex": "true",
+						"just_dropped": true,
+						"attributes": {
+							"name": {
+								"value": "btnButton1",
+								"status": "overridden"
+							},
+							"label": {
+								"value": "'Continue'",
+								"status": "overridden"
+							},
+							"disabled": {
+								"value": "check_answers[0] == 'no' || check_answers[1] == false",
+								"status": "overridden"
+							},
+							"flex": {
+								"value": 15,
+								"status": "overridden"
+							}
+						},
+						"children": [],
+						"container": "layout_0_row_0_column_1"
+					},
+					{
+						"id": 81971,
+						"type": "button",
+						"flex": "true",
+						"just_dropped": true,
+						"attributes": {
+							"name": {
+								"value": "btnButton2",
+								"status": "overridden"
+							},
+							"label": {
+								"value": "disableCheckboxBasics ? 'Enabled on click' : 'Disabled on click'",
+								"status": "overridden"
+							},
+							"icon": {
+								"value": "'arrow_upwards'",
+								"status": "overridden"
+							},
+							"flex": {
+								"value": 15,
+								"status": "overridden"
+							},
+							"onclick": {
+								"value": "disableCheckbox()",
+								"status": "overridden"
+							}
+						},
+						"children": [],
+						"container": "layout_0_row_0_column_2"
+					},
+					{
+						"id": 79170,
+						"type": "statictext",
+						"flex": "false",
+						"just_dropped": true,
+						"attributes": {
+							"name": {
+								"value": "txtText8",
+								"status": "overridden"
+							},
+							"text": {
+								"value": "'Events'",
+								"status": "overridden"
+							}
+						},
+						"children": [],
+						"container": "layout_0_row_3_column_0"
+					},
+					{
+						"id": 97666,
+						"type": "checkbox",
+						"flex": "false",
+						"just_dropped": true,
+						"attributes": {
+							"name": {
+								"value": "chkCheckbox11",
+								"status": "overridden"
+							},
+							"label": {
+								"value": "'Do you want to continue?'",
+								"status": "overridden"
+							},
+							"staticArray": {
+								"value": [
+									{
+										"label": "'click here to continue'",
+										"checked": "'yes'",
+										"unchecked": "'no'",
+										"isChecked": true
+									}
+								],
+								"status": "overridden"
+							},
+							"onclick": {
+								"value": "showTextOnClick()",
+								"status": "overridden"
+							},
+							"ondblclick": {
+								"value": "showTextOnDoubleClick()",
+								"status": "overridden"
+							},
+							"onmouseover": {
+								"value": "showTextOnMouseOver()",
+								"status": "overridden"
+							},
+							"onmouseleave": {
+								"value": "hideTextOnMouseLeave()",
+								"status": "overridden"
+							}
+						},
+						"children": [],
+						"container": "layout_0_row_3_column_1"
+					},
+					{
+						"id": 2999,
+						"type": "statictext",
+						"flex": "false",
+						"just_dropped": true,
+						"attributes": {
+							"name": {
+								"value": "txtText9",
+								"status": "overridden"
+							},
+							"text": {
+								"value": "'You clicked'",
+								"status": "overridden"
+							},
+							"display": {
+								"value": "showTextOnClickBoolean",
+								"status": "overridden"
+							}
+						},
+						"children": [],
+						"container": "layout_0_row_3_column_2"
+					},
+					{
+						"id": 9257,
+						"type": "statictext",
+						"flex": "false",
+						"just_dropped": true,
+						"attributes": {
+							"name": {
+								"value": "txtText10",
+								"status": "overridden"
+							},
+							"text": {
+								"value": "'You doubleclicked'",
+								"status": "overridden"
+							},
+							"display": {
+								"value": "showTextOnDoubleClickBoolean",
+								"status": "overridden"
+							}
+						},
+						"children": [],
+						"container": "layout_0_row_3_column_2"
+					},
+					{
+						"id": 9920,
+						"type": "statictext",
+						"flex": "false",
+						"just_dropped": true,
+						"attributes": {
+							"name": {
+								"value": "txtText6",
+								"status": "overridden"
+							},
+							"text": {
+								"value": "'You mouse over'",
+								"status": "overridden"
+							},
+							"display": {
+								"value": "showTextOnMouseOverBoolean",
+								"status": "overridden"
+							}
+						},
+						"children": [],
+						"container": "layout_0_row_3_column_2"
+					},
+					{
+						"id": 78697,
+						"type": "statictext",
+						"flex": "false",
+						"just_dropped": true,
+						"attributes": {
+							"name": {
+								"value": "txtText7",
+								"status": "overridden"
+							},
+							"text": {
+								"value": "'You mouse leave'",
+								"status": "overridden"
+							},
+							"display": {
+								"value": "showTextOnMouseLeaveBoolean",
+								"status": "overridden"
+							}
+						},
+						"children": [],
+						"container": "layout_0_row_3_column_2"
+					},
+					{
+						"id": 91004,
+						"type": "checkbox",
+						"flex": "false",
+						"just_dropped": true,
+						"attributes": {
+							"name": {
+								"value": "chkCheckbox14",
+								"status": "overridden"
+							},
+							"label": {
+								"value": "'Option 1:'",
+								"status": "overridden"
+							},
+							"staticArray": {
+								"value": [
+									{
+										"label": "bin",
+										"checked": "'yes'",
+										"unchecked": "'no'",
+										"isChecked": false
+									}
+								],
+								"status": "overridden"
+							}
+						},
+						"children": [],
+						"container": "layout_0_row_2_column_1"
+					},
+					{
+						"id": 8500,
+						"type": "checkbox",
+						"flex": "false",
+						"just_dropped": true,
+						"attributes": {
+							"name": {
+								"value": "chkCheckbox13",
+								"status": "overridden"
+							},
+							"label": {
+								"value": "'Option 2:'",
+								"status": "overridden"
+							},
+							"staticArray": {
+								"value": [
+									{
+										"label": "bin2",
+										"checked": "'yes'",
+										"unchecked": "'no'",
+										"isChecked": false
+									}
+								],
+								"status": "overridden"
+							}
+						},
+						"children": [],
+						"container": "layout_0_row_2_column_1"
+					},
+					{
+						"id": 7387,
+						"type": "checkbox",
+						"flex": "false",
+						"just_dropped": true,
+						"attributes": {
+							"name": {
+								"value": "chkCheckbox12",
+								"status": "overridden"
+							},
+							"label": {
+								"value": "'A flight class you prefer?'",
+								"status": "overridden"
+							},
+							"staticArray": {
+								"value": [
+									{
+										"label": "'econom class'",
+										"checked": "'yes'",
+										"unchecked": "'no'",
+										"isChecked": false
+									},
+									{
+										"label": "'buisness class'",
+										"checked": "",
+										"unchecked": "",
+										"isChecked": false
+									}
+								],
+								"status": "overridden"
+							},
+							"onclick": {
+								"value": "hideTextOnClick()",
+								"status": "overridden"
+							},
+							"onmouseover": {
+								"value": "showTextOnMouseEnter()",
+								"status": "overridden"
+							},
+							"onmouseleave": {
+								"value": "showTextOnMouseLeave()",
+								"status": "overridden"
+							}
+						},
+						"children": [],
+						"container": "layout_0_row_3_column_3"
+					},
+					{
+						"id": 20862,
+						"type": "statictext",
+						"flex": "false",
+						"just_dropped": true,
+						"attributes": {
+							"name": {
+								"value": "txtText12",
+								"status": "overridden"
+							},
+							"text": {
+								"value": "'You mouse enter'",
+								"status": "overridden"
+							},
+							"display": {
+								"value": "showTextOnMouseEnterBoolean",
+								"status": "overridden"
+							}
+						},
+						"children": [],
+						"container": "layout_0_row_3_column_2"
+					}
+				],
+				"animation": {
+					"in": "fadeIn",
+					"out": "slideOutLeft"
+				}
+			}
+		]
+	}
 }

@@ -1,33 +1,40 @@
-/*change checkbox CSS class*/
-.changeCheckbox2Style{
-    background-color:red !important;
-    color:#fff;
-}
-.changeCheckbox3Style{
-    border-radius: 5%;
-    background-color:#dffbd9 !important;
-}
-.changeCheckbox4Style{
-    font-family: 'Gidugu';
-    font-size:15px;
-    color:#1a6d09;
-}
-.changeCheckbox5Style{
-    background-color:green !important;
-    color:#fff;
-}
-
 /*change text color dynamyc Style*/
 .changeTypeColor{
-    color:red !important;
+  color:green !important;
+
+}
+md-checkbox.md-altTheme-theme:not([disabled]).md-checked.green .md-icon {
+background-color: green;
 }
 
+md-checkbox.md-altTheme-theme:not([disabled]).md-checked.green .md-icon:after {
+border-color: #fff;
+}
 
 /*change checkbox hover*/
 .checkboxChangeOnHover:hover{
-    background-color: #f5b2c0 !important;
-}
-.checkboxChangeOnHover2:hover{
-    background-color: #f5b2c0 !important;
+  background-color: #a0f7a4 !important;
 }
 
+/*CSS Class changes*/
+.changeCheckboxStyle{
+  font-family: 'Gidugu';
+  font-size:15px;
+  color:blue;
+}
+md-checkbox.md-altTheme-theme:not([disabled]).md-checked.blue .md-icon {
+background-color: #3ea3f4;
+}
+md-checkbox.md-altTheme-theme:not([disabled]).md-checked.blue .md-icon:after {
+border-color: blue;
+}
+md-checkbox.md-altTheme-theme:not([disabled]).blue:not(.md-checked) .md-icon {
+  border-color: blue;
+}
+
+
+
+md-checkbox.blue .md-icon {
+border-width: 2px;
+border-style: dashed;
+}

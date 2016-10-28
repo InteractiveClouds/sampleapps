@@ -1,11 +1,12 @@
-/*changr text color CSS Style*/
+/*change text color CSS Style*/
 .changeTextStyle{
-    font-family:"Comic Sans MS";
-    border: 2px solid #74f109;
-    border-radius: 5%;
-    background-color:#c4eff7 !important;
+ font-family: "Comic Sans MS";
+ border: 2px solid #29a4ff;
+ padding: 5px;
+ background-color: #a6f1ff !important;
+ font-style: italic;
 }
 /*change text color dynamyc Style*/
 .changeTypeColor{
-    color:red !important;
+ color:red !important;
 }

@@ -3,46 +3,53 @@ var Sample2Input = angular.module("Sample2Input",['dfxAppServices']);
 
 Sample2Input.controller( "Sample2InputController", [ '$scope', function( $scope ) {
 
-    /*show text when mouse leave*/
-    $scope.showTextOnMouseLeaveBoolean = false;
-    $scope.showTextOnMouseLeave = function(){
-        $scope.showTextOnMouseLeaveBoolean = true;
 
-    };
 
-    /*show text when mouse enter*/
-    $scope.showTextOnMouseEnterBoolean = false;
-    $scope.showTextOnMouseEnter = function(){
-        $scope.showTextOnMouseEnterBoolean = true;
-    };
-
-    /*show text when mouse over*/
-    $scope.showTextOnMouseOverBoolean = false;
-    $scope.showTextOnMouseOver = function(){
-        $scope.showTextOnMouseOverBoolean = true;
-    };
-
-    /*show text on click*/
-    $scope.showTextOnClickBoolean = false;
+      /*show text on click*/
     $scope.showTextOnClick = function(){
-        $scope.showTextOnClickBoolean = !$scope.showTextOnClickBoolean;
+  	  $scope.showTextOnClickBoolean = true;
     };
-    /*show text on doubleclick*/
-    $scope.showTextOnDoubleClickBoolean = false;
+      /*show text on doubleclick*/
     $scope.showTextOnDoubleClick = function(){
-        $scope.showTextOnDoubleClickBoolean = !$scope.showTextOnDoubleClickBoolean;
+  	  $scope.showTextOnDoubleClickBoolean = true;
+    };
+       /*hide text when mouse leave*/
+   $scope.hideTextOnMouseLeave = function(){
+  	   $scope.showTextOnDoubleClickBoolean = false;
+       $scope.showTextOnClickBoolean = false;
+       $scope.showTextOnMouseOverBoolean = false;
+   };
+       /*show text when mouse leave*/
+   $scope.showTextOnMouseLeave = function(){
+  	   $scope.showTextOnMouseLeaveBoolean = true;
+       $scope.showTextOnMouseEnterBoolean = false;
     };
 
-    /*simple binding*/
+      /*show text when mouse enter*/
+   $scope.showTextOnMouseEnter = function(){
+  	   $scope.showTextOnMouseEnterBoolean = true;
+       $scope.showTextOnMouseLeaveBoolean = false
+    };
+      /*show text when mouse over*/
+  $scope.showTextOnMouseOver = function(){
+  	  $scope.showTextOnMouseOverBoolean = true;
+    };
+
+
+      /*simple binding*/
     $scope.auto = {
-        car: 'Mercedes'
+         car: 'Mercedes'
     };
+      /*Dynamic Class changes text and colortext*/
+    $scope.dynClassBinding = '';
 
-    $scope.dynClassBinding = 'abc';
-
-    /*complex binding*/
+      /*complex binding*/
     $scope.firstName = '';
     $scope.lastName = '';
     $scope.email = '';
+      /*disable/enable input*/
+  $scope.disableInput = function(){
+    	$scope.disableInputBasics = !$scope.disableInputBasics;
+    };
 
 }]);

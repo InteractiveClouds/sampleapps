@@ -3,56 +3,61 @@ var Sample1Images = angular.module("Sample1Images",['dfxAppServices']);
 
 Sample1Images.controller( "Sample1ImagesController", [ '$scope', '$timeout', function( $scope, $timeout ) {
 
+  	$scope.displayImage = function(){
+    	$scope.displayImageBasics = !$scope.displayImageBasics;
+    };
 
-
-    /*show text on click*/
-    $scope.showTextOnClickBoolean = false;
+        /*show text on click*/
     $scope.showTextOnClick = function(){
-        $scope.showTextOnClickBoolean = !$scope.showTextOnClickBoolean;
+  	   $scope.showTextOnClickBoolean = true;
     };
 
-    /*show text when mouse leave*/
-    $scope.showTextOnMouseLeaveBoolean = false;
+        /*show text on doubleclick*/
+    $scope.showTextOnDoubleClick = function(){
+  	   $scope.showTextOnDoubleClickBoolean = true;
+    };
+
+      /*show text when mouse leave*/
     $scope.showTextOnMouseLeave = function(){
-        $scope.showTextOnMouseLeaveBoolean = true;
-        $scope.showTextOnMouseEnterBoolean = false;
+  	   $scope.showTextOnMouseLeaveBoolean = true;
+       $scope.showTextOnMouseEnterBoolean = false;
     };
 
-    /*show text when mouse enter*/
-    $scope.showTextOnMouseEnterBoolean = false;
+      /*show text when mouse enter*/
     $scope.showTextOnMouseEnter = function(){
-        $scope.showTextOnMouseEnterBoolean = true;
-        $scope.showTextOnMouseLeaveBoolean = false
+  	   $scope.showTextOnMouseEnterBoolean = true;
+       $scope.showTextOnMouseLeaveBoolean = false
     };
-    /*hide text on click*/
+      /*hide text on click*/
     $scope.hideTextOnClick = function(){
-        $scope.showTextOnMouseEnterBoolean = false;
-        $scope.showTextOnMouseLeaveBoolean = false;
-    };
+       $scope.showTextOnMouseEnterBoolean = false;
+       $scope.showTextOnMouseLeaveBoolean = false;
+     };
 
-    /*show text when mouse over*/
-    $scope.showTextOnMouseOverBoolean = false;
-    $scope.showTextOnMouseOver = function(){
-        $scope.showTextOnMouseOverBoolean = true;
-    };
-    $scope.hideTextOnMouseLeave = function(){
-        $scope.showTextOnMouseOverBoolean = false;
-    };
+      /*show text when mouse over*/
+   $scope.showTextOnMouseOver = function(){
+  	   $scope.showTextOnMouseOverBoolean = true;
+     };
+      /*hide text when mouse leave*/
+   $scope.hideTextOnMouseLeave = function(){
+  	   $scope.showTextOnMouseOverBoolean = false;
+       $scope.showTextOnClickBoolean = false;
+       $scope.showTextOnDoubleClickBoolean = false;
+     };
 
 
-    /*show image on click*/
-    $scope.toggleImageBoolean = false;
-    $scope.toggleDisplay = function(){
-        $scope.toggleImageBoolean = !$scope.toggleImageBoolean;
-    };
-    /*simple binding*/
-    $scope.imageSampleBinding = 'http://oi44.tinypic.com/9asbk3.jpg'
-    /*complex binding*/
-    $scope.pictures = {'images': {'still_life': 'https://hd.unsplash.com/photo-1428189923803-e9801d464d76'}};
+        /*show image on click*/
+   $scope.toggleDisplay = function(){
+        	$scope.toggleImageBoolean = !$scope.toggleImageBoolean;
+     };
+        /*simple binding*/
+     $scope.imageSampleBinding = 'https://lh5.ggpht.com/9UyPxkKrxu5WO_6RmzSrVnrAka45EBfGEvMrFVnlzhcL0kmsA8a_8lc2rzFb1SBX3FY=w300'
+        /*complex binding*/
+     $scope.pictures = {'images': {'still_life': 'https://1.bp.blogspot.com/_SR2y-A_HtfU/Rn6bzxPM1AI/AAAAAAAAAGI/UjhcTcV24pw/s320/i+want+one.jpg'}};
 
-    $scope.isState = false;
-    $scope.toggleState = function(){
-        $scope.isState = !$scope.isState;
+        /*twist image*/
+   $scope.toggleState = function(){
+         $scope.isState = !$scope.isState;
 
-    };
-}]);
+       };
+     }]);

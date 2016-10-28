@@ -1,58 +1,51 @@
 // this line should not be removed
 var Sample1Texts = angular.module("Sample1Texts",['dfxAppServices']);
-/*Samples texts with scope controllers*/
+     /*Samples texts with scope controllers*/
 Sample1Texts.controller( "Sample1TextsController", [ '$scope', 'dfxChangeCard', function( $scope, dfxChangeCard ) {
 
-    /*simple binding*/
-    $scope.sampleBindVar = "Simple Binding";
+       /*simple binding*/
+    $scope.sampleBindVar = "Simple binding with a scope variable";
 
-    /*complex binding*/
-    $scope.sampleBindVarName = "John";
+       /*complex binding*/
+    $scope.sampleBindVarExp = "Complex binding with an expression";
 
-    /*sample lenght text*/
-    $scope.sampleLengthShort = 'Hi';
-    $scope.sampleLengthLong = 'This is an example of a long text string in Sample Texts';
-
-
-    /*show text on click*/
-    $scope.showTextOnClickBoolean = false;
+       /*show text on click*/
     $scope.showTextOnClick = function(){
-        $scope.showTextOnClickBoolean = !$scope.showTextOnClickBoolean;
+  	   $scope.showTextOnClickBoolean = true;
     };
 
-    /*show text when mouse leave*/
-    $scope.showTextOnMouseLeaveBoolean = false;
+      /*show text when mouse leave*/
     $scope.showTextOnMouseLeave = function(){
-        $scope.showTextOnMouseLeaveBoolean = true;
-        $scope.showTextOnMouseEnterBoolean = false;
+  	   $scope.showTextOnMouseLeaveBoolean = true;
+       $scope.showTextOnMouseEnterBoolean = false;
     };
 
-    /*show text when mouse enter*/
-    $scope.showTextOnMouseEnterBoolean = false;
-    $scope.showTextOnMouseEnter = function(){
-        $scope.showTextOnMouseEnterBoolean = true;
-        $scope.showTextOnMouseLeaveBoolean = false
+      /*show text when mouse enter*/
+     $scope.showTextOnMouseEnter = function(){
+  	   $scope.showTextOnMouseEnterBoolean = true;
+       $scope.showTextOnMouseLeaveBoolean = false
     };
-    /*hide text on click*/
+      /*hide text on click*/
     $scope.hideTextOnClick = function(){
-        $scope.showTextOnMouseEnterBoolean = false;
-        $scope.showTextOnMouseLeaveBoolean = false;
+       $scope.showTextOnMouseEnterBoolean = false;
+       $scope.showTextOnMouseLeaveBoolean = false;
     };
 
-    /*show text when mouse over*/
-    $scope.showTextOnMouseOverBoolean = false;
+      /*show text when mouse over*/
     $scope.showTextOnMouseOver = function(){
-        $scope.showTextOnMouseOverBoolean = true;
+  	   $scope.showTextOnMouseOverBoolean = true;
     };
+      /*hide text when mouse leave*/
     $scope.hideTextOnMouseLeave = function(){
-        $scope.showTextOnMouseOverBoolean = false;
+  	   $scope.showTextOnMouseOverBoolean = false;
+       $scope.showTextOnClickBoolean = false;
+     };
+
+  	/*change color text dynamic Style*/
+	$scope.changeText = function(){
+    	$scope.changeTextColor = !$scope.changeTextColor;
     };
-    /*change color text dynamic Style*/
-    $scope.changeTextColor = false;
-    $scope.changeText = function(){
-        $scope.changeTextColor = !$scope.changeTextColor;
-    };
 
 
 
-}]);
+  }]);
